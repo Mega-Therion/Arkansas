@@ -37,3 +37,28 @@ administrative agency rule, not written law.
 
 Named sponsors/officials above are as recorded in the source planning document — confirm current
 willingness/status directly before treating as committed.
+
+## Pre-empted objections & rebuttals
+
+- **"We can't afford a new fleet."** Pilot cost estimated at under **0.04% of the FY25 $367.9M
+  state surplus** — for comparison, Arkansas already spends $25.4M/year on rural transit.
+- **"Liability nightmare."** DFA Risk Management already insures thousands of state vehicles under
+  the existing self-insurance pool; this adds volume to an existing program, not a new one.
+- **"People should just borrow a car."** Montgomery County's poverty rate is **22.4%** — the
+  premise assumes access this bill exists because that access doesn't exist.
+- **The requirement is a rule, not a law.** Ark. Code §§27-16-704/705 mandate the exam but are
+  silent on the vehicle — the private-vehicle requirement is DFA administrative policy. That means
+  it's theoretically changeable by the Secretary or an appropriations bill, not necessarily full
+  legislation — worth confirming which path is actually faster.
+- **Existing funding mechanism already exists:** Act 1006 of 2025 appropriated up to **$15M** for
+  vehicle purchases via the Motor Vehicle Acquisition Revolving Fund (Ark. Code §22-8-206) — this
+  bill may be able to draw on funding the state has already approved, not ask for new money.
+
+## Open questions (unresolved due diligence)
+
+- Actual insurance-premium delta for adding these vehicles to the self-insurance pool.
+- Root cause of Troop K's pilot cancellation rate, once real pilot data exists.
+- Concrete inventory of currently available forfeited/seized vehicles suitable for the fleet.
+
+Source: Qdrant knowledge base, 2026-09-11 sweep — same "confirm before treating as committed"
+caveat as the named sponsors above.
