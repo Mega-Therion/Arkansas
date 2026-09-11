@@ -36,22 +36,34 @@ instead of draining to an out-of-state or coastal conglomerate.
 
 Status: statutory framework/blueprint stage, not yet filed.
 
-## refineRY/ACRN — high-purity quartz feasibility (honest, still open)
+## refineRY/ACRN — high-purity quartz feasibility (honest, closed out 2026-09-11)
 
-RY specifically asked to chase this angle hard, so here's the real state of it as of 2026-09-11 —
-not oversold.
+RY specifically asked to chase this angle hard, including a second deep pass on 2026-09-11
+targeting the primary sources directly. Bottom line hasn't changed — real prize, unconfirmed fit
+— but the second pass makes the "unconfirmed" precise instead of vague, and turns the gap into a
+concrete, costed action.
 
 - **The real prize:** 70–90% of the world's semiconductor-grade high-purity quartz (crucibles for
   growing silicon ingots) comes from just two mines in Spruce Pine, NC, controlled by two foreign
   companies (Sibelco/Belgian, The Quartz Corp/Norwegian) — a genuine, well-documented chokepoint
   with **zero US export controls**.
-- **Arkansas's real position — not yet confirmed either way:** Mount Ida is genuinely "the Quartz
-  Crystal Capital of the World," and USGS documents it as high-purity feedstock for growing
-  *synthetic* quartz crystal (piezoelectric/oscillator use) — a **different market** than
-  crucible-grade fused quartz, which needs an extremely tight trace-aluminum spec. No public
-  ppm-level assay data was found confirming or ruling out Arkansas quartz for crucible grade.
-  USGS Bulletin 973-E (Engel, 1952) is the primary historical source but its geochemical tables
-  weren't reachable via search — would need the actual document.
+- **The actual bar Arkansas quartz would need to clear, now quantified:** crucible grade requires
+  aluminum <5.5 ppm, iron <0.15 ppm, titanium <3.1 ppm, total impurities <12.37 ppm, SiO2 >99.99%.
+  Nothing found states whether Arkansas quartz hits this or not.
+- **Checked three real sources directly, all dead ends — not a failure to search hard enough:**
+  (1) USGS Bulletin 973-E (Engel, 1952), the primary historical source, returned HTTP 403 on
+  direct fetch from both pubs.usgs.gov and Caltech's repository — indexed but not retrievable this
+  way; would need an actual download or records request to settle whether its geochemical tables
+  even cover trace aluminum. (2) Modern University of Arkansas geochemistry theses (Philbrick 2016,
+  Cains 2019) did real ICP trace-element work, but on **Arkansas Novaculite** — a different,
+  sedimentary rock (whetstone material), not the hydrothermal vein quartz crystal from Mount Ida.
+  Notably that novaculite work found significant aluminum and potassium, which would be
+  disqualifying if it were the same material — it isn't, so it doesn't transfer either way.
+  (3) The Arkansas Geological Survey's own quartz page — the authoritative state source — calls
+  Arkansas quartz "some of the best and purest in the world" and claims processed lascas are
+  "equal to or slightly superior to" Brazilian lascas, but publishes **zero quantitative purity
+  data anywhere on the page**. That's a real, specific dead end from the state's own geologists,
+  not a gap in this search.
 - **No one appears to be working this angle:** no company, patent, or DOE/DOD critical-minerals
   program was found evaluating Arkansas quartz for electronics/semiconductor processing — all
   found activity is specimen/jewelry trade (Ron Coleman Mining / Coleman Quartz). Quartz/silica is
@@ -62,8 +74,15 @@ not oversold.
   closed May 5, 2026, no applicant publicly named yet, opposed over a projected 825% sedimentation
   increase into Lake Winona (Little Rock's drinking water source). A separate, unrelated Ouachita
   quartz project (Mena Ranger District) was cancelled — don't conflate the two.
-- **The one thing that would actually settle this:** real trace-aluminum assay data on Arkansas
-  quartz. Nobody appears to have published it. That's the concrete next step, not a business plan.
+- **The concrete next step, priced out:** commissioning a real trace-aluminum assay on a Mount Ida
+  sample. Standard commercial ICP-MS trace-element analysis runs $40–150/sample (plus $15–50 prep),
+  5–10 business day turnaround (rush 24–48hr for a surcharge) — e.g. Elemental Analysis Inc., IMR
+  Test Labs. One real wrinkle: high-purity quartz is notoriously hard to read accurately at
+  standard method sensitivity because the impurity levels being measured sit near the detection
+  floor — this needs a lab with quartz-specific acid-digestion pretreatment experience, not a
+  generic geochemistry shop, which realistically runs closer to **$350–600 and 1–2 weeks** for a
+  result worth trusting. That's the whole remaining gap: one sample, one specialized lab, a few
+  hundred dollars, two weeks — not a business plan, a phone call.
 
 ## refineRY/ACRN — the market case (why now)
 
