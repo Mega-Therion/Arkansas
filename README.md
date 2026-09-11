@@ -60,6 +60,14 @@ rest of this repo yet, flagged rather than silently merged.
   `commercial/the-six-branches.md`. Per the note above, neither is canonical; both are old and RY
   expects this whole structure to get redone at some point. Not a conflict to resolve right now.
 
+## Candidate opportunities (not RY's plan yet)
+
+[`opportunities/`](opportunities/) holds leads from a 2026-09-11 cross-domain "connections" pass —
+RY's proven mechanisms (state-pays-first, liability-flip, the rule-vs-law audit, fence-line
+arbitrage) pattern-matched against real Arkansas facts to find domains they haven't been applied
+to yet: occupational-licensing non-compliance, and poultry-litter biogas. Externally sourced, not
+from RY's own corpus — evaluate before treating as more than a lead.
+
 ## Site
 
 An interactive Seed → Canopy → Cloud → ConservatoRY narrative build lives at
