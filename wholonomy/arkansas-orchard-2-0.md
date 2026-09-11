@@ -18,10 +18,16 @@ architecture, sited at **Story, Arkansas**:
 - **Data centers** — localized processing hubs providing jobs and rural infrastructure.
 - **ARK Lane / Drive Spine System** — continuous mechanical spines embedded in the roadway.
 - **Quartz-based conductive road surfaces** — charge electric vehicles through their tires while
-  moving. (Related to, but described distinctly from, the Dynamic Wireless Power Transfer corridor
-  already documented in [`../commercial/the-six-branches.md`](../commercial/the-six-branches.md)
-  — confirm whether these are the same mechanism described two ways, or two different systems,
-  before citing both.)
+  moving. **Checked 2026-09-11 and this doesn't hold up technically as stated:** quartz is
+  piezoelectric (it generates tiny amounts of power from vibration/pressure) but it's an
+  electrical *insulator* — it can't conduct charge into a moving vehicle. The real technology for
+  charging EVs while driving is Dynamic Wireless Power Transfer (inductive coils), which is what's
+  actually documented, correctly, under deliveRY/DWPT in
+  [`../commercial/the-six-branches.md`](../commercial/the-six-branches.md) — no quartz involved
+  there. This line appears to conflate two real, separate technologies. Worth noting even
+  standalone piezoelectric road-energy-harvesting (quartz's real property) has a weak track record
+  — a company pursuing it closed in 2014. Recommend dropping or correcting this specific claim
+  rather than carrying it forward as written.
 - **foundRY** — aluminum recovery, vertically integrated mineral recovery fueling industrial
   startups.
 - **ONE (One Natural Energy)** — the energy layer tying physical and digital infrastructure

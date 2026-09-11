@@ -36,6 +36,35 @@ instead of draining to an out-of-state or coastal conglomerate.
 
 Status: statutory framework/blueprint stage, not yet filed.
 
+## refineRY/ACRN — high-purity quartz feasibility (honest, still open)
+
+RY specifically asked to chase this angle hard, so here's the real state of it as of 2026-09-11 —
+not oversold.
+
+- **The real prize:** 70–90% of the world's semiconductor-grade high-purity quartz (crucibles for
+  growing silicon ingots) comes from just two mines in Spruce Pine, NC, controlled by two foreign
+  companies (Sibelco/Belgian, The Quartz Corp/Norwegian) — a genuine, well-documented chokepoint
+  with **zero US export controls**.
+- **Arkansas's real position — not yet confirmed either way:** Mount Ida is genuinely "the Quartz
+  Crystal Capital of the World," and USGS documents it as high-purity feedstock for growing
+  *synthetic* quartz crystal (piezoelectric/oscillator use) — a **different market** than
+  crucible-grade fused quartz, which needs an extremely tight trace-aluminum spec. No public
+  ppm-level assay data was found confirming or ruling out Arkansas quartz for crucible grade.
+  USGS Bulletin 973-E (Engel, 1952) is the primary historical source but its geochemical tables
+  weren't reachable via search — would need the actual document.
+- **No one appears to be working this angle:** no company, patent, or DOE/DOD critical-minerals
+  program was found evaluating Arkansas quartz for electronics/semiconductor processing — all
+  found activity is specimen/jewelry trade (Ron Coleman Mining / Coleman Quartz). Quartz/silica is
+  also **absent from both the federal and Arkansas critical-minerals lists**, so the federal
+  funding angle that applies to the REEs above doesn't extend to quartz.
+- **Live and current:** the Forest Service is deciding by August 2026 whether to lease 347 acres in
+  the Ouachita National Forest (Garland/Saline counties) for new quartz mining — public comment
+  closed May 5, 2026, no applicant publicly named yet, opposed over a projected 825% sedimentation
+  increase into Lake Winona (Little Rock's drinking water source). A separate, unrelated Ouachita
+  quartz project (Mena Ranger District) was cancelled — don't conflate the two.
+- **The one thing that would actually settle this:** real trace-aluminum assay data on Arkansas
+  quartz. Nobody appears to have published it. That's the concrete next step, not a business plan.
+
 ## refineRY/ACRN — the market case (why now)
 
 - **Price volatility as the opportunity:** neodymium normally runs $60–80/kg but spiked to
