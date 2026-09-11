@@ -21,8 +21,15 @@ grow.
 | 🌱 Roots — **foundRY** | Holding company, IP fortress, Gentle Authority governance | [`commercial/foundry-and-governance.md`](commercial/foundry-and-governance.md) |
 | ⚡ Trunk — **ONE Natural Energy** | Fence-line nuclear/renewable baseload arbitrage funding clean AI compute | [`commercial/one-natural-energy.md`](commercial/one-natural-energy.md) |
 | 🌿 Six branches | recoveRY, refineRY/ACRN, deliveRY, memoRY, libraRY, factoRY | [`commercial/the-six-branches.md`](commercial/the-six-branches.md) |
-| 🍎 Fruit — civic layer | ARMAWS, Driver's-Test reform, Project RENEW, the Entergy power plan, Orchard 2.0 | [`civic/`](civic/) |
+| 🍎 Fruit — civic layer | ARMAWS, Driver's-Test reform, Project RENEW, the Entergy power plan | [`civic/`](civic/) |
 | 💎 ConservatoRY | The Diamond Foundation test every branch has to pass | [`wholonomy/`](wholonomy/) |
+
+**"Arkansas Orchard 2.0" is not a civic-layer item** — it's a name for the master synthesis of
+this whole portfolio, found in earlier source material with content not yet folded in elsewhere
+(a physical land plan for Story, Arkansas, and an alternate branch org-chart that partly
+contradicts the structure above). See
+[`wholonomy/arkansas-orchard-2-0.md`](wholonomy/arkansas-orchard-2-0.md) — not reconciled with the
+rest of this repo yet, flagged rather than silently merged.
 
 ## Where things actually stand
 
@@ -40,12 +47,13 @@ grow.
   silently reconciled; confirm which is current before citing either number externally.
 - A Qdrant knowledge-base sweep (2026-09-11) added compliance/funding detail to RENEW and a
   financial dossier + USGS-anchored feedstock detail to ONE — same unverified caveat applies.
-- **Orchard 2.0 is an unwritten placeholder, confirmed 2026-09-11.** A dedicated search (repo,
-  history, connected Drive) found no bill, program outline, or strategy document — only the bare
-  name and a one-line description ("the next cycle of civic fruit, grown once the first three are
-  rooted"). The Drive search itself was inconclusive (no credentials configured in that search
-  session), so absence there isn't proven — but nothing in what's actually reachable defines it
-  yet. Not a gap in this repo; a gap in the source material.
+- **"Orchard 2.0" was misfiled in this repo's first draft as a 4th civic bill — corrected
+  2026-09-11.** RY flagged it directly; a Qdrant search then found it's actually the name of the
+  whole portfolio synthesis, with real physical-infrastructure content (a land plan for Story, AR)
+  not represented anywhere else here. See
+  [`wholonomy/arkansas-orchard-2-0.md`](wholonomy/arkansas-orchard-2-0.md) for the two source
+  framings found, including one that structurally conflicts with `commercial/the-six-branches.md`
+  — unreconciled, flagged for RY's confirmation.
 
 ## Site
 
