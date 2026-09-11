@@ -40,6 +40,12 @@ grow.
   silently reconciled; confirm which is current before citing either number externally.
 - A Qdrant knowledge-base sweep (2026-09-11) added compliance/funding detail to RENEW and a
   financial dossier + USGS-anchored feedstock detail to ONE — same unverified caveat applies.
+- **Orchard 2.0 is an unwritten placeholder, confirmed 2026-09-11.** A dedicated search (repo,
+  history, connected Drive) found no bill, program outline, or strategy document — only the bare
+  name and a one-line description ("the next cycle of civic fruit, grown once the first three are
+  rooted"). The Drive search itself was inconclusive (no credentials configured in that search
+  session), so absence there isn't proven — but nothing in what's actually reachable defines it
+  yet. Not a gap in this repo; a gap in the source material.
 
 ## Site
 
