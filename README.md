@@ -1,7 +1,11 @@
 # The Arkansas Orchard
 
 **Principal architect:** Ryan W. Yett (Story, Arkansas)
-**Status:** private working repo — pre-filing material, several pieces marked draft below
+**Status:** private working repo — pre-filing material, several pieces marked draft below.
+**None of the org/branch structures in this repo are canonical — RY confirmed 2026-09-11 they're
+all old and likely due for a redo.** Where this repo picks one structure to organize files under
+(e.g. the six branches below), that's an organizational choice for this repo, not a claim that
+it's the settled version.
 
 One integrated portfolio, two faces of one body: a commercial tree that funds itself, and a
 civic fruit layer that hands the yield back to the people the tree grows among. Every branch is
@@ -52,8 +56,9 @@ rest of this repo yet, flagged rather than silently merged.
   whole portfolio synthesis, with real physical-infrastructure content (a land plan for Story, AR)
   not represented anywhere else here. See
   [`wholonomy/arkansas-orchard-2-0.md`](wholonomy/arkansas-orchard-2-0.md) for the two source
-  framings found, including one that structurally conflicts with `commercial/the-six-branches.md`
-  — unreconciled, flagged for RY's confirmation.
+  framings found — one of them uses a different branch org-chart than
+  `commercial/the-six-branches.md`. Per the note above, neither is canonical; both are old and RY
+  expects this whole structure to get redone at some point. Not a conflict to resolve right now.
 
 ## Site
 

@@ -55,11 +55,11 @@ refineRY are sub-branches *under* a "Laboratory" branch that doesn't appear else
 (Eidolon/Safa) rather than the memoRY hardware-recycling business. factoRY doesn't appear in this
 framing at all.
 
-**Not reconciled here.** Both framings are real source material, from different dates, saying
-different things about the same names. Confirm with RY which structure is current before using
-either to describe the portfolio externally — this repo's `commercial/the-six-branches.md` remains
-the one treated as authoritative elsewhere in this repo, but that choice hasn't been confirmed
-against this material.
+**Not reconciled here, and not meant to be.** RY confirmed directly (2026-09-11): neither this
+framing nor `commercial/the-six-branches.md` is canonical — both are old, and he expects the whole
+branch structure to get redone at some point. `the-six-branches.md` is simply the version this
+repo happens to organize its commercial docs under; that's a filing convenience, not a claim that
+it's settled. Treat every org-chart in this repo as provisional until told otherwise.
 
 ## Source note
 
