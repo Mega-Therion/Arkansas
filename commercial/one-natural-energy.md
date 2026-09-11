@@ -29,3 +29,24 @@ they're framed as restructuring the whole household/utility/state relationship, 
 initiatives.
 
 Status: blueprint/manifesto stage, not yet filed as statute text.
+
+## Financial dossier (as drafted — unverified, not audited)
+
+- **850+ jobs** projected.
+- **$2.5M–$4M** total estimated tax benefit over 5 years.
+- **45U Nuclear Power Production Credit:** ~**$262k/yr per MW** for co-located nuclear compute.
+- **30% Investment Tax Credit** applied to qualifying buildout.
+
+## Feedstock anchor — bauxite residue REE/critical-minerals recovery
+
+- **USGS-confirmed** Gallium, Niobium, and rare-earth elements in Arkansas bauxite residues,
+  specifically the **central Arkansas bauxite region (Saline and Pulaski counties)** — a named,
+  checkable geological anchor, not an abstract claim.
+- A "hybrid leach chemistries" patent family is described as tuned specifically to that geology
+  (feeds refineRY/ACRN — see [`../commercial/the-six-branches.md`](../commercial/the-six-branches.md)).
+- Cited federal support: **DOE rare-earth-element demonstration grants**, and the **45X (Advanced
+  Manufacturing Production Credit)** and **48C (Advanced Energy Project Credit)** federal credits,
+  plus an unspecified Arkansas state tax credit for recycling equipment.
+
+Source: Qdrant knowledge base (ONE Natural Energy financial dossier) — same unverified/estimate
+caveat as the rest of this document. Confirm current figures before citing externally.

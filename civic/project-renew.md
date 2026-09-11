@@ -39,3 +39,25 @@ commercial branches (deliveRY, recoveRY, ONE) rather than back into the system.
 
 All dollar figures above are estimates from the source planning document, not audited numbers —
 carry the same caveat when citing externally.
+
+## Compliance & funding detail
+
+- **Three-way integration**, more specifically: OmegA (route optimization/analytics) +
+  ONE's Bilocal Transport Network (logistics) + ONE's data-center physical-security jobs
+  (employment pipeline) — RENEW is the labor bridge across all three, not a standalone program.
+- **Wage floor:** must meet Arkansas minimum wage (**$11/hr, 2025**) or prevailing wage, whichever
+  applies to the work performed.
+- **Federal PIECP cap:** the Prison Industry Enhancement Certification Program caps permissible
+  deductions at **80% of gross wages** — the escrow/restitution/commissary split above has to fit
+  inside that ceiling.
+- **Earned-Release Credits** are tied to **Arkansas Act 670**.
+- **Vocational certifications** issued: logistics, environmental services, data-center security.
+- **Scrap-aluminum revenue** (from the litter-collection work crews): estimated
+  **$3,000–$31,000 per highway route**, **$21,000–$190,000 statewide** — separate from and
+  additive to the $5M/year ARDOT litter-cost offset above.
+- **Additional revenue lines:** environmental/carbon-offset payments; a dedicated 501(c)(3) as the
+  program's fiscal host; AI data licensing revenue via OmegA, governed by **Act 927**, which sets
+  the rules for the entity owning trained models and bans re-identification of the underlying data.
+
+Source: a 1707-line Entergy/RENEW planning session transcript, cross-referenced against Qdrant's
+knowledge base — same unverified/estimate caveat as the figures above.

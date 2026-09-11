@@ -34,10 +34,12 @@ grow.
 - The **Entergy ratepayer / power plan** (APSC Docket `26-001-U`, Rate Stabilization Fund) exists
   as a manifesto, not yet drafted as statute text or filed as public comment.
 - Financial figures throughout (patent-claim counts, fiscal dividend estimates, recidivism-savings
-  estimates) come from early portfolio drafts and are **unverified** unless a doc says otherwise.
-  Two source documents disagree on the patent-claim count (79 claims/5 families vs. ~112 claims) —
-  both are carried below rather than silently reconciled; confirm which is current before citing
-  either number externally.
+  estimates, RENEW's revenue lines, ONE's job/tax/credit figures) come from early portfolio drafts
+  and are **unverified** unless a doc says otherwise. Two source documents disagree on the
+  patent-claim count (79 claims/5 families vs. ~112 claims) — both are carried below rather than
+  silently reconciled; confirm which is current before citing either number externally.
+- A Qdrant knowledge-base sweep (2026-09-11) added compliance/funding detail to RENEW and a
+  financial dossier + USGS-anchored feedstock detail to ONE — same unverified caveat applies.
 
 ## Site
 
