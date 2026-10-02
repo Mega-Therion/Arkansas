@@ -25,7 +25,7 @@ grow.
 | 🌱 Roots — **foundRY** | Holding company, IP fortress, Gentle Authority governance | [`commercial/foundry-and-governance.md`](commercial/foundry-and-governance.md) |
 | ⚡ Trunk — **ONE Natural Energy** | Fence-line nuclear/renewable baseload arbitrage funding clean AI compute | [`commercial/one-natural-energy.md`](commercial/one-natural-energy.md) |
 | 🌿 Six branches | recoveRY, refineRY/ACRN, deliveRY, memoRY, libraRY, factoRY | [`commercial/the-six-branches.md`](commercial/the-six-branches.md) |
-| 🍎 Fruit — civic layer | ARMAWS, Driver's-Test reform, Project RENEW, the Entergy power plan | [`civic/`](civic/) |
+| 🍎 Fruit — civic layer | ARMAWS, Driver's-Test reform, AINSA (infant nutrition), Project RENEW, the Entergy power plan | [`civic/`](civic/) |
 | 💎 ConservatoRY | The Diamond Foundation test every branch has to pass | [`wholonomy/`](wholonomy/) |
 
 **"Arkansas Orchard 2.0" is not a civic-layer item** — it's a name for the master synthesis of
@@ -42,6 +42,11 @@ rest of this repo yet, flagged rather than silently merged.
   Legislative Session** (96th General Assembly).
 - **Project RENEW** and the **ONE Natural Energy Ecosystem** blueprint exist as full written
   reports but are not yet filed as statute text.
+- **AINSA (Arkansas Infant Nutrition Security Act)** exists as a policy blueprint
+  ([`civic/infant-nutrition-security-act.md`](civic/infant-nutrition-security-act.md)) — Part III of
+  the Rural Family Stabilization Trilogy with ARMAWS and the Driver's License Act; not yet drafted
+  as statute text. Its figures are cited from named public sources (USDA ERS, GAO, AAP, 7 CFR
+  246.10) but unaudited, per the standing caveat below.
 - The **Entergy ratepayer / power plan** (APSC Docket `26-001-U`, Rate Stabilization Fund) exists
   as a manifesto, not yet drafted as statute text or filed as public comment.
 - Financial figures throughout (patent-claim counts, fiscal dividend estimates, recidivism-savings

@@ -2,7 +2,9 @@
 
 **Classification:** Public Safety & Rural Mobility Infrastructure
 **Status:** `BILL_DRAFT_A_v1.md` exists — furthest along of the civic initiatives
-**Target:** pre-filing November 2026, for Arkansas's 2027 Regular Legislative Session
+**Target:** pre-filing November 2026, for Arkansas's 2027 Regular Legislative Session — Part I of the
+**Rural Family Stabilization Trilogy** (Part II: [`drivers-license-reform.md`](drivers-license-reform.md); Part III:
+[`infant-nutrition-security-act.md`](infant-nutrition-security-act.md))
 
 Guarantees every Arkansas traveler a free source of mechanically pressurized air to fill their
 tires.

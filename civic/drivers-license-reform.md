@@ -2,8 +2,9 @@
 
 **Classification:** Workforce Mobility & Administrative Reform
 **Status:** `drivers_license_access_reform_package.pdf` exists
-**Target:** pre-filing November 2026, for Arkansas's 2027 Regular Legislative Session (companion
-bill to ARMAWS)
+**Target:** pre-filing November 2026, for Arkansas's 2027 Regular Legislative Session — Part II of
+the **Rural Family Stabilization Trilogy** (Part I: [`armaws.md`](armaws.md); Part III:
+[`infant-nutrition-security-act.md`](infant-nutrition-security-act.md))
 
 ## The catch-22 — "the Mobility Trap"
 
