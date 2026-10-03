@@ -41,6 +41,49 @@ left, six days until the card reloads, and you start doing math with a baby's
 bottle."* A $30 can against an ER seizure visit — that asymmetry is the
 entire moral and economic case.
 
+## The gap under each formula form (added 2026-10-03)
+
+WIC issues formula in whole containers. Issuance may not exceed the federal Maximum Monthly
+Allowance (7 CFR § 246.10, Table 1, Food Package I, fully formula-fed, 0–3 months). The benefit an
+infant actually receives therefore depends on the form:
+
+| Form | Federal cap (MMA) | What is actually issued | Monthly benefit |
+|---|---|---|---|
+| Liquid concentrate | 806 fl oz | 31 × 13-oz cans (26 fl oz each) | **806 fl oz** |
+| Ready-to-feed | 832 fl oz | 26 × 32-oz bottles | **832 fl oz** |
+| Powder | 870 fl oz | 9 × 12.4-oz cans (~90 fl oz each). A 10th can would make 900 and break the cap. | **~810 fl oz** |
+
+Powder looks most generous on paper (870) but delivers about the same as concentrate. The
+whole-can rule leaves roughly 60 fl oz of the cap unusable.
+
+**The gap against demand.** The AAP rule of thumb is about 2.5 fl oz per pound of body weight per
+day, capped near 32 fl oz/day. Over a 30-day month:
+
+| Infant weight | Intake | 30-day demand | Concentrate (806) | Ready-to-feed (832) | Powder (~810) |
+|---|---|---|---|---|---|
+| 10 lb | 25 oz/day | 750 fl oz | covered (56 spare) | covered (82 spare) | covered (60 spare) |
+| 11 lb | 27.5 oz/day | 825 fl oz | short 19 oz (0.7 day) | covered (7 spare) | short 15 oz (0.5 day) |
+| 12 lb | 30 oz/day | 900 fl oz | short 94 oz (**3.1 days**) | short 68 oz (**2.3 days**) | short 90 oz (**3.0 days**) |
+| 13 lb+ | 32 oz/day (cap) | 960 fl oz | short 154 oz (**4.8 days**) | short 128 oz (**4.0 days**) | short 150 oz (**4.7 days**) |
+
+**What this means for the bill.**
+- The "3–4 uncovered days" figure holds for a heavier infant (about 12–13 lb) late in the 0–3 month
+  window, on concentrate or powder.
+- Ready-to-feed families run out about a day later.
+- Lighter infants are fully covered on every form.
+- A 31-day month adds one more day of demand to every row.
+- The Bridge Fund should therefore size its top-up by form and weight, not as a flat amount. The
+  fund's cost scales with the share of enrolled infants above about 11 lb.
+
+*Sources:*
+- 7 CFR § 246.10, Table 1 (eCFR);
+- state WIC formula guides (e.g. Iowa WIC Formula Product Guide, August 2026): a 12.4-oz powder can
+  reconstitutes to 90 fl oz, and 9 cans are the full-formula maximum;
+- the AAP feeding rule of thumb.
+
+The container counts for concentrate and ready-to-feed are arithmetic on the standard container
+sizes and match the MMAs exactly.
+
 ## The market structure — the sole-source distortion
 
 The Month-End Gap exists inside a market that is not really a market:

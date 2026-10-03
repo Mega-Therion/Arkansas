@@ -38,7 +38,7 @@ The Manus agent failed at step index 3 with an unrecoverable error, having done 
 *   **Repo Doc:** [`civic/infant-nutrition-security-act.md`](civic/infant-nutrition-security-act.md)
 *   **Core Mandate:** Eliminates the "Month-End Formula Gap" for rural infants on WIC.
 *   **Federal & State Regulatory Grounding:**
-    *   **Federal MMA Regulation:** **7 CFR § 246.10**, Table 1, Food Package I. For fully formula-fed infants aged 0–3 months, the maximum monthly allowance is **806 fl oz reconstituted liquid concentrate, or 832 fl oz ready-to-feed, or 870 fl oz reconstituted powder**. Powder is issued in whole containers (typically 9 cans of 12.4–12.5 oz), which the repo's AINSA doc puts at ≈ 806 fl oz. **Flag:** the size of the gap depends on which form and issuance rule is assumed, and the AINSA doc should say which. Against the 870 fl oz powder ceiling, a 900 oz/month demand leaves a 30 oz gap, not 94 oz.
+    *   **Federal MMA Regulation:** **7 CFR § 246.10**, Table 1, Food Package I. For fully formula-fed infants aged 0–3 months, the maximum monthly allowance is **806 fl oz reconstituted liquid concentrate, or 832 fl oz ready-to-feed, or 870 fl oz reconstituted powder**. Powder is issued in whole 12.4-oz cans of about 90 fl oz each. A 10th can would exceed the 870 cap, so the actual powder benefit is 9 cans, **~810 fl oz**. The benefit actually issued is therefore 806 (concentrate), 832 (ready-to-feed) or ~810 (powder). At 30 oz/day the monthly gap is 94 / 68 / 90 fl oz (3.1 / 2.3 / 3.0 days). See the form-by-form table in [`civic/infant-nutrition-security-act.md`](civic/infant-nutrition-security-act.md).
     *   **Actual Pediatric Appetite:** The commonly cited American Academy of Pediatrics guideline is about 2.5 oz per pound of body weight per day, capped near 32 oz/day.
     *   **Sole-Source Distortion:** The repo cites USDA ERS reports on WIC sole-source rebates and GAO findings on market share and price spillover. *These figures were not re-verified in this pass.*
     *   **Statutory Honesty Clause:** AINSA does not alter 7 CFR § 246.10, which would need a federal waiver. It funds an independent **State Supplemental Infant Nutrition Bridge Fund** through Arkansas DHS. The state-law anchor cited, **Ark. Code Ann. § 20-7-101 et seq.**, was **not verified** in this pass.
@@ -146,7 +146,7 @@ Every repo-named statute and docket in the brief was checked against primary or 
 **Corrected in this pass:**
 1. The APSC hearing dates.
 2. The CT § 14-325a description (and the unverified California bill number was dropped).
-3. The 7 CFR § 246.10 allowance (form-dependent: 806 / 832 / 870 fl oz).
+3. The 7 CFR § 246.10 allowance (caps 806 / 832 / 870 fl oz; actually issued 806 / 832 / ~810, because powder comes in whole cans).
 4. The Act 927 summary (unconfirmed re-identification clause and exact effective date removed).
 5. The IOTA attribution of the crucible thresholds.
 6. "synthetic-equivalent silica" → fused quartz.
