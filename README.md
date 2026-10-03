@@ -1,6 +1,12 @@
-# The Arkansas Orchard
+# Arkansas
+
+*The Arkansas Project — **The Arkansas Orchard: A Civic & Energy Infrastructure Blueprint***
 
 **Principal architect:** R.W. Yett (Arkansas)
+**Start here:** [`AUDIT_STATUTORY_RECONCILIATION_2026-10-03.md`](AUDIT_STATUTORY_RECONCILIATION_2026-10-03.md)
+— the statutory audit of every civic bill and docket. Its citations were checked against primary
+sources on 2026-10-03; its §6 says what is confirmed, what was corrected, and what is still unverified.
+**Repository:** renamed from `arkansas-orchard` to `Arkansas` on 2026-10-03; old URLs redirect.
 **Status:** private working repo — pre-filing material, several pieces marked draft below.
 **None of the org/branch structures in this repo are canonical — RY confirmed 2026-09-11 they're
 all old and likely due for a redo.** Where this repo picks one structure to organize files under
@@ -47,7 +53,7 @@ rest of this repo yet, flagged rather than silently merged.
   the Rural Family Stabilization Trilogy with ARMAWS and the Driver's License Act; not yet drafted
   as statute text. Its figures are cited from named public sources (USDA ERS, GAO, AAP, 7 CFR
   246.10) but unaudited, per the standing caveat below.
-- The **Entergy ratepayer / power plan** (APSC Docket `26-001-U`, Rate Stabilization Fund) exists
+- The **Entergy ratepayer / power plan** (APSC Docket No. 26-001-U, Rate Stabilization Fund) exists
   as a manifesto, not yet drafted as statute text or filed as public comment.
 - Financial figures throughout (patent-claim counts, fiscal dividend estimates, recidivism-savings
   estimates, RENEW's revenue lines, ONE's job/tax/credit figures) come from early portfolio drafts
@@ -64,11 +70,20 @@ rest of this repo yet, flagged rather than silently merged.
   framings found — one of them uses a different branch org-chart than
   `commercial/the-six-branches.md`. Per the note above, neither is canonical; both are old and RY
   expects this whole structure to get redone at some point. Not a conflict to resolve right now.
-- **Master Statutory Audit & Legal Reconciliation** — completed 2026-10-03:
+- **Master Statutory Audit & Legal Reconciliation** (2026-10-03):
   [`AUDIT_STATUTORY_RECONCILIATION_2026-10-03.md`](AUDIT_STATUTORY_RECONCILIATION_2026-10-03.md).
-  Integrates full statutory grounding across all civic bills (Ark. Code Ann. § 8-9-401 tire fee,
-  § 27-16-704/705 testing authority, 7 CFR § 246.10 MMA, Acts 670 and 927 of 2025), live APSC
-  Docket 26-001-U schedule, ANO baseload nuclear parameters, and Spruce Pine vs. Mount Ida quartz assays.
+  Statutory grounding for every civic bill:
+  - Ark. Code Ann. § 8-9-401 et seq. (Used Tire Recycling and Accountability Act);
+  - § 27-16-704/-705 (driver examinations and examiners);
+  - 7 CFR § 246.10 (WIC maximum monthly allowances);
+  - Acts 670 and 927 of 2025;
+  - APSC Docket No. 26-001-U (Entergy Arkansas rate case: filed 2026-02-27; evidentiary hearing
+    2026-11-04).
+
+  All of these were confirmed on 2026-10-03. Seven errors in the first draft were corrected,
+  including the hearing dates, the formula allowances and the six invariants. ANO figures and some
+  secondary citations are marked unverified. The Mount Ida quartz assay is still pending; none
+  has been run.
 - **Quartz archive (5D optical storage)** — added 2026-10-03 from the 2026-09-18/20 work: data written
   by laser into fused silica melted from Mount Ida quartz, read back optically, built for records that
   must be *preserved*, not just stored. Engineering design study only: nothing built, every number

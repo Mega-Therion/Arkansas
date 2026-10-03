@@ -104,7 +104,7 @@ surplus stands in front of the ratepayer).
    bureaucracy.
 
 **Federal-note (the statutory honesty clause):** MMAs are set in federal
-regulation (7 CFR 246.10); a state cannot unilaterally raise them inside
+regulation (7 CFR § 246.10); a state cannot unilaterally raise them inside
 WIC. AINSA is therefore structured as a *state supplemental nutrition
 program adjacent to WIC* — same card, same clinics, separate state funding
 line — precisely so it needs no federal waiver. This is the same

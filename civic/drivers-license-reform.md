@@ -15,7 +15,7 @@ your own legally registered, fully insured, mechanically compliant vehicle.
 **Impact:** blocks an estimated 15% of low-income jobseekers and 25% of rural youth from entering
 the workforce, forcing untested and uninsured driving out of survival necessity.
 
-**Statutory gap:** Ark. Code §§27-16-704 & 705 require an exam but are completely silent on who
+**Statutory gap:** Ark. Code Ann. §§ 27-16-704 & -705 require an exam but are completely silent on who
 provides the vehicle. The private-vehicle requirement is pure "bureaucratic fossilization" — an
 administrative agency rule, not written law.
 
@@ -47,7 +47,7 @@ willingness/status directly before treating as committed.
   the existing self-insurance pool; this adds volume to an existing program, not a new one.
 - **"People should just borrow a car."** Montgomery County's poverty rate is **22.4%** — the
   premise assumes access this bill exists because that access doesn't exist.
-- **The requirement is a rule, not a law.** Ark. Code §§27-16-704/705 mandate the exam but are
+- **The requirement is a rule, not a law.** Ark. Code Ann. §§ 27-16-704/-705 mandate the exam but are
   silent on the vehicle — the private-vehicle requirement is DFA administrative policy. That means
   it's theoretically changeable by the Secretary or an appropriations bill, not necessarily full
   legislation — worth confirming which path is actually faster.
