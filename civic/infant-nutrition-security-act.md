@@ -7,7 +7,7 @@ statute text
 **Target:** pre-filing November 2026, for Arkansas's 2027 Regular Legislative
 Session — Part III of the **Rural Family Stabilization Trilogy** (Part I:
 [`armaws.md`](armaws.md); Part II: [`drivers-license-reform.md`](drivers-license-reform.md))
-**Identity:** R.W. Yett, Independent Research, Story, Arkansas
+**Identity:** R.W. Yett, Independent Research, Arkansas
 
 Guarantees that no Arkansas infant on WIC goes unfed in the last days of the
 month, by having the state cover the gap between the federal formula ration

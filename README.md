@@ -68,7 +68,9 @@ rest of this repo yet, flagged rather than silently merged.
   by laser into fused silica melted from Mount Ida quartz, read back optically, built for records that
   must be *preserved*, not just stored. Engineering design study only: nothing built, every number
   tiered. Five figures from the original notes did not survive checking and are corrected in the spec.
-  See [`commercial/quartz-5d-archival-spec.md`](commercial/quartz-5d-archival-spec.md).
+  Summary, customer focus and what's already real vs RY's own:
+  [`commercial/quartz-archive.md`](commercial/quartz-archive.md); full engineering spec:
+  [`commercial/quartz-5d-archival-spec.md`](commercial/quartz-5d-archival-spec.md).
 
 ## Candidate opportunities (not RY's plan yet)
 

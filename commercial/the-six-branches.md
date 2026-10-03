@@ -83,6 +83,14 @@ concrete, costed action.
   generic geochemistry shop, which realistically runs closer to **$350–600 and 1–2 weeks** for a
   result worth trusting. That's the whole remaining gap: one sample, one specialized lab, a few
   hundred dollars, two weeks — not a business plan, a phone call.
+- **Second use for the same assay (added 2026-10-03):** the quartz archive idea
+  ([`quartz-archive.md`](quartz-archive.md)) would use Mount Ida quartz as feedstock for
+  laser-written archive glass. Its provisional impurity targets (Al ≤ 10 ppm, total ≤ 20 ppm —
+  design targets, not an industry standard) are looser than the crucible bar above, so the one
+  trace-element assay answers the impurity side of both questions. Caveat from that page: since
+  February 2026 ordinary borosilicate glass also takes laser writing (10,000-year class), so the
+  deposit only matters for the archive if natural-quartz fused glass proves out for the
+  billion-year class.
 
 ## refineRY/ACRN — the market case (why now)
 
