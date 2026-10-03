@@ -1,6 +1,6 @@
 # The Arkansas Orchard
 
-**Principal architect:** Ryan W. Yett (Story, Arkansas)
+**Principal architect:** R.W. Yett (Arkansas)
 **Status:** private working repo — pre-filing material, several pieces marked draft below.
 **None of the org/branch structures in this repo are canonical — RY confirmed 2026-09-11 they're
 all old and likely due for a redo.** Where this repo picks one structure to organize files under
@@ -64,6 +64,11 @@ rest of this repo yet, flagged rather than silently merged.
   framings found — one of them uses a different branch org-chart than
   `commercial/the-six-branches.md`. Per the note above, neither is canonical; both are old and RY
   expects this whole structure to get redone at some point. Not a conflict to resolve right now.
+- **Quartz archive (5D optical storage)** — added 2026-10-03 from the 2026-09-18/20 work: data written
+  by laser into fused silica melted from Mount Ida quartz, read back optically, built for records that
+  must be *preserved*, not just stored. Engineering design study only: nothing built, every number
+  tiered. Five figures from the original notes did not survive checking and are corrected in the spec.
+  See [`commercial/quartz-5d-archival-spec.md`](commercial/quartz-5d-archival-spec.md).
 
 ## Candidate opportunities (not RY's plan yet)
 
