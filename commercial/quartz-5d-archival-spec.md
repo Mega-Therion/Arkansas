@@ -15,7 +15,8 @@ tier_default: "[conj]"
 **R.W. Yett** · ORCID [0009-0001-1303-7190](https://orcid.org/0009-0001-1303-7190) · Arkansas
 **Document type:** engineering specification (design study)
 **Date:** 2026-09-20
-**Copied from:** Chyren repo `Research_and_Data/01_Engineering_and_Inventions/QUARTZ_5D_OPTICAL_HOLOGRAPHIC_ARCHIVAL_SPEC.md` (commit ae69cf8d2) on 2026-10-03, with two edits: the fused product is named *fused quartz*, because it is melted from natural quartz rather than made synthetically, and the 120° beam geometry is credited to the alternate-face layout instead of a misstated C₃ᵥ symmetry.
+**Revised:** 2026-10-03 — the fused product is named *fused quartz*, because it is melted from natural quartz rather than made synthetically; the 120° beam geometry is credited to the alternate-face layout instead of a misstated C₃ᵥ symmetry; open item Q-09 and the February 2026 borosilicate result were added.
+**Copied from:** Chyren repo `Research_and_Data/01_Engineering_and_Inventions/QUARTZ_5D_OPTICAL_HOLOGRAPHIC_ARCHIVAL_SPEC.md` at commit be686aa78. Edit that copy first and re-copy, so the two stay identical.
 
 ---
 
@@ -592,6 +593,11 @@ moment the invoice does.
 - **The 300 TB figure is `[conj]`** (§3.1). At the demonstrated 25 TB the
   per-slab economics change by 12×, though the *energy ratio* — which is
   per-TB on both sides — does not.
+- **The medium is not scarce (added 2026-10-03).** Microsoft's Project Silica reported in
+  *Nature* (February 2026) laser writing in ordinary borosilicate glass, with an "at least
+  10,000 years" claim and multi-beam parallel writing. For records that do not need the
+  billion-year class the medium is a commodity, so the case for a fused-silica tier, and for any
+  particular feedstock, rests on that class alone (Q-09).
 
 ---
 
