@@ -64,6 +64,11 @@ rest of this repo yet, flagged rather than silently merged.
   framings found — one of them uses a different branch org-chart than
   `commercial/the-six-branches.md`. Per the note above, neither is canonical; both are old and RY
   expects this whole structure to get redone at some point. Not a conflict to resolve right now.
+- **Master Statutory Audit & Legal Reconciliation** — completed 2026-10-03:
+  [`AUDIT_STATUTORY_RECONCILIATION_2026-10-03.md`](AUDIT_STATUTORY_RECONCILIATION_2026-10-03.md).
+  Integrates full statutory grounding across all civic bills (Ark. Code Ann. § 8-9-401 tire fee,
+  § 27-16-704/705 testing authority, 7 CFR § 246.10 MMA, Acts 670 and 927 of 2025), live APSC
+  Docket 26-001-U schedule, ANO baseload nuclear parameters, and Spruce Pine vs. Mount Ida quartz assays.
 - **Quartz archive (5D optical storage)** — added 2026-10-03 from the 2026-09-18/20 work: data written
   by laser into fused silica melted from Mount Ida quartz, read back optically, built for records that
   must be *preserved*, not just stored. Engineering design study only: nothing built, every number
