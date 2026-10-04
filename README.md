@@ -110,3 +110,7 @@ An interactive Seed → Canopy → Cloud → ConservatoRY narrative build lives 
 Compiled from the existing canonical/memory corpus (`ARKANCENTRIC_CIVIC_INFRASTRUCTURE_CANONICAL.md`,
 `ARKANCENTRIC_CIVIC_AND_ONE_MANIFESTO.md`, and the Entergy ratepayer-defense session log) — not
 newly invented. Anything a source marked as draft, unverified, or OG-draft keeps that label here.
+
+## How this was built
+
+R.W. Yett directs the work. Much of the prose was written with AI coding assistants; those commits carry `Co-Authored-By` trailers. A citation here is checked against the statute, regulation, or docket it names. It is not a model judgment.
