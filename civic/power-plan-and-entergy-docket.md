@@ -28,3 +28,15 @@ deterministic cost, same "state pays first" principle as ARMAWS and the License 
 - No public comment has been filed on Docket No. 26-001-U yet.
 - The plan has not yet been added as the third pillar of the Arkancentric legislative hub
   alongside ARMAWS and the License Fleet act (as of the last working session on this).
+
+## Future Horizon: The "Four Streams into One Living Water" Regional Compact (Added 2026-10-03)
+
+**RY strategic concept:** Instead of treating this solely as an isolated Arkansas vs. New Orleans border fight, expand the framework into a regional interstate clean-energy compact encompassing all four Entergy operating territories: **Arkansas, Texas, Mississippi, and Louisiana**.
+
+- **"What's good for the goose is good for the gander":** The same volatility, fixed-customer charge penalties, and storm-rider cascades that punish Arkansas seniors punish working-class families across the Mississippi Delta, East Texas, and Louisiana bayous.
+- **The Regional Arbitrage & Stabilization Framework:**
+  1. *Interstate Rate Stabilization Buffers:* State surplus funds act as rate shock-absorbers across all four state commissions (APSC, LPSC, MPSC, PUCT).
+  2. *Regional Industrial Baseload Optimization:* Coordinating 250ms interruptible compute loads across Gulf Coast petrochemical corridors and inland nuclear/hydro plants.
+  3. *Collective Ratepayer Leverage:* Turning four captive territories into an aligned multi-state ratepayer bloc that checks New Orleans holding-company siphons.
+- **Status:** Strategic concept parked for future development while primary focus remains on the Anthropic Fellows submission package.
+
