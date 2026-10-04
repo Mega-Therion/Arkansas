@@ -26,6 +26,20 @@ grow.
 
 ## The tree
 
+```
+        ConservatoRY  — the test every branch has to pass
+              |
+   recoveRY refineRY deliveRY memoRY libraRY factoRY
+              |
+        ONE Natural Energy  — the trunk
+              |
+           foundRY  — the roots
+              |
+     civic fruit: ARMAWS, driver's-test access, AINSA, RENEW, the Entergy plan
+```
+
+The drawing is a map of this repository, not a claim that the org chart is settled. The note under the title still stands: none of these structures is canonical.
+
 | Layer | What it is | Docs |
 |---|---|---|
 | 🌱 Roots — **foundRY** | Holding company, IP fortress, Gentle Authority governance | [`commercial/foundry-and-governance.md`](commercial/foundry-and-governance.md) |
@@ -102,8 +116,7 @@ from RY's own corpus — evaluate before treating as more than a lead.
 
 ## Site
 
-An interactive Seed → Canopy → Cloud → ConservatoRY narrative build lives at
-[`site/index.html`](site/index.html) (open locally or serve statically).
+The same map as a page: [`site/index.html`](site/index.html). It is a static file in this repository. Open it locally, or, once GitHub Pages has run, at <https://mega-therion.github.io/Arkansas/>. The page is a narrative of drafts. It does not make the unverified figures in those drafts verified.
 
 ## Source note
 
