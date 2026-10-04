@@ -38,5 +38,5 @@ deterministic cost, same "state pays first" principle as ARMAWS and the License 
   1. *Interstate Rate Stabilization Buffers:* State surplus funds act as rate shock-absorbers across all four state commissions (APSC, LPSC, MPSC, PUCT).
   2. *Regional Industrial Baseload Optimization:* Coordinating 250ms interruptible compute loads across Gulf Coast petrochemical corridors and inland nuclear/hydro plants.
   3. *Collective Ratepayer Leverage:* Turning four captive territories into an aligned multi-state ratepayer bloc that checks New Orleans holding-company siphons.
-- **Status:** Strategic concept parked for future development while primary focus remains on the Anthropic Fellows submission package.
+- **Status:** Strategic concept, parked for future development.
 

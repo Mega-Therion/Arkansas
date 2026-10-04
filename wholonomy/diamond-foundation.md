@@ -19,7 +19,7 @@ is a different angle on the same structure — completely legible if you know ho
 ## The principle
 
 **Radical legibility:** clear, un-obfuscated statutory text that any citizen — named examples:
-Story, Mountain Pine, Little Rock — can inspect and understand, with perfect clarity, like looking
+Mountain Pine, Little Rock — can inspect and understand, with perfect clarity, like looking
 into a diamond rather than through a glass wall.
 
 ## Where each initiative sits under it

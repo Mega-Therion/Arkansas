@@ -122,8 +122,7 @@ outright) suggested two additional angles worth him weighing in on:
 - The deliveRY 1:3–8 AI-trucking ratio is intentionally preserving **70–80% of jobs**, not just
   optimizing cost — if that's the actual intent, it's a materially different pitch than pure
   automation.
-- libraRY/memoRY selling driving/usage data to AI companies (**Anthropic named as an example
-  buyer**) as an unstated revenue line — real if true, but unconfirmed as part of the actual plan.
+- libraRY/memoRY selling driving/usage data to AI companies as an unstated revenue line — real if true, but unconfirmed as part of the actual plan.
 
 Source: Qdrant knowledge base, 2026-09-11 sweep. Market figures are point-in-time citations from
 that source, not independently re-verified against current prices — confirm before citing

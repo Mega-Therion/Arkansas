@@ -7,7 +7,7 @@
 — the statutory audit of every civic bill and docket. Its citations were checked against primary
 sources on 2026-10-03; its §6 says what is confirmed, what was corrected, and what is still unverified.
 **Repository:** renamed from `arkansas-orchard` to `Arkansas` on 2026-10-03; old URLs redirect.
-**Status:** private working repo — pre-filing material, several pieces marked draft below.
+**Status:** working repo — legislative pre-filing drafts for Arkansas's 2027 session; several pieces are marked draft below.
 **None of the org/branch structures in this repo are canonical — RY confirmed 2026-09-11 they're
 all old and likely due for a redo.** Where this repo picks one structure to organize files under
 (e.g. the six branches below), that's an organizational choice for this repo, not a claim that
@@ -36,7 +36,7 @@ grow.
 
 **"Arkansas Orchard 2.0" is not a civic-layer item** — it's a name for the master synthesis of
 this whole portfolio, found in earlier source material with content not yet folded in elsewhere
-(a physical land plan for Story, Arkansas, and an alternate branch org-chart that partly
+(a physical land plan for a rural Arkansas site, and an alternate branch org-chart that partly
 contradicts the structure above). See
 [`wholonomy/arkansas-orchard-2-0.md`](wholonomy/arkansas-orchard-2-0.md) — not reconciled with the
 rest of this repo yet, flagged rather than silently merged.
@@ -64,7 +64,7 @@ rest of this repo yet, flagged rather than silently merged.
   financial dossier + USGS-anchored feedstock detail to ONE — same unverified caveat applies.
 - **"Orchard 2.0" was misfiled in this repo's first draft as a 4th civic bill — corrected
   2026-09-11.** RY flagged it directly; a Qdrant search then found it's actually the name of the
-  whole portfolio synthesis, with real physical-infrastructure content (a land plan for Story, AR)
+  whole portfolio synthesis, with real physical-infrastructure content (a land plan for a rural Arkansas site)
   not represented anywhere else here. See
   [`wholonomy/arkansas-orchard-2-0.md`](wholonomy/arkansas-orchard-2-0.md) for the two source
   framings found — one of them uses a different branch org-chart than

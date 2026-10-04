@@ -13,7 +13,7 @@ rather than silently reconciled.
 > "This is not a startup pitch. It's a land plan."
 
 Arkansas Orchard 2.0, in this framing, is RY's **physical instantiation** of the whole digital
-architecture, sited at **Story, Arkansas**:
+architecture, sited in **rural Arkansas**:
 
 - **Data centers** — localized processing hubs providing jobs and rural infrastructure.
 - **ARK Lane / Drive Spine System** — continuous mechanical spines embedded in the roadway.
