@@ -47,6 +47,34 @@ mineral.
 - **Out of scope by RY's decision:** commercial and Hollywood IP archiving — "i think i may want to
   avoind the ip stuff and focus on the public interest type ventures."
 
+## Added 2026-10-07: the Capitol plates and RENEW apprentices `[conj]`
+
+RY approved two extensions on 2026-10-07. Both are proposals, not built or funded.
+
+**1. The Capitol plates.** Mount Ida stays the deep-time master vault. A public monolith stands in the **Arkansas State Capitol**.
+- Each time a bill becomes law or the constitution is amended, a new plate is written and added to the monolith.
+- Nothing already on it is ever changed, which is the append-only rule above applied to Arkansas law itself.
+- Citizens and legislators can walk up to the state's legal record and see it physically grow.
+- Other states' monoliths follow the same pattern.
+- **Open items:**
+  - who has authority to install it (the Capitol is under the Secretary of State);
+  - how often to write plates (per act, or per session);
+  - the readout station a visitor actually uses.
+
+**2. RENEW apprentices run the line.** The skilled work is staffed and trained locally, by Montgomery County residents and **Project RENEW** graduates, not by technicians brought in from elsewhere:
+- cutting and grading the quartz;
+- cleaning and melting it into fused silica;
+- maintaining the femtosecond laser.
+
+Each competency goes into the worker's own libraRY ledger, and the factoRY apprenticeship rules apply. This links the archive to the work ring in [`../SYNTHESIS.md`](../SYNTHESIS.md). **Open items:**
+- laser-safety certification;
+- which steps need clean-room conditions;
+- whether a RENEW participant can train on site before release, under the program's voluntary-participation and independent-oversight rules.
+
+**Considered and corrected the same day** (from another agent's proposal):
+- **A daylight-lit hall can show the written plates as display art, but it can't read the data.** Polarized sunlight can make written structures glow. Reading the stored data still takes microscope-scale polarization optics, so the hall keeps its powered readout stations.
+- **A human-readable "primer" margin on each plate isn't new.** It is already covered by the spec's self-describing outer layer (§ decoding-convention problem).
+
 ## What's already real vs what's RY's own
 
 **Already real** (sources at the bottom):
