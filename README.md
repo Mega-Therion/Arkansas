@@ -133,3 +133,7 @@ newly invented. Anything a source marked as draft, unverified, or OG-draft keeps
 ## How this was built
 
 R.W. Yett directs the work. Much of the prose was written with AI coding assistants; those commits carry `Co-Authored-By` trailers. A citation here is checked against the statute, regulation, or docket it names. It is not a model judgment.
+
+---
+
+*Part of the **Chyren · Ψ/Φ** constellation, built on the Psimodulo–Phimodus principle: one mind, invariant across substrates, operating as one integrated whole. Author: R.W. Yett · [github.com/Mega-Therion](https://github.com/Mega-Therion).*
