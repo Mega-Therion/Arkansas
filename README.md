@@ -3,6 +3,7 @@
 *The Arkansas Project — **The Arkansas Orchard: A Civic & Energy Infrastructure Blueprint***
 
 **Principal architect:** R.W. Yett (Arkansas)
+**Read first:** [`SYNTHESIS.md`](SYNTHESIS.md) shows how every initiative feeds the others as one closed loop, followed by an assessment. [`SOURCES.md`](SOURCES.md) indexes where every piece of this work lives (2026-10-07 sweep).
 **Start here:** [`AUDIT_STATUTORY_RECONCILIATION_2026-10-03.md`](AUDIT_STATUTORY_RECONCILIATION_2026-10-03.md)
 — the statutory audit of every civic bill and docket. Its citations were checked against primary
 sources on 2026-10-03; its §6 says what is confirmed, what was corrected, and what is still unverified.
@@ -47,6 +48,9 @@ The drawing is a map of this repository, not a claim that the org chart is settl
 | 🌿 Six branches | recoveRY, refineRY/ACRN, deliveRY, memoRY, libraRY, factoRY | [`commercial/the-six-branches.md`](commercial/the-six-branches.md) |
 | 🍎 Fruit — civic layer | ARMAWS, Driver's-Test reform, AINSA (infant nutrition), Project RENEW, the Entergy power plan | [`civic/`](civic/) |
 | 💎 ConservatoRY | The Diamond Foundation test every branch has to pass | [`wholonomy/`](wholonomy/) |
+| 🛣️ ARK Lane | Powered freight road (85 kHz wireless power transfer), one test kilometer first | [`commercial/ark-lane.md`](commercial/ark-lane.md) |
+| 🌲 Give-back | ConservatoRY nonprofit: ForestRY planting, TreasuRY scholarships | [`commercial/conservatory.md`](commercial/conservatory.md) |
+| 📚 Research | The Wholonomy, top-down architecture, Manus blueprint and offshoots reports | [`wholonomy/the-arkansas-orchard-wholonomy.md`](wholonomy/the-arkansas-orchard-wholonomy.md), [`research/`](research/) |
 
 **"Arkansas Orchard 2.0" is not a civic-layer item** — it's a name for the master synthesis of
 this whole portfolio, found in earlier source material with content not yet folded in elsewhere
@@ -57,8 +61,10 @@ rest of this repo yet, flagged rather than silently merged.
 
 ## Where things actually stand
 
-- **ARMAWS** and the **Driver's License Public Access Guarantee Act** have drafted bill text and
-  are the furthest along — targeting pre-filing **November 2026** for the **2027 Regular
+- **ARMAWS** and the **Driver's License Public Access Guarantee Act** are the furthest along.
+  Correction 2026-10-07: neither had bill text before. ARMAWS had a full dossier; the license act
+  had a 10-part advocacy package. Model bill text for both, plus AINSA and the Rate Stabilization
+  Fund, now sits in [`civic/drafts/`](civic/drafts/) for counsel and BLR review. They are targeting pre-filing **November 2026** for the **2027 Regular
   Legislative Session** (96th General Assembly).
 - **Project RENEW** and the **ONE Natural Energy Ecosystem** blueprint exist as full written
   reports but are not yet filed as statute text.

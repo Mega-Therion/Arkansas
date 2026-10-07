@@ -127,3 +127,13 @@ outright) suggested two additional angles worth him weighing in on:
 Source: Qdrant knowledge base, 2026-09-11 sweep. Market figures are point-in-time citations from
 that source, not independently re-verified against current prices — confirm before citing
 externally.
+
+## memoRY: modular server racks (recovered 2026-10-07)
+
+The modular, field-deployable server rack is a priority idea that most overviews dropped:
+- memoRY: containerized, ruggedized edge nodes at substations, grain elevators and municipal yards;
+- factoRY: **CNC fabrication of the racks themselves**, plus coil housings and fixtures.
+
+On 2026-09-12 RY noted that modular racks were "just now becoming a thing, after I came up with the idea like 6 months ago" (quoted in the master excavation). No dimensioned spec has been found on disk. The top-down architecture places it at Phase 3, buy-vs-build against existing rack OEMs. See [`../research/one-top-down-architecture.md`](../research/one-top-down-architecture.md).
+
+memoRY's first business, per the Wholonomy: **device circularity** (secure erasure, repair, redeploy, then recycle) for public equipment before it goes to auction, plus agricultural and utility telemetry nodes. Hyperscale compute is not the first business.

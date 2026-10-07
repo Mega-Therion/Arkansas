@@ -50,3 +50,21 @@ Status: blueprint/manifesto stage, not yet filed as statute text.
 
 Source: Qdrant knowledge base (ONE Natural Energy financial dossier) — same unverified/estimate
 caveat as the rest of this document. Confirm current figures before citing externally.
+
+## Reality checks adopted 2026-10-07 (from the Manus blueprint and the Wholonomy)
+
+- **Don't market "curtailed nuclear power" until a supply structure is documented.** Power from an existing nuclear plant isn't automatically available to a third-party load at the fence line. A behind-the-meter setup raises transmission-cost, tariff, market and jurisdiction issues. DOE names nuclear/data-center co-location as a possible model, but lists metering and transmission-cost allocation as hurdles. MISO's large-load framework emphasizes flexible load, curtailment ability and telemetry. ([`../research/one-orchard-development-blueprint.md`](../research/one-orchard-development-blueprint.md))
+- **ANO's licenses run to May 20, 2034 (Unit 1) and July 17, 2038 (Unit 2)** (Entergy facility profile). That doesn't mean shutdown. It does mean any long-term plan needs a license-renewal, replacement-power or **no-ANO case**.
+- **The first commercial wedge is a modest, interruptible load,** paired with controllable thermal loads. It is not a multi-hundred-megawatt campus. The sequence is development capital, then a strategic anchor partner, then construction finance.
+- **What ONE is, in the Wholonomy's words:** "an energy arbitrage and public-value infrastructure layer," not an AI company. Every megawatt-hour is meant to be:
+  - a revenue event;
+  - a grid-stability service (it backs off on signal);
+  - a community-dividend payment (the 5% Rural Computational Dividend into County Energy Resilience Trusts, `[conj]`; it has to be written into every interconnection contract);
+  - power for the other branches.
+- **Still unverified:**
+  - 850+ jobs and the tax-benefit range;
+  - "~$262k/yr per MW" under 45U, and whether 45U applies to this structure at all (45U pays the plant owner);
+  - "carbon-negative compute";
+  - the 250 ms curtailment figure.
+
+Earlier drafts also included Bitcoin mining as a load class. Treat that as a **historical option**, not a current claim.

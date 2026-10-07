@@ -38,10 +38,10 @@ The Manus agent failed at step index 3 with an unrecoverable error, having done 
 *   **Repo Doc:** [`civic/infant-nutrition-security-act.md`](civic/infant-nutrition-security-act.md)
 *   **Core Mandate:** Eliminates the "Month-End Formula Gap" for rural infants on WIC.
 *   **Federal & State Regulatory Grounding:**
-    *   **Federal MMA Regulation:** **7 CFR § 246.10**, Table 1, Food Package I. For fully formula-fed infants aged 0–3 months, the maximum monthly allowance is **806 fl oz reconstituted liquid concentrate, or 832 fl oz ready-to-feed, or 870 fl oz reconstituted powder**. Powder is issued in whole 12.4-oz cans of about 90 fl oz each. A 10th can would exceed the 870 cap, so the actual powder benefit is 9 cans, **~810 fl oz**. The benefit actually issued is therefore 806 (concentrate), 832 (ready-to-feed) or ~810 (powder). At 30 oz/day the monthly gap is 94 / 68 / 90 fl oz (3.1 / 2.3 / 3.0 days). See the form-by-form table in [`civic/infant-nutrition-security-act.md`](civic/infant-nutrition-security-act.md).
+    *   **Federal MMA Regulation:** **7 CFR § 246.10**, Table 1, Food Package I. For fully formula-fed infants aged 0–3 months, the maximum monthly allowance is **823 fl oz reconstituted liquid concentrate (Full Nutrition Benefit 806), or 832 fl oz ready-to-feed, or 870 fl oz reconstituted powder** *(823/FNB distinction corrected 2026-10-07; see §7)*. Powder is issued in whole 12.4-oz cans of about 90 fl oz each. A 10th can would exceed the 870 cap, so the actual powder benefit is 9 cans, **~810 fl oz**. The benefit actually issued is therefore 806 (concentrate), 832 (ready-to-feed) or ~810 (powder). At 30 oz/day the monthly gap is 94 / 68 / 90 fl oz (3.1 / 2.3 / 3.0 days). See the form-by-form table in [`civic/infant-nutrition-security-act.md`](civic/infant-nutrition-security-act.md).
     *   **Actual Pediatric Appetite:** The commonly cited American Academy of Pediatrics guideline is about 2.5 oz per pound of body weight per day, capped near 32 oz/day.
     *   **Sole-Source Distortion:** The repo cites USDA ERS reports on WIC sole-source rebates and GAO findings on market share and price spillover. *These figures were not re-verified in this pass.*
-    *   **Statutory Honesty Clause:** AINSA does not alter 7 CFR § 246.10, which would need a federal waiver. It funds an independent **State Supplemental Infant Nutrition Bridge Fund** through Arkansas DHS. The state-law anchor cited, **Ark. Code Ann. § 20-7-101 et seq.**, was **not verified** in this pass.
+    *   **Statutory Honesty Clause:** AINSA does not alter 7 CFR § 246.10, which would need a federal waiver. It funds an independent **State Supplemental Infant Nutrition Bridge Fund** through the Arkansas Department of Health (the state WIC agency; corrected 2026-10-07). The state-law anchor cited, **Ark. Code Ann. § 20-7-101 et seq.**, was **not verified** in this pass.
 
 ### Part IV: Project RENEW (ADC Reentry & Environmental Remediation)
 *   **Repo Doc:** [`civic/project-renew.md`](civic/project-renew.md)
@@ -115,7 +115,7 @@ The Manus agent failed at step index 3 with an unrecoverable error, having done 
 |---|---|---|---|---|
 | **ARMAWS** | Tire Mobility Standard | Ark. Code Ann. § 8-9-401 et seq.; § 4-18-301 et seq.; Conn. Gen. Stat. § 14-325a | AR Dept. of Agriculture (Weights & Measures) / ADEQ (TAP) | all three ✓ |
 | **Driver's License Act** | Public Access Guarantee | Ark. Code Ann. § 27-16-704 & -705; § 22-8-206; § 5-64-505 | Arkansas State Police / DFA | all ✓ (§ 21-5-701 ✗ unverified) |
-| **AINSA** | Infant Nutrition Security | 7 CFR § 246.10; Ark. Code Ann. § 20-7-101 et seq. | Arkansas DHS / WIC | 7 CFR ✓; § 20-7-101 ✗ unverified |
+| **AINSA** | Infant Nutrition Security | 7 CFR § 246.10; Ark. Code Ann. § 20-7-101 et seq. | Arkansas Dept. of Health / WIC | 7 CFR ✓; § 20-7-101 ✗ unverified |
 | **Project RENEW** | Inmate Remediation & Reentry | Ark. Act 670 of 2025; Act 927 of 2025; 18 U.S.C. § 1761(c) | Arkansas Division of Correction / ARDOT | Acts ✓; § 1761(c) cap not re-checked |
 | **Entergy Power Plan** | Ratepayer Protection | APSC Docket No. 26-001-U; Ark. Code Ann. § 23-4-101 et seq. | Arkansas Public Service Commission | both ✓ (schedule corrected) |
 | **ONE Baseload Act** | Clean Baseload Optimization (model act) | 26 U.S.C. § 45U, § 45X, § 48C | MISO / Entergy Arkansas / APSC / FERC | credits ✓ (general); MISO terms ✗ unverified |
@@ -170,3 +170,44 @@ Every repo-named statute and docket in the brief was checked against primary or 
 - APSC docket search 26-001-U, plus Arkansas.gov event pages "Public Comment Hearing 26-001-U" and "Evidentiary Hearing 26-001-U".
 - Justia Conn. Gen. Stat. § 14-325a.
 - Cornell LII, Ark. Code R. 118.01.21 (Rule 36, Tire Accountability Program).
+
+---
+
+## 7. Verification record, second pass (Claude Code, 2026-10-07)
+
+**Read in primary text (act PDF, regulation, official page):**
+- **Act 1006 of 2025** = HB 1202, the DFA – Disbursing Officer appropriation for the fiscal year ending 2026-06-30. §24 "PURCHASE OF VEHICLES" appropriates **$15,000,000** from the Motor Vehicle Acquisition Revolving Fund. **It expired with FY2026.**
+- **Act 373 of 2025** = SB 307, "Generating Arkansas Jobs Act of 2025". Defines "construction work in progress". APPROVED 3/20/25.
+- **Act 848 of 2025** = HB 1958. Amends § 25-1-128 to require public-entity AI policies, including that "an authorized human employee or designee … make any final decision". APPROVED 4/17/25. *(Earlier repo text called it an "AI-governance audit mandate"; corrected.)*
+- **Entergy legal notice, 26-001-U:** filed 2026-02-27; residential customer charge $8.40 → $12.92; new low-income customer charge $6.46; new rates proposed from the first billing cycle of January 2027; written public comments permitted under 23 CAR § 462-407(c).
+- **DFA release:** the FY2026 **$655M** surplus was "transferred to the General Revenue Allotment Reserve Fund."
+- **D.C. DMV** (road-skills-tests page): a DMV road-test vehicle is offered, "no additional fee", with a consent and waiver form.
+- **7 CFR § 246.10 Table 1** (Cornell LII):
+  - 0–3 months: MMA **823** concentrate / 832 RTF / 870 powder. The 2024-rule Full Nutrition Benefit for concentrate is 806 (state WIC guides).
+  - 4–5 months: 896 / 913 / 960.
+  - 6–11 months: 630 / 643 / 696.
+
+**From search summaries only; primary not read (do not cite as verified):**
+- The 26-001-U requested revenue requirement ($1,997,481,780 vs $1,277,230,243).
+- Entergy's stated average residential impact (+$1.16/month, 0.84%).
+- The roughly $650M/yr of rider revenue moving into base rates.
+- The Act 848 effective date (2025-08-03).
+- That Arkansas WIC is run by the Arkansas Department of Health. A secondary source says so, and the WIC vendor handbook is hosted on healthy.arkansas.gov.
+
+**Corrected in this pass:**
+1. The 7 CFR label: 806 is the FNB, not the cap; the cap is 823. The benefit actually issued is unchanged.
+2. The Act 848 characterization.
+3. The Act 1006 availability: it was FY2026 money only.
+4. The driver's-license wording: the vehicle requirement is ASP **practice/checklist**, not codified rule (per the 2026-04-16 check).
+5. Operating-cost math: $1,216–$2,533 per vehicle per year.
+6. Committee names: Public Transportation – House; Transportation, Technology & Legislative Affairs – Senate.
+7. The ARMAWS status: no bill text had existed; model text was drafted in `civic/drafts/`.
+8. The AINSA agency: Department of Health, not DHS/DHHS.
+
+**Still not verified:**
+- The ASP skills-checklist revision date (June 24, 2025, reported in the 04-16 session).
+- The petition requirements for a constitutional amendment.
+- The 2025 Arkansas Supreme Court ruling on legislative amendment of initiated measures.
+- The California § 13651 characterization.
+- The state contract vehicle prices.
+- Everything §6 already lists.

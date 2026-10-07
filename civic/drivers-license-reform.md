@@ -1,65 +1,91 @@
 # Driver's License Public Access Guarantee Act
 
 **Classification:** Workforce Mobility & Administrative Reform
-**Status:** `drivers_license_access_reform_package.pdf` exists
-**Target:** pre-filing November 2026, for Arkansas's 2027 Regular Legislative Session — Part II of
-the **Rural Family Stabilization Trilogy** (Part I: [`armaws.md`](armaws.md); Part III:
-[`infant-nutrition-security-act.md`](infant-nutrition-security-act.md))
+**Status:** a 10-part legislative advocacy package was built and fact-checked on 2026-04-16 (in a ChatGPT session: `20_Sources/ChatGPT/2026-04/Fact-checking_Arkansas_Code.md`). The PDF that earlier versions of this doc pointed to (`drivers_license_access_reform_package.pdf`) is not on this PC, but the package text survives in that transcript and is summarized below. Model bill language: [`drafts/drivers-license-model-bill.md`](drafts/drivers-license-model-bill.md).
+**Target:** 2027 Regular Session (96th General Assembly). This is Part II of the **Rural Family Stabilization Trilogy**:
+- Part I: [`armaws.md`](armaws.md)
+- Part III: [`infant-nutrition-security-act.md`](infant-nutrition-security-act.md)
 
-## The catch-22 — "the Mobility Trap"
+## The catch-22: "the Mobility Trap"
 
-In rural Arkansas: you need a driver's license to get a job. You need a job to afford a car, tags,
-and insurance. But to take the mandatory on-road skills test, the state demands you arrive in
-your own legally registered, fully insured, mechanically compliant vehicle.
+You need a license to get a job, and a job to afford a car, tags and insurance. But the state's road skills test requires you to arrive in your own registered, insured, roadworthy vehicle. People without one either can't get licensed or end up driving unlicensed out of necessity.
 
-**Impact:** blocks an estimated 15% of low-income jobseekers and 25% of rural youth from entering
-the workforce, forcing untested and uninsured driving out of survival necessity.
+## The legal finding: a practice, not a statute
 
-**Statutory gap:** Ark. Code Ann. §§ 27-16-704 & -705 require an exam but are completely silent on who
-provides the vehicle. The private-vehicle requirement is pure "bureaucratic fossilization" — an
-administrative agency rule, not written law.
+- **Ark. Code Ann. § 27-16-704** ✓ requires a vision test, a knowledge test and "an actual demonstration of the applicant's ability to exercise ordinary and reasonable control in the operation of a motor vehicle." **It says nothing about who supplies the vehicle.**
+- **§ 27-16-705** ✓ assigns examinations to Arkansas State Police or authorized DFA examiners and allows rulemaking.
+- **Precision fix from the 2026-04-16 check.** The vehicle requirement wasn't found in the codified Part 52 rules. It appears in the **ASP skills-test checklist and manual**, so call it "ASP administrative practice/guidance," not a rule or a statute.
+  - The current all-ages skills checklist is reported as revised **June 24, 2025**.
+  - A January 8, 2026 document is the *under-18 knowledge* checklist, not the skills checklist. *(Both dates come from that session's web check and weren't re-verified here.)*
+- **Why it matters.** A practice can be changed by appropriation language or by the Secretary, without a full new statute. That makes the fast path a pilot.
 
-## The solution — the Rotating Troop Fleet Model
+## Precedent
 
-- **Regional logistics hubs:** Arkansas State Police (ASP) Troop headquarters act as maintenance
-  and staging hubs.
-- **Rotating county deployment:** standardized subcompact test cars rotate through rural county
-  testing substations on scheduled test days.
-- **Near-zero marginal taxpayer cost:** fleet sourced from surplus state units (before public
-  auction) and roadworthy civilly-forfeited/seized vehicles already in state possession, insured
-  under the state self-insurance pool.
+**Washington, D.C.:** applicants who test with the DC DMV may use their own vehicle **or a DMV road-test vehicle at no additional fee**. They sign a consent and indemnity form. ✓ (dmv.dc.gov/page/road-skills-tests, read 2026-10-07)
 
-## Phased roadmap & named stakeholders
+## The solution: the Rotating Troop Fleet
 
-- **Phase 1 (FY 2026):** Troop K (Montgomery, Garland, Polk counties) pilot program, backed by a
-  Montgomery County Quorum Court resolution and Sheriff Neal Thomas.
-- **Phase 2 (FY 2027):** statewide legislative codification, sponsored by Rep. John Maddox
-  (HD-86) and Sen. Terry Rice (SD-5), in the 96th General Assembly.
+- **Regional hubs:** Arkansas State Police troop headquarters stage and maintain the cars.
+- **Rotating county deployment:** standardized compact test cars rotate through rural test sites on scheduled days.
+- **Fleet source:** purchased through the state's existing vehicle process (the Automobile and Pickup Truck Acquisition Act, **§ 22-8-201 et seq.**, with the Motor Vehicle Acquisition Revolving Fund at **§ 22-8-206** ✓). Surplus state units would be pulled before auction.
+  - **Correction:** "civilly forfeited" vehicles is not accurate. **§ 5-64-505** now bars forfeiture without a related felony conviction ✓.
+- **Insurance:** the state's existing vehicle self-insurance program. *(The § 21-5-701 citation is unverified.)*
 
-Named sponsors/officials above are as recorded in the source planning document — confirm current
-willingness/status directly before treating as committed.
+## Fiscal snapshot (2026-04-16 package, corrected math)
 
-## Pre-empted objections & rebuttals
+| Item | Figure | Source |
+|---|---|---|
+| Vehicle price | Chevy Trax $21,732; Equinox $26,300 | State contract sheet, as reported in the 04-16 check |
+| 10-vehicle pilot, capital | about $220k–$260k | Arithmetic |
+| Operating cost | 10.13¢/mile → **$1,216/yr at 12,000 mi; $2,533/yr at 25,000 mi** per vehicle (the earlier $1,252–$2,503 was off) | AAA 2024, as reported |
+| 10-vehicle pilot, operating | about $12.2k–$25.3k/yr | Arithmetic |
+| Existing money | **Act 1006 of 2025 (HB 1202), §24: $15,000,000 "PURCHASE OF VEHICLES" from the Motor Vehicle Acquisition Revolving Fund** ✓ | Act text, read 2026-10-07 |
+| FY2025 surplus | $367.9M | DFA June 2025 |
+| FY2026 surplus | $655M | DFA July 2026 ✓ |
 
-- **"We can't afford a new fleet."** Pilot cost estimated at under **0.04% of the FY25 $367.9M
-  state surplus** — for comparison, Arkansas already spends $25.4M/year on rural transit.
-- **"Liability nightmare."** DFA Risk Management already insures thousands of state vehicles under
-  the existing self-insurance pool; this adds volume to an existing program, not a new one.
-- **"People should just borrow a car."** Montgomery County's poverty rate is **22.4%** — the
-  premise assumes access this bill exists because that access doesn't exist.
-- **The requirement is a rule, not a law.** Ark. Code Ann. §§ 27-16-704/-705 mandate the exam but are
-  silent on the vehicle — the private-vehicle requirement is DFA administrative policy. That means
-  it's theoretically changeable by the Secretary or an appropriations bill, not necessarily full
-  legislation — worth confirming which path is actually faster.
-- **Existing funding mechanism already exists:** Act 1006 of 2025 appropriated up to **$15M** for
-  vehicle purchases via the Motor Vehicle Acquisition Revolving Fund (Ark. Code §22-8-206) — this
-  bill may be able to draw on funding the state has already approved, not ask for new money.
+⚠ **Act 1006 appropriated money for the fiscal year that ended June 30, 2026.** A 2027 pilot needs that line renewed in the FY2027/28 DFA appropriation, or a new one. Don't cite the $15M as money available now.
 
-## Open questions (unresolved due diligence)
+## Phased path
 
-- Actual insurance-premium delta for adding these vehicles to the self-insurance pool.
-- Root cause of Troop K's pilot cancellation rate, once real pilot data exists.
-- Concrete inventory of currently available forfeited/seized vehicles suitable for the fleet.
+- **Fast path (appropriation):** pilot-fleet language in the DFA appropriation, plus reporting on use, cost and pass/fail outcomes.
+- **2027 Regular Session (statute):** amend § 27-16-704/-705:
+  > "The state shall not require an applicant to provide a privately owned vehicle as a prerequisite to completing the road skills examination."
+- **Pilot region:** Troop K (Montgomery, Garland and Polk counties), a rural "test desert."
 
-Source: Qdrant knowledge base, 2026-09-11 sweep — same "confirm before treating as committed"
-caveat as the named sponsors above.
+## Committees
+
+Use the official names (corrected 2026-04-16):
+- House: **Public Transportation – House**
+- Senate: **Transportation, Technology & Legislative Affairs – Senate**
+
+## Named people (from the planning documents; confirm before treating as committed)
+
+- **Rep. John Maddox** (HD-86) and **Sen. Terry Rice** (SD-5) are recorded as intended sponsors.
+- A Montgomery County Quorum Court resolution and Sheriff Neal Thomas are recorded as Phase 1 backers.
+
+None of this has been confirmed as a commitment. Confirm directly before citing anyone.
+
+## Objections and answers
+
+- **"People should bring their own car."** The statute doesn't require it. It's an administrative choice.
+- **"Too expensive."** About $25k a year to operate ten cars, against a $655M surplus.
+- **"Liability."** The state already insures thousands of vehicles. This adds to an existing pool.
+- **"Lowering standards."** "The test stays the same. Access to the test improves."
+- **Data point:** Montgomery County poverty appears as **22.4%** in one place and **21.9%** in another. Standardize on a single ACS vintage before publishing.
+
+## Extensions (`[conj]`, from the 2026-09-12 offshoots report)
+
+- **Mobile Credentialing Fleet:** the same depots host CDL information sessions, identity-document help and workforce referrals.
+- **"No license, no job" barrier audit:** use appointment data to find where the real barrier is distance, insurance, documents, internet access or instruction rather than the car.
+- **Reentry link:** people leaving prison who can't test can't drive to work (see [`project-renew.md`](project-renew.md)).
+
+## Still open
+
+- The insurance premium increase from adding these cars to the state pool.
+- An inventory of surplus vehicles that could join the fleet.
+- Troop K pilot data, once a pilot runs.
+- Re-verify the ASP checklist dates.
+
+## Sources
+
+See [`../SOURCES.md`](../SOURCES.md) § Driver's License.

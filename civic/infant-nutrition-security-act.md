@@ -49,7 +49,7 @@ infant actually receives therefore depends on the form:
 
 | Form | Federal cap (MMA) | What is actually issued | Monthly benefit |
 |---|---|---|---|
-| Liquid concentrate | 806 fl oz | 31 × 13-oz cans (26 fl oz each) | **806 fl oz** |
+| Liquid concentrate | **823** fl oz (Full Nutrition Benefit 806) | 31 × 13-oz cans (26 fl oz each). A 32nd can would make 832 and break the cap. | **806 fl oz** |
 | Ready-to-feed | 832 fl oz | 26 × 32-oz bottles | **832 fl oz** |
 | Powder | 870 fl oz | 9 × 12.4-oz cans (~90 fl oz each). A 10th can would make 900 and break the cap. | **~810 fl oz** |
 
@@ -83,6 +83,16 @@ day, capped near 32 fl oz/day. Over a 30-day month:
 
 The container counts for concentrate and ready-to-feed are arithmetic on the standard container
 sizes and match the MMAs exactly.
+
+**Label correction (2026-10-07).** The current rule (the 2024 WIC food-package final rule, as reproduced in 7 CFR § 246.10 Table 1) separates two numbers:
+- the **Full Nutrition Benefit**, the minimum that must be offered: 806 fl oz of concentrate;
+- the **Maximum Monthly Allowance**, the ceiling: **823** fl oz of concentrate, 832 ready-to-feed, 870 powder.
+
+Earlier versions of this doc and the statutory audit called 806 the "cap." The benefit actually issued (806 / 832 / ~810) and the gap arithmetic above **don't change**.
+
+**After month 3** (Food Package I, 4–5 months), the ceilings rise to **896 / 913 / 960** fl oz. That is close to the 32 oz/day appetite cap, so the gap narrows. The Month-End Gap is mainly a problem for heavier infants on concentrate or powder **in the first three months**. An older internal dossier gave "884 fl oz at 4–5 months"; that figure predates the current rule, so don't use it.
+
+*Source: Cornell LII, 7 CFR 246.10 Table 1 (read 2026-10-07); state WIC guides reproducing the 2024 rule.*
 
 ## The market structure — the sole-source distortion
 
@@ -142,7 +152,7 @@ surplus stands in front of the ratepayer).
    when USDA raises the federal MMAs or the contract structure is reformed;
    the state statute is a patch against a known federal defect, not a
    permanent parallel program.
-4. **No new agency** — administered by Arkansas DHHS through existing WIC
+4. **No new agency** — administered by the Arkansas Department of Health (the state WIC agency) through existing WIC
    clinic and EBT infrastructure; the program is a payment rule, not a
    bureaucracy.
 
