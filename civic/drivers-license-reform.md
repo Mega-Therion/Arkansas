@@ -1,7 +1,7 @@
 # Driver's License Public Access Guarantee Act
 
 **Classification:** Workforce Mobility & Administrative Reform
-**Status:** a 10-part legislative advocacy package was built and fact-checked on 2026-04-16 (in a ChatGPT session: `20_Sources/ChatGPT/2026-04/Fact-checking_Arkansas_Code.md`). The PDF that earlier versions of this doc pointed to (`drivers_license_access_reform_package.pdf`) is not on this PC, but the package text survives in that transcript and is summarized below. Model bill language: [`drafts/drivers-license-model-bill.md`](drafts/drivers-license-model-bill.md).
+**Status:** a **22-document legislative package** was built from April 12–14, 2026 and recovered on 2026-10-07: [`drivers-license-package-2026-04.md`](drivers-license-package-2026-04.md). It covers the legal memo, a five-model design matrix, the fiscal scaffold, need-ranked deployment (Phase 1 Montgomery/Hot Spring/Scott/Franklin; Phase 2 Phillips/Lee/Chicot/Desha/Woodruff; a ~40-vehicle statewide target), near-draft bill language, a county resolution, objections and charts. It was condensed and fact-checked on 2026-04-16 (`20_Sources/ChatGPT/2026-04/Fact-checking_Arkansas_Code.md`). **Its no-means-test rule comes from RY:** "life itself is the proof of hardship." Model bill language: [`drafts/drivers-license-model-bill.md`](drafts/drivers-license-model-bill.md).
 **Target:** 2027 Regular Session (96th General Assembly). This is Part II of the **Rural Family Stabilization Trilogy**:
 - Part I: [`armaws.md`](armaws.md)
 - Part III: [`infant-nutrition-security-act.md`](infant-nutrition-security-act.md)
@@ -27,7 +27,7 @@ You need a license to get a job, and a job to afford a car, tags and insurance. 
 
 - **Regional hubs:** Arkansas State Police troop headquarters stage and maintain the cars.
 - **Rotating county deployment:** standardized compact test cars rotate through rural test sites on scheduled days.
-- **Fleet source:** purchased through the state's existing vehicle process (the Automobile and Pickup Truck Acquisition Act, **§ 22-8-201 et seq.**, with the Motor Vehicle Acquisition Revolving Fund at **§ 22-8-206** ✓). Surplus state units would be pulled before auction.
+- **Fleet source:** purchased through the state's existing vehicle process (the Automobile and Pickup Truck Acquisition Act, **§ 22-8-201 et seq.**; DFA purchase authority at **§ 22-8-206** ✓; the Motor Vehicle Acquisition Revolving Fund itself is established at **§ 19-5-1002**, per the April review, not yet re-verified). Surplus state units would be pulled before auction.
   - **Correction:** "civilly forfeited" vehicles is not accurate. **§ 5-64-505** now bars forfeiture without a related felony conviction ✓.
 - **Insurance:** the state's existing vehicle self-insurance program. *(The § 21-5-701 citation is unverified.)*
 

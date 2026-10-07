@@ -40,7 +40,7 @@ Paths are relative to `/home/mega` unless they start with `notion:`. **Duplicate
 | `notion:` 🏛️ Arkancentric — Arkansas Civic Infrastructure & Legislative Architecture (`3c077b95a96581e6be87c633ca25b008`) | 2026-08-18 | Notion hub page with the Diamond Origin text | folded |
 | `notion:` 🌳 The ONE Natural Energy Ecosystem: The Arkansas Orchard Blueprint (`3c077b95a9658123b640cbd23b7784e9`); RENEW page `3c077b95a9658187a343f94a5a01b6ca` | 2026-08-18 | Notion copy of the blueprint | source only |
 | `.gemini/antigravity-cli/brain/9bf4e4ac…/scratch/deploy_one_and_renew.py` | 2026-08 | The script that published the ONE and RENEW pages to Notion | source only |
-| `Chyren/Chyren_Second_Brain/80_Archive/Antigravity_Transcripts/antigravity-cli__9bf4e4ac-e506-4b23-b7ef-be8e79ef97b5.md` | 2026-08 | The 73,935-line "origin conversation" for Arkancentric. **Still not read in full**, so it's the top follow-up target | source only |
+| `Chyren/Chyren_Second_Brain/80_Archive/Antigravity_Transcripts/antigravity-cli__9bf4e4ac-e506-4b23-b7ef-be8e79ef97b5.md` | 2026-08-17/18 | The "origin conversation" (73,935 lines). **Read 2026-10-07.** Its Arkansas part (about lines 3,000–8,000) is the session that searched Qdrant and `knowledge.db` and built the Notion hub. Everything else is an unrelated ingest-pipeline build. New find from it: the April package in `knowledge.db` (above) | source only; mined |
 | `Chyren/Chyren_Second_Brain/20_Sources/ChatGPT/2026-03/One_Natural_Energy_Overview.md` | 2026-03-10 | RY's first full ONE architecture request ("from the roots to the cloud") | folded |
 | `Chyren/Chyren_Second_Brain/20_Sources/ChatGPT/2025-12/First_mention_of_foundRY.md` | 2025-12-24 | foundRY first used about Dec 11, 2025; the stylized spelling by Dec 17, 2025 | folded |
 
@@ -61,7 +61,11 @@ Paths are relative to `/home/mega` unless they start with `notion:`. **Duplicate
 | `Chyren/Chyren_Second_Brain/20_Sources/ChatGPT/2026-04/Fact-checking_Arkansas_Code.md` | 2026-04-16 | The fact-check plus the full **10-document advocacy package** text | **folded** → `civic/drivers-license-reform.md` |
 | `Chyren/chyren-aeon/aeon-work/research/Master_Corpus_Archive/06_Notes_and_General_Corpus/chat_transcripts/2026-08-10_*.md` | 2026-08-10 | "Is it too late to submit my driver's license reform package…" and a nonpartisan-researcher prompt | source only (stubs) |
 | `notion:` 🪪 Driver's License Public Access Guarantee Act (`3c077b95a96581c3a394ca3a2a37d861`) | 2026-08-18 | Rotating Troop Fleet dossier | folded (earlier) |
-| `drivers_license_access_reform_package.pdf` | 2026-04 | The exported package | **missing** as a file; its text survives in the 04-16 transcript |
+| `~/.chyren/knowledge.db` → document "Legislative Advocacy Package" (ChatGPT, 2026-04-14) | 2026-04-13/14 | **The full 22-document package**: legal memo, path analysis, five-model design matrix, fiscal scaffold, need-ranked deployment, findings, bill outline, near-draft bill language, pilot memo, county resolution, cover letters, objections, citations, charts | **in repo** → `civic/drivers-license-package-2026-04.md` (letters 14–16 withheld: personal address) |
+| `~/.chyren/knowledge.db` → "Conversation check" (2026-04-12) + "Branch · Conversation check" (2026-04-15) | 2026-04-12/15 | The origin threads: RY's first framing ("life itself is the proof of hardship"), deep-research prompt, Perplexity reviews (§ 19-5-1002 fund correction, the April 8 fiscal-session deadline) | **folded** |
+| `Final_Arkansas_Driver_Testing_Access_Reform.docx/.pdf`, `arkansas_driver_testing_access_reform_submission.docx/.pdf` | 2026-04-14 | Final exports generated in ChatGPT's sandbox | **missing**: never downloaded to this machine. Re-export from the ChatGPT thread `69dd929f…` if it is still available |
+| `drivers_license_access_reform_package.pdf` | 2026-04 | The exported package (old repo reference) | **missing** as a file; the full text is recovered above |
+| NotebookLM overviews `Arkansas_s_Licensing_Catch-22.mp4`, `State_Vehicles_for_Arkansas_Driving_Tests.m4a` | 2026-04 | Audio and video overviews of the package; their transcripts are indexed in `knowledge.db` | media files not on disk |
 | `Chyren/Research_and_Data/02_Documents/Voice_and_Rants/Ryan_Rare_Hidden_Gems.md` | — | The source of the Maddox/Rice sponsor names | source only |
 
 ## AINSA
