@@ -34,7 +34,7 @@ Status: blueprint/manifesto stage, not yet filed as statute text.
 
 - **850+ jobs** projected.
 - **$2.5M–$4M** total estimated tax benefit over 5 years.
-- **45U Nuclear Power Production Credit:** ~**$262k/yr per MW** for co-located nuclear compute.
+- **45U Nuclear Power Production Credit:** the draft said ~$262k/yr per MW for co-located nuclear compute. That is about twice the statutory maximum. One MW for a full year is 8,760 MWh, and 45U pays at most 1.5¢/kWh ($15/MWh with the prevailing-wage requirements met; the base rate is 0.3¢), so at most ~$131k/yr per MW, before the phase-down that starts when the plant's gross receipts exceed 2.5¢/kWh (26 U.S.C. § 45U; the cent amounts are inflation-adjusted after 2024). The credit goes to the plant owner that produces and sells the power, not to a compute tenant.
 - **30% Investment Tax Credit** applied to qualifying buildout.
 
 ## Feedstock anchor — bauxite residue REE/critical-minerals recovery
@@ -63,7 +63,7 @@ caveat as the rest of this document. Confirm current figures before citing exter
   - power for the other branches.
 - **Still unverified:**
   - 850+ jobs and the tax-benefit range;
-  - "~$262k/yr per MW" under 45U, and whether 45U applies to this structure at all (45U pays the plant owner);
+  - whether 45U applies to this structure at all (45U pays the plant owner), and at what rate: the drafted "~$262k/yr per MW" is twice the ~$131k statutory maximum (see above);
   - "carbon-negative compute";
   - the 250 ms curtailment figure.
 
