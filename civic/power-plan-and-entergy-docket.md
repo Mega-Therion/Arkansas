@@ -60,7 +60,8 @@ The Commission's online form for this docket is at `apps.apsc.arkansas.gov/olsv2
 
 Two things the form states that matter before anyone files:
 - It requires a name, mailing address, city, state, postal code and e-mail address.
-- "Your public comment will be posted on the Commission's website and will be available for viewing by any member of the public." The page does not say which of the required fields are published with it.
+- "Your public comment will be posted on the Commission's website and will be available for viewing by any member of the public." The form page does not say which of the required fields are published with it.
+- What a posted comment shows: the docket's public listing (228 comments on 2026-10-13) gives each commenter's name and the date. One posted comment opened that day, submitted through the online form, showed the commenter's name, mailing address, e-mail address and IP address in the public PDF. That is one sample, not a survey; assume everything typed into the form is published.
 
 ## The four things that move a bill
 
