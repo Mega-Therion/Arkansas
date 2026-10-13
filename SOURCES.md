@@ -89,6 +89,11 @@ Paths are relative to `/home/mega` unless they start with `notion:`. **Duplicate
 | `Chyren/Chyren_Second_Brain/70_Memory/entergy_ratepayer_defense_and_arkansas_wholonomy.md` | 2026-08 | The 1,707-line Perplexity session: bill mechanics, four moves, constitutional theories, messaging, Diamond Foundation origin | **folded** → `civic/power-plan-and-entergy-docket.md` |
 | `notion:` ⚡ "thank God i live in Arkansas" (`3c077b95a96581cc9e71f906ebdec42f`) | 2026-08-18 | RY's power manifesto, assembled from his verbatim messages | **in repo** → `civic/power-manifesto-in-his-words.md` |
 | `notion:` Electric-Bill-Price-Factors-verbatim.md | 2026-08-18 | Verbatim ChatGPT transcript | source only |
+| APSC Docket 26-001-U, Order No. 15 (Doc. 183), `apps.apsc.arkansas.gov/pdf/26/26-001-U_183_1.pdf` | 2026-07-30 | The modified procedural schedule: testimony rounds, the two October public comment hearings, settlement dates, the November 4–5 evidentiary hearing | **read 2026-10-13** → `civic/power-plan-and-entergy-docket.md` |
+| APSC hearings calendar entry for the evidentiary hearing; APSC public comment form for 26-001-U | read 2026-10-13 | Hearing time, room and status; what the comment form requires and publishes | **read** → same page |
+| Arkansas Times, "State agencies: Entergy needs to trim its profits" | 2026-08-20 | Attorney General and Staff positions, the return-on-equity dispute, the October hearings | secondary (◇) → same page |
+| AAEA "Arkansas Regulatory Updates" page; SREA news post of 2026-08-31 | read 2026-10-13 | Schedule as intervenors list it; AAEA's rate-impact figures | secondary (◇) → same page |
+| `Chyren/Chyren_Second_Brain/80_Archive/Antigravity_Transcripts/antigravity-cli__81c43aeb-….md` | 2026-10-03 | The session where RY parked the four-state "goose/gander" compact (repo commit `6202238`) | source only; its utility-history narrative is unverified and was not folded |
 
 ## ONE, branches, quartz, ARK Lane
 

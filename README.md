@@ -70,11 +70,16 @@ rest of this repo yet, flagged rather than silently merged.
   reports but are not yet filed as statute text.
 - **AINSA (Arkansas Infant Nutrition Security Act)** exists as a policy blueprint
   ([`civic/infant-nutrition-security-act.md`](civic/infant-nutrition-security-act.md)) — Part III of
-  the Rural Family Stabilization Trilogy with ARMAWS and the Driver's License Act; not yet drafted
-  as statute text. Its figures are cited from named public sources (USDA ERS, GAO, AAP, 7 CFR
+  the Rural Family Stabilization Trilogy with ARMAWS and the Driver's License Act. Model bill text
+  was drafted 2026-10-07 ([`civic/drafts/ainsa-model-bill.md`](civic/drafts/ainsa-model-bill.md));
+  counsel and BLR have not reviewed it. Its figures are cited from named public sources (USDA ERS, GAO, AAP, 7 CFR
   246.10) but unaudited, per the standing caveat below.
-- The **Entergy ratepayer / power plan** (APSC Docket No. 26-001-U, Rate Stabilization Fund) exists
-  as a manifesto, not yet drafted as statute text or filed as public comment.
+- The **Entergy ratepayer / power plan** (APSC Docket No. 26-001-U, Rate Stabilization Fund) has a
+  written manifesto and mechanism, and model bill text for the fund
+  ([`civic/drafts/rate-stabilization-fund-model-bill.md`](civic/drafts/rate-stabilization-fund-model-bill.md)).
+  No public comment has been filed. The docket's remaining dates, read in the Commission's Order
+  No. 15 on 2026-10-13: public comment hearings October 20 and October 27, issues list or
+  settlement October 23, evidentiary hearing November 4–5, 2026.
 - Financial figures throughout (patent-claim counts, fiscal dividend estimates, recidivism-savings
   estimates, RENEW's revenue lines, ONE's job/tax/credit figures) come from early portfolio drafts
   and are **unverified** unless a doc says otherwise. Two source documents disagree on the
@@ -98,10 +103,12 @@ rest of this repo yet, flagged rather than silently merged.
   - 7 CFR § 246.10 (WIC maximum monthly allowances);
   - Acts 670 and 927 of 2025;
   - APSC Docket No. 26-001-U (Entergy Arkansas rate case: filed 2026-02-27; evidentiary hearing
-    2026-11-04).
+    2026-11-04 to 11-05).
 
   All of these were confirmed on 2026-10-03. Seven errors in the first draft were corrected,
-  including the hearing dates, the formula allowances and the six invariants. ANO figures and some
+  including the hearing dates, the formula allowances and the six invariants. One of those seven
+  was itself an error: the audit removed two October public comment hearings that are real. They
+  were restored on 2026-10-13 from Order No. 15. ANO figures and some
   secondary citations are marked unverified. The Mount Ida quartz assay is still pending; none
   has been run.
 - **Quartz archive (5D optical storage)** — added 2026-10-03 from the 2026-09-18/20 work: data written

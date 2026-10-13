@@ -64,6 +64,7 @@ The Manus agent failed at step index 3 with an unrecoverable error, having done 
     *   Administrative Law Judge Wesley Hunt presides.
     *   A **public comment hearing** was scheduled for **July 29, 2026**, and the **evidentiary hearing** for **November 4, 2026** (Arkansas.gov event listings).
     *   *The earlier draft's Batesville (Oct 20) and El Dorado (Oct 27) hearing dates could not be found and were removed.*
+    *   **Correction, 2026-10-13: the line above was wrong.** Both dates are public comment hearings set by the Commission in Order No. 15 (July 30, 2026, Doc. 183), which also sets the evidentiary hearing for **November 4–5**. This audit's search missed them; the earlier draft was right. The full schedule is in the repo doc.
 *   **Rate Stabilization Fund Mechanics:** A reserve funded from state General Revenue surplus would shield residential customers from Fuel Adjustment Clause volatility and rider escalations. This is a policy proposal; APSC rate authority sits in **Ark. Code Ann. § 23-4-101 et seq.**
 
 ---
@@ -140,11 +141,11 @@ Every repo-named statute and docket in the brief was checked against primary or 
 - 7 CFR § 246.10, Table 1 (806 / 832 / 870 fl oz).
 - Act 670 of 2025 (SB 485; supervision reform).
 - Act 927 of 2025 (HB 1876; generative-AI ownership; signed 2025-04-21).
-- APSC Docket 26-001-U (title; filed 2026-02-27; ALJ Hunt; hearings 2026-07-29 and 2026-11-04).
+- APSC Docket 26-001-U (title; filed 2026-02-27; ALJ Hunt; hearings 2026-07-29 and 2026-11-04). *Added 2026-10-13 from Order No. 15: public comment hearings 2026-10-20 and 2026-10-27; the evidentiary hearing runs 2026-11-04 to 11-05.*
 - Conn. Gen. Stat. § 14-325a (free public use; 80 psi; signage).
 
 **Corrected in this pass:**
-1. The APSC hearing dates.
+1. The APSC hearing dates. *(2026-10-13: this correction removed two real public comment hearings, October 20 and October 27. They are restored; see Part V.)*
 2. The CT § 14-325a description (and the unverified California bill number was dropped).
 3. The 7 CFR § 246.10 allowance (caps 806 / 832 / 870 fl oz; actually issued 806 / 832 / ~810, because powder comes in whole cans).
 4. The Act 927 summary (unconfirmed re-identification clause and exact effective date removed).

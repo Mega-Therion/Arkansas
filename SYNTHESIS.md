@@ -114,7 +114,7 @@ These are the joints most likely to break. The plan is better for naming them.
 
 | Order | Piece | Why first |
 |---|---|---|
-| 1 | **Comment on Entergy docket 26-001-U** | Free. APSC rules allow written public comments (23 CAR § 462-407(c)); evidentiary hearing Nov 4, 2026. Confirm the deadline with the Commission Secretary first |
+| 1 | **Comment on Entergy docket 26-001-U** | Free. APSC rules allow written public comments (23 CAR § 462-407(c)). Public comment hearings October 20 and October 27, 2026; evidentiary hearing November 4–5 (dates updated 2026-10-13 from Order No. 15). The Commission posts comments publicly; see the docket page before filing |
 | 2 | **ARMAWS + the driver's license act**, pre-filed for 2027 | Cheapest, clearest, built on a real legal finding, with a 47-year Connecticut precedent and a D.C. precedent |
 | 3 | **AINSA** | Same household, same doctrine, a small and well-defined cost |
 | 4 | **Rate Stabilization Fund** | Larger. Pass it once the first bills have shown the doctrine works |

@@ -16,8 +16,8 @@
 | Residential customer charge | **$8.40 → $12.92/month** proposed ✓ |
 | New low-income customer charge | **$6.46/month** proposed ✓ |
 | Entergy's stated average residential impact | **+$1.16/month (0.84%)** ◇ |
-| Hearings | Public comment hearing July 29, 2026; **evidentiary hearing November 4, 2026** (confirmed in the 2026-10-03 audit; ALJ Wesley Hunt) |
-| Written comments | Allowed: "relevant public comments, which may be in writing or orally at the hearing" (APSC Procedural Rule 23 CAR § 462-407(c), quoted in the legal notice ✓). Confirm the current deadline with the Commission Secretary |
+| Hearings | Public comment hearings: July 29, 2026 (held), **October 20, 2026** (Batesville) and **October 27, 2026** (El Dorado). **Evidentiary hearing November 4–5, 2026**, 9:30 a.m., Commission hearing room. All ✓ in Order No. 15; see the schedule below. Presiding officer: ALJ Wesley Hunt, designated in Order No. 1 ◇ |
+| Written comments | Allowed: "relevant public comments, which may be in writing or orally at the hearing" (APSC Procedural Rule 23 CAR § 462-407(c), quoted in the legal notice ✓). The Commission takes them through an online form, by mail or in person; see "How a comment gets in" below. No closing date for written comments was found in Order No. 15; confirm it with the Commission Secretary |
 | New rates | From the first billing cycle of January 2027, if approved |
 
 **To be fair to the record:** Entergy's own reported average-impact number is small. The plan's argument isn't that this one case is huge. Its argument is about **shape**:
@@ -25,7 +25,42 @@
 - riders that move every meter at once;
 - temporary riders becoming permanent base rates.
 
-The 2026-08 working session cited different hearing dates (Batesville Oct 20, El Dorado Oct 27). The 2026-10-03 audit couldn't find them, so they were removed. Don't use them.
+**Correction, 2026-10-13.** This page used to say that the Batesville (October 20) and El Dorado (October 27) dates from the 2026-08 working session could not be found and should not be used. That was wrong. Both are public comment hearings set by the Commission in Order No. 15, and Entergy's notice page, the Arkansas Times, SREA and AAEA all list them. The 2026-08 session had them right; the 2026-10-03 audit's search missed them.
+
+## Procedural schedule
+
+✓ Read 2026-10-13 in **Order No. 15** (July 30, 2026, Doc. 183, issued by an administrative law judge under delegation), which modified the schedule first set in Order No. 13. The evidentiary hearing's time, room and "Scheduled" status were read the same day on the Commission's hearings calendar.
+
+| Date (2026) | Event |
+|---|---|
+| August 19 | Direct testimony, Staff and intervenors (filed) |
+| September 16 | Rebuttal testimony, Entergy Arkansas |
+| October 6 | Surrebuttal testimony, Staff and intervenors |
+| October 16 | Sur-surrebuttal testimony, Entergy Arkansas |
+| **October 20** | **Public comment hearing, Batesville** (6 p.m. per Entergy's notice page ◇) |
+| October 23 | Issues list or settlement |
+| **October 27** | **Public comment hearing, El Dorado** |
+| October 29 | Opposition to settlement |
+| **November 4–5** | **Evidentiary hearing**, 9:30 a.m., Commission hearing room |
+
+## Where the parties stand
+
+◇ throughout: taken from the Arkansas Times (2026-08-20) and AAEA's regulatory update page (read 2026-10-13). The testimony itself has not been read.
+
+- **Attorney General's office** (consultant testimony, Doc. 195): Entergy does not need its requested base-rate increase of about $44.6M (about $29M after an adjustment) and should instead reduce revenue by about $77.5M.
+- **Commission General Staff** (Doc. 225): Entergy has excess revenue of almost $79M, about $123M away from what it requested.
+- **Return on equity:** 9.65% now. The requested figure is reported as 9.85% (AAEA) and as 9.9% (Arkansas Times); the two reports differ and the filing has not been checked.
+- **Residential impact:** Entergy says close to nothing. AAEA computes about 4.9% for residential customers, more than 7% for many small businesses and close to 12% for agricultural irrigation.
+- **Stacking:** AAEA counts this case as the third increase request of 2026, after a 4.54% formula rate plan increase in January and the 4% Generating Arkansas Jobs Act rider in June.
+- Nine intervenors filed testimony by the August 19 deadline.
+
+## How a comment gets in
+
+The Commission's online form for this docket is at `apps.apsc.arkansas.gov/olsv2/PublicCommentForm.asp?DocNum=26-001-U` (opened 2026-10-13 ✓). Comments can also go by mail to the Secretary of the Commission, in person at the Commission's office, or orally at a public comment hearing.
+
+Two things the form states that matter before anyone files:
+- It requires a name, mailing address, city, state, postal code and e-mail address.
+- "Your public comment will be posted on the Commission's website and will be available for viewing by any member of the public." The page does not say which of the required fields are published with it.
 
 ## The four things that move a bill
 
@@ -61,7 +96,7 @@ From RY's own rules (see the manifesto):
    - Don't fold riders into base without a sunset.
    - Don't raise the fixed charge on low users.
    - If the state wants new plants, the state stands in front of the rider.
-   - It's free. The rule allows written comments; confirm the deadline with the Commission Secretary before filing.
+   - It's free. As of 2026-10-13 a comment can still go in through the Commission's online form, by mail, in person, or orally at the October 20 and October 27 public comment hearings. The parties' issues list or settlement is due October 23, and the evidentiary hearing is November 4–5. See "How a comment gets in" above for what the form requires and publishes.
 2. **A Rate Stabilization Fund statute.** This is the mechanism; see the model bill.
 3. **A citizen-initiated constitutional amendment.**
    - Signatures equal to 10% of votes cast in the last governor's race, gathered in at least 15 counties *(per the 2026-08 session; re-verify the exact requirements)*.
@@ -99,8 +134,11 @@ There are three traps of the same shape: a paywall on air, a vehicle requirement
 - **Community energy dividend.**
   - A share of verified revenue from a large flexible load funds weatherization and bill credits in the affected area.
   - This isn't a claim that such a dividend is currently lawful.
-- **"Four Streams into One Living Water"** (parked 2026-10-03).
+- **"Four Streams into One Living Water"** (parked 2026-10-03). Also called the **goose/gander play**.
   - A four-state ratepayer compact across Entergy's territories: Arkansas, Louisiana, Mississippi and Texas.
+  - RY's framing when he parked it: fold the other three states into the same fix, "to try to play the whats good for the goose is good for the gander sort of angle."
+  - The parked outline had three parts: surplus-funded rate buffers before each state's commission, coordinated interruptible industrial load, and the four territories acting as one ratepayer bloc.
+  - Nothing further on it is in this repository.
 
 ## Open
 
