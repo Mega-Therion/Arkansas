@@ -159,6 +159,12 @@ What it means for the design `[O]`:
 - Fuel and purchased-power swings passed through the fuel adjustment clause are the candidate; base-rate increases are not.
 - Testing that needs the fuel adjustment clause's rate history from the Commission's filings, which the statewide average does not separate. That is the next step.
 
+A first pass with a stand-in for fuel costs (`analysis/fuel_keyed_stabilization.py`, run 2026-10-13) `[O]`:
+- **The stand-in.** It is the part of the statewide price that tracks the Henry Hub natural gas price three months earlier. It adds little: price on a time trend alone explains 76.4% of the month-to-month variance, and adding gas raises that to 78.9%.
+- **Targeting.** A fund keyed to the stand-in spends a larger share of its dollars on rises that later reverse: 18–28%, against 4–13% for a fund keyed to every price rise.
+- **The worst years are not touched.** The two largest 12-month rises, 22.9% (February 2021) and 15.4% (February 2023), show almost no gas-tracking component in the stand-in, so a fund keyed to it pays nothing in those months.
+- **Conclusion.** A gas-price proxy cannot settle the question. The Commission's fuel adjustment clause filings are still needed.
+
 Limits: the statewide average covers all Arkansas utilities, not Entergy Arkansas alone. The section 5(2) offset and the section 6 cap are not modelled, and usage changes are excluded.
 
 ## Open
