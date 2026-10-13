@@ -141,9 +141,29 @@ There are three traps of the same shape: a paywall on air, a vehicle requirement
   - The parked outline had three parts: surplus-funded rate buffers before each state's commission, coordinated interruptible industrial load, and the four territories acting as one ratepayer bloc.
   - Nothing further on it is in this repository.
 
+## Does the fund smooth bills, or only delay increases? (modelled 2026-10-13)
+
+`[D]`, computed on EIA-861M statewide Arkansas residential data, January 2010 to July 2026 (the last 19 months are preliminary). Script and data: [`analysis/rate_stabilization_volatility.py`](analysis/rate_stabilization_volatility.py) and `analysis/data/eia861m_arkansas_residential.csv`; full output in `analysis/rate_stabilization_volatility.json`.
+
+The rule simulated is the model bill's first payer. When the residential price is more than θ above its level twelve months earlier, the fund pays the part above θ on every kWh sold, until its money runs out. A built-in check confirms the mechanism: a permanent step is paid for exactly twelve months, and a one-month spike never reaches households.
+
+What the record shows:
+- **Most of what the fund would pay for never goes away.** Of the fund dollars spent on rises that can be followed for 24 months, 86–92% went to rises still present two years later, depending on θ and fund size. Only 8–14% went to rises that reversed.
+- **For a rise that persists, the fund is a delay of up to a year.** After twelve months the rise becomes the new baseline, the fund stops, and households pay the full new level.
+- **It does cut the worst year.** The largest 12-month rise households would have seen falls from 22.9% to 15.4% with a $100M or $250M fund at θ = 5%, and to 10.8% with $655M, the whole FY2026 surplus.
+- **It spends fast.** A $250M fund is gone in 43 months at θ = 5%. A $655M fund pays out $343M over the period, $65M of it on rises too recent to classify.
+- **Arkansas prices did not come back down after the 2021–22 rise.** The annual average residential price was 10.42¢/kWh in 2020, 12.05¢ in 2022, 12.37¢ in 2024 and 13.67¢ in 2026 through July.
+
+What it means for the design `[O]`:
+- A fund keyed to every 12-month price rise mostly postpones increases by a year. To smooth instead of postpone, the trigger has to target costs that reverse.
+- Fuel and purchased-power swings passed through the fuel adjustment clause are the candidate; base-rate increases are not.
+- Testing that needs the fuel adjustment clause's rate history from the Commission's filings, which the statewide average does not separate. That is the next step.
+
+Limits: the statewide average covers all Arkansas utilities, not Entergy Arkansas alone. The section 5(2) offset and the section 6 cap are not modelled, and usage changes are excluded.
+
 ## Open
 
-- An honest model question: does a surplus-funded stabilizer *reduce* volatility, or only *delay* a rate increase? The model bill answers with a cap and a reporting requirement. The economics need a real model.
+- Separate the fuel adjustment clause from base rates in the Commission's filings, then re-run the model on the fuel component alone (see the section above).
 - Re-verify the amendment-petition requirements and the 2025 Arkansas Supreme Court ruling on legislative amendment of initiated measures.
 - The ANO "~56% of Entergy Arkansas demand" figure is unverified.
 
