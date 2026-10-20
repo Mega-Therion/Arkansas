@@ -20,9 +20,11 @@
 (a) There is created in the State Treasury the Residential Rate Stabilization Fund.
 (b) The fund consists of amounts transferred from general revenue surplus as provided by the Revenue Stabilization Law, and of interest earned. The fund balance may not exceed [__].
 (c) Unspent balances roll over from month to month and from year to year.
+(d) **Principal protected.** The amount transferred into the fund is principal and shall be invested by the State Treasurer under the State Treasury investment law. Payments under Section 5(1) are drawn only from investment earnings. Principal may be drawn only after the Governor declares an energy-price emergency, up to [__] percent of principal in any twelve-month period, and amounts drawn are restored from later earnings before any other use under subsection (e).
+(e) **Use of surplus earnings.** Earnings not needed for Section 5(1) payments in a fiscal year, above a reserve of [__], may be appropriated for [__].
 
 **SECTION 5. Order of payment.** When the Commission approves an extraordinary adjustment, the residential portion shall be paid in this order:
-(1) **First,** by the fund, up to the monthly draw limit set by the Commission;
+(1) **First,** by the fund's available earnings under Section 4(d), up to the monthly draw limit set by the Commission;
 (2) **Second,** by offsetting it against the unused usage margin of residential customers in the same rate class whose consumption fell below their own twelve-month average, so that customers who used less are not charged for a cost they did not cause **[VERIFY the methodology with Commission staff]**;
 (3) **Last,** any remainder is spread across the residential class per kilowatt-hour, not per customer.
 
