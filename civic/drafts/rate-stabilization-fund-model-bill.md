@@ -1,6 +1,6 @@
 # MODEL BILL: Arkansas Residential Rate Stabilization Fund
 
-*Model text for BLR and counsel review. Not filed. Built from RY's rules in [`../power-manifesto-in-his-words.md`](../power-manifesto-in-his-words.md). See [`README.md`](README.md).*
+*Model text for BLR and counsel review. Not filed. Must match [`../POWER_PLAN_CANON.md`](../POWER_PLAN_CANON.md) before any change ships. Built from RY's rules in [`../power-manifesto-in-his-words.md`](../power-manifesto-in-his-words.md). See [`README.md`](README.md).*
 
 **AN ACT TO CREATE THE RESIDENTIAL RATE STABILIZATION FUND, SO THAT EXTRAORDINARY RESIDENTIAL ELECTRIC RATE ADJUSTMENTS ARE ABSORBED BY STATE SURPLUS, THEN BY THE UTILITY, THEN BY FUND EARNINGS, BEFORE ANY REMAINDER IS SHARED STATEWIDE ON HOUSEHOLD BILLS; AND FOR OTHER PURPOSES.**
 
@@ -25,7 +25,7 @@
 
 **SECTION 5. Order of payment.** When the Commission approves an extraordinary cost, the residential portion shall be paid in this order:
 (1) **First,** by the fund's principal, up to the monthly draw limit set by the Commission;
-(2) **Second,** by the utility operating reserve;
+(2) **Second,** by the system's own slack: the utility operating reserve, and then by offsetting against the unused usage of residential customers whose consumption fell below their own twelve-month average, so that a customer who used less is never charged extra for a cost they did not cause **[VERIFY the offset methodology with Commission staff]**;
 (3) **Third,** by the fund's earnings account;
 (4) **Last,** any remainder is spread per kilowatt-hour across residential customers statewide, so that a cost falling on one region is shared by every region and no area carries a disaster alone **[VERIFY with Commission staff how to apply one statewide charge across Entergy, the other investor-owned utilities and the cooperatives]**.
 
