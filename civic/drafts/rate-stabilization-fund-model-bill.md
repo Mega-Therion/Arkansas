@@ -13,7 +13,7 @@
 (4) The state carries general revenue surpluses in many years, including $655 million at the close of fiscal year 2026.
 
 **SECTION 3. Definitions.**
-(1) "Extraordinary adjustment" means an increase in a residential charge, other than in the per-kilowatt-hour base energy rate, that the Arkansas Public Service Commission approves outside a general rate case, or a fixed-charge increase approved in a general rate case, that raises the average residential bill by more than [__] percent in a twelve-month period;
+(1) "Extraordinary adjustment" means an increase in the residential fuel and purchased-power charge recovered through the energy cost recovery (fuel adjustment) rider that raises the average residential bill by more than [__] percent in a twelve-month period. It does not include a base-rate change, a fixed customer charge, a formula rate plan adjustment, or any rider that recovers the cost of new or under-construction generating plant, including recovery under Act 373 of 2025;
 (2) "Fund" means the Residential Rate Stabilization Fund.
 
 **SECTION 4. Fund created.**
@@ -32,4 +32,4 @@
 
 **SECTION 8. Not a subsidy of utility returns.** Nothing in this act changes the Commission's duty to set just and reasonable rates under § 23-4-101 et seq. The fund pays costs the Commission has already found reasonable. It never raises an allowed return.
 
-**SECTION 9. Review.** The Commission shall report after three years on whether the fund reduced bill volatility or only delayed increases, and shall recommend whether to continue it.
+**SECTION 9. Review.** The Commission shall report after three years on whether the fund reduced bill volatility or only delayed increases, If the report finds that the fund mainly delayed increases rather than reducing volatility, the fund stops making payments ninety days after the report is filed, and its balance returns to general revenue unless the General Assembly acts to continue it.
