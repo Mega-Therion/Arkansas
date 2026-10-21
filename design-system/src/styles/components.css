@@ -513,3 +513,363 @@
   .station-copy strong { font-size: 8px; }
   .chart-footer { flex-wrap: wrap; }
 }
+
+/* ==========================================================================
+   Arkansas Orchard Flagship Additions (Sovereign UI)
+   ========================================================================== */
+
+.hero-actions-multi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.hero-btn-secondary {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(27, 61, 47, 0.22);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ouachita-pine-needle);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.22s var(--motion-fluid);
+  backdrop-filter: blur(8px);
+}
+
+.hero-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(27, 61, 47, 0.45);
+  box-shadow: var(--shadow-card);
+  transform: translateY(-1px);
+}
+
+.stat-pills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.stat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(27, 61, 47, 0.12);
+  border-radius: 20px;
+  font-family: 'DM Mono', monospace;
+  font-size: 8.5px;
+  color: var(--ouachita-pine-needle);
+}
+
+.stat-pill strong {
+  font-weight: 700;
+  color: var(--honey-600);
+}
+
+.trilogy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+@media (max-width: 900px) {
+  .trilogy-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.trilogy-card {
+  padding: 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.trilogy-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.trilogy-card__title {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--ouachita-pine-needle);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.trilogy-card__code {
+  font-family: 'DM Mono', monospace;
+  font-size: 8.5px;
+  color: #6C7A72;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.trilogy-card__desc {
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: #3C4A42;
+  margin: 0;
+}
+
+.trilogy-card__quote {
+  margin: 4px 0 0;
+  padding: 10px 14px;
+  background: rgba(226, 243, 233, 0.45);
+  border-left: 3px solid var(--honey-500);
+  border-radius: 0 6px 6px 0;
+  font-size: 10.5px;
+  font-style: italic;
+  color: #2D3D34;
+  line-height: 1.5;
+}
+
+.trilogy-card__footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid rgba(27, 61, 47, 0.08);
+  font-size: 9px;
+  font-family: 'DM Mono', monospace;
+}
+
+/* Tree visualization */
+.tree-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.tree-level {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tree-level__tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6E7C73;
+}
+
+.tree-branches-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .tree-branches-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .tree-branches-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.branch-node {
+  padding: 14px 12px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(27, 61, 47, 0.14);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.branch-node:hover {
+  transform: translateY(-2px);
+  border-color: var(--honey-400);
+}
+
+.branch-node strong {
+  font-size: 12px;
+  color: var(--ouachita-pine-needle);
+}
+
+.branch-node span {
+  font-size: 9px;
+  color: #55665D;
+  line-height: 1.4;
+}
+
+/* Six Moves */
+.moves-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+@media (max-width: 900px) {
+  .moves-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .moves-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.move-card {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.move-card__num {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--retroreflective-yellow);
+  background: var(--ouachita-pine-needle);
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.move-card__title {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--ouachita-pine-needle);
+  margin: 0;
+}
+
+.move-card__body {
+  font-size: 11px;
+  line-height: 1.55;
+  color: #384A40;
+  margin: 0;
+}
+
+.move-card__proof {
+  font-family: 'DM Mono', monospace;
+  font-size: 8.5px;
+  color: var(--pine-700);
+  background: rgba(169, 214, 195, 0.25);
+  padding: 5px 8px;
+  border-radius: 4px;
+  margin-top: auto;
+}
+
+/* Defense & Energy Sections */
+.sovereign-banner {
+  padding: 28px 32px;
+  border-radius: var(--radius-panel);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.sovereign-banner__quote {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.7;
+  color: #10231B;
+  border-left: 4px solid var(--honey-500);
+  padding-left: 18px;
+  margin: 8px 0;
+}
+
+.resource-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 16px;
+}
+
+@media (max-width: 900px) {
+  .resource-pillars-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pillar-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pillar-card strong {
+  font-size: 14px;
+  color: var(--ouachita-pine-needle);
+}
+
+.pillar-card p {
+  font-size: 11px;
+  line-height: 1.55;
+  color: #3C4E43;
+  margin: 0;
+}
+
+/* Invariants grid */
+.invariants-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+@media (max-width: 900px) {
+  .invariants-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .invariants-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.invariant-card {
+  padding: 16px 18px;
+  border: 1px solid rgba(27, 61, 47, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.invariant-card strong {
+  font-size: 12.5px;
+  color: var(--ouachita-pine-needle);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.invariant-card p {
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: #485A50;
+  margin: 0;
+}
