@@ -1,2 +1,5 @@
 .DS_Store
 *.log
+
+design-system/node_modules/
+design-system/dist/
