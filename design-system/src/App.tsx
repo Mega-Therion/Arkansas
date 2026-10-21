@@ -666,8 +666,8 @@ function App() {
             <QuartzPanel className="motion-reveal-panel" tone="pine" sheen>
               <div className="motion-video-wrap">
                 <video
-                  src="/chrome_logo_reveal.mp4"
-                  poster="/logo_reveal_lastframe.png"
+                  src="./chrome_logo_reveal.mp4"
+                  poster="./logo_reveal_lastframe.png"
                   controls
                   playsInline
                   autoPlay
@@ -700,7 +700,7 @@ function App() {
                   <pre className="motion-ascii-box">{logoAsciiArt}</pre>
                 ) : (
                   <div className="flex items-center gap-3 mt-2">
-                    <img src="/rwy.png" alt="R.W. Yett Mark" className="h-10 rounded border border-white/20" />
+                    <img src="./rwy.png" alt="R.W. Yett Mark" className="h-10 rounded border border-white/20" />
                     <div className="text-xs font-mono text-pine-200">
                       <span>R.W. YETT (RY)</span>
                       <span className="block text-[10px] text-pine-400">SOVEREIGN BRAND ASSET</span>
@@ -852,8 +852,8 @@ function App() {
             <QuartzPanel className="motion-reveal-panel" tone="pine" sheen>
               <div className="motion-video-wrap">
                 <video
-                  src="/chrome_logo_reveal.mp4"
-                  poster="/logo_reveal_lastframe.png"
+                  src="./chrome_logo_reveal.mp4"
+                  poster="./logo_reveal_lastframe.png"
                   controls
                   playsInline
                   autoPlay
@@ -886,7 +886,7 @@ function App() {
                   <pre className="motion-ascii-box">{logoAsciiArt}</pre>
                 ) : (
                   <div className="flex items-center gap-3 mt-2">
-                    <img src="/rwy.png" alt="R.W. Yett Mark" className="h-10 rounded border border-white/20" />
+                    <img src="./rwy.png" alt="R.W. Yett Mark" className="h-10 rounded border border-white/20" />
                     <div className="text-xs font-mono text-pine-200">
                       <span>R.W. YETT (RY)</span>
                       <span className="block text-[10px] text-pine-400">SOVEREIGN BRAND ASSET</span>
@@ -916,7 +916,7 @@ function App() {
 
           {/* Concept strip */}
           <section className="concept-strip mt-6" aria-label="Visual design direction concept">
-            <img src="/INGKAc1a6c0y.jpg" alt="Visual study for the Arkansas Sovereign Design System" />
+            <img src="./INGKAc1a6c0y.jpg" alt="Visual study for the Arkansas Sovereign Design System" />
             <div className="concept-strip__copy">
               <span className="eyebrow">Direction study / 05</span>
               <strong>Arkansas, rendered with clarity.</strong>
