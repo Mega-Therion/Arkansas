@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd design-system && npm ci",
+  "buildCommand": "cd design-system && npm run build",
+  "outputDirectory": "design-system/dist",
+  "framework": null,
+  "headers": [
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+  ]
+}

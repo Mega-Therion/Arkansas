@@ -1,30 +1,25 @@
 import { useState } from 'react';
 import {
   Activity,
+  BookOpen,
   ArrowRight,
   ArrowUpRight,
   Bell,
-  CheckCircle2,
-  ChevronDown,
-  ChevronRight,
-  CircleHelp,
   Compass,
-  Cpu,
   Database,
   Droplets,
   ExternalLink,
   Factory,
   FileText,
+  FlaskConical,
   Gauge,
   Layers3,
   Leaf,
   Lock,
   MapPin,
-  Milk,
   Recycle,
   Scale,
   Search,
-  Settings2,
   ShieldCheck,
   Sparkles,
   Trees,
@@ -32,14 +27,12 @@ import {
   Waves,
   Zap
 } from 'lucide-react';
-import { FlowChart } from './components/FlowChart';
 import { HighwayBadge, type BadgeTone } from './components/HighwayBadge';
 import { HoneyButton } from './components/HoneyButton';
 import { MetricCard } from './components/MetricCard';
 import { QuartzPanel } from './components/QuartzPanel';
 import { VerificationSeal } from './components/VerificationSeal';
 
-type Range = '24H' | '7D' | '30D';
 
 const navItems = [
   { label: 'Overview', icon: Compass, href: '#overview' },
@@ -52,7 +45,6 @@ const navItems = [
   { label: 'Material Studies', icon: Droplets, href: '#specimens' }
 ];
 
-const regions = ['Ouachita Highlands', 'Ozark Plateau', 'Delta Basin', 'South Arkansas Smackover', 'Central River Valley'];
 
 const civicInitiatives = [
   {
@@ -227,13 +219,10 @@ const logoAsciiArt = `   =:
 
 function App() {
   const [activeNav, setActiveNav] = useState('Overview');
-  const [range, setRange] = useState<Range>('24H');
-  const [region, setRegion] = useState(regions[0]);
-  const [regionOpen, setRegionOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [toast, setToast] = useState('');
   const [showAscii, setShowAscii] = useState(false);
-  const [syncLabel, setSyncLabel] = useState('Blueprint Status Verified');
+  const syncLabel = 'Blueprint Status Verified';
 
   const now = new Date();
   const dateLabel = new Intl.DateTimeFormat('en-US', {
@@ -732,20 +721,6 @@ function App() {
               </blockquote>
               <p className="text-xs text-pine-300 font-mono">— R.W. Yett, Principal Directive (2026-10-21)</p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
-                <div className="p-3 bg-pine-900/60 border border-white/10 rounded-lg">
-                  <strong className="text-sm text-honey-400 block mb-1">Common Ground: Senator Terry Rice</strong>
-                  <p className="text-xs text-pine-100 m-0 leading-relaxed">
-                    Repeal Act 373, replace with enforceable consumer safeguards: residential ratepayers must never foot the power or plant bill for private large-load data centers.
-                  </p>
-                </div>
-                <div className="p-3 bg-pine-900/60 border border-white/10 rounded-lg">
-                  <strong className="text-sm text-spring-400 block mb-1">Common Ground: Hallie Shoffner</strong>
-                  <p className="text-xs text-pine-100 m-0 leading-relaxed">
-                    6th-generation Arkansas farmer and CEO of SFR Seed: protecting rural farmland, groundwater, and local power from extractive corporate monopolies while retaining equity locally.
-                  </p>
-                </div>
-              </div>
             </QuartzPanel>
           </section>
 
