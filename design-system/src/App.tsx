@@ -200,6 +200,31 @@ function WatershedIllustration() {
   );
 }
 
+const logoAsciiArt = `   =:
+ .*%*:.....::::...                     .:-.        .:..       ... ..... ....        ....    ..
+ +#*########%%%%%%#*=.             :=**+-:          .:---:.  .:-+********=::        .:-=++++-:
+ +****#############%%%-         .+#%%=                  :++=-    .+****#:              .++=
+  :---=========+*#####%-       =%%%#.         ..          ++**-    +#***=              =+=
+                  =****+      *%##%.        :+=--.         ***#+    +****-            :+=
+                   -*+*+     =#*#%-         +=----         -#**#=    +++++:          .+=.
+                   .+=++    .*+***         .*+=--=          *++++.    =====.         =-:
+                   .====    -+==+=          **=-=+          =====:     -----        --:
+                   .====    -====-          -*+=+-          -----.     .-:::-      :-:
+                    ====    :+==+=           +==+           -::::      -::::::    :-:
+                    ===+.    ++++*           :---          .=----     .-:--::::   -:
+                   .++++=    .***#-          :--.          -*+=+.     --- .--:-: --.
+                   .++++*-    .*#**.        .-::-         .****.    :+==.  .=-----:
+                    +****#+.    -+*+.      :-:  :-.      :***-    .=*+=     :=----
+                    **#=.+##*=:. .-++-::::--.    .-::::-=++-.  :=*#*+:       -===
+                    **+    :=****+++====-:.        .:-==++++**##*+-          .++.
+                    -.         ..::::..                .:::-::.              ++:
+                                                                            =*-
+                                                                           =*=
+                                                                 ::.     :+*-
+                                                                ========+*+.
+                                                                :---==++=:
+                                                                  ....`;
+
 function App() {
   const [activeNav, setActiveNav] = useState('Overview');
   const [range, setRange] = useState<Range>('24H');
@@ -207,6 +232,7 @@ function App() {
   const [regionOpen, setRegionOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [toast, setToast] = useState('');
+  const [showAscii, setShowAscii] = useState(false);
   const [syncLabel, setSyncLabel] = useState('Blueprint Status Verified');
 
   const now = new Date();
@@ -635,6 +661,54 @@ function App() {
                 <div className="stat-pill mt-auto">Laser Optical Archival Storage</div>
               </QuartzPanel>
             </div>
+
+            {/* 3D Motion Graphics & Insignia Reveal */}
+            <QuartzPanel className="motion-reveal-panel" tone="pine" sheen>
+              <div className="motion-video-wrap">
+                <video
+                  src="/chrome_logo_reveal.mp4"
+                  poster="/logo_reveal_lastframe.png"
+                  controls
+                  playsInline
+                  autoPlay
+                  loop
+                  muted
+                  className="w-full"
+                />
+              </div>
+              <div className="motion-copy-col">
+                <div className="flex items-center justify-between">
+                  <span className="highway-badge highway-badge--live">
+                    <span className="highway-badge__paint" />
+                    <span className="highway-badge__mark">●</span> 3D MOTION STING
+                  </span>
+                  <button
+                    className="text-xs font-mono text-honey-400 hover:underline cursor-pointer bg-transparent border-0 p-0"
+                    type="button"
+                    onClick={() => setShowAscii(!showAscii)}
+                  >
+                    {showAscii ? 'Hide ASCII Banner' : 'View Terminal ASCII'}
+                  </button>
+                </div>
+                <h3 className="text-lg font-bold text-white m-0">
+                  Chrome Insignia & Dynamic Motion Reveal
+                </h3>
+                <p className="text-xs text-pine-100 opacity-90 m-0 leading-relaxed">
+                  Raytraced four-point diamond star reveal in chrome substrate, paired with ambient sonic design and tactile light refraction.
+                </p>
+                {showAscii ? (
+                  <pre className="motion-ascii-box">{logoAsciiArt}</pre>
+                ) : (
+                  <div className="flex items-center gap-3 mt-2">
+                    <img src="/rwy.png" alt="R.W. Yett Mark" className="h-10 rounded border border-white/20" />
+                    <div className="text-xs font-mono text-pine-200">
+                      <span>R.W. YETT (RY)</span>
+                      <span className="block text-[10px] text-pine-400">SOVEREIGN BRAND ASSET</span>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </QuartzPanel>
           </section>
 
           {/* 7. SOVEREIGN DEFENSE POSTURE */}
@@ -773,6 +847,54 @@ function App() {
                 </div>
               </QuartzPanel>
             </div>
+
+            {/* 3D Motion Graphics & Insignia Reveal */}
+            <QuartzPanel className="motion-reveal-panel" tone="pine" sheen>
+              <div className="motion-video-wrap">
+                <video
+                  src="/chrome_logo_reveal.mp4"
+                  poster="/logo_reveal_lastframe.png"
+                  controls
+                  playsInline
+                  autoPlay
+                  loop
+                  muted
+                  className="w-full"
+                />
+              </div>
+              <div className="motion-copy-col">
+                <div className="flex items-center justify-between">
+                  <span className="highway-badge highway-badge--live">
+                    <span className="highway-badge__paint" />
+                    <span className="highway-badge__mark">●</span> 3D MOTION STING
+                  </span>
+                  <button
+                    className="text-xs font-mono text-honey-400 hover:underline cursor-pointer bg-transparent border-0 p-0"
+                    type="button"
+                    onClick={() => setShowAscii(!showAscii)}
+                  >
+                    {showAscii ? 'Hide ASCII Banner' : 'View Terminal ASCII'}
+                  </button>
+                </div>
+                <h3 className="text-lg font-bold text-white m-0">
+                  Chrome Insignia & Dynamic Motion Reveal
+                </h3>
+                <p className="text-xs text-pine-100 opacity-90 m-0 leading-relaxed">
+                  Raytraced four-point diamond star reveal in chrome substrate, paired with ambient sonic design and tactile light refraction.
+                </p>
+                {showAscii ? (
+                  <pre className="motion-ascii-box">{logoAsciiArt}</pre>
+                ) : (
+                  <div className="flex items-center gap-3 mt-2">
+                    <img src="/rwy.png" alt="R.W. Yett Mark" className="h-10 rounded border border-white/20" />
+                    <div className="text-xs font-mono text-pine-200">
+                      <span>R.W. YETT (RY)</span>
+                      <span className="block text-[10px] text-pine-400">SOVEREIGN BRAND ASSET</span>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </QuartzPanel>
           </section>
 
           {/* 10. CLOSING BAND */}
