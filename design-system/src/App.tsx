@@ -653,16 +653,13 @@ function App() {
 
             {/* 3D Motion Graphics & Insignia Reveal */}
             <QuartzPanel className="motion-reveal-panel" tone="pine" sheen>
-              <div className="motion-video-wrap">
-                <video
-                  src="./chrome_logo_reveal.mp4"
-                  poster="./logo_reveal_lastframe.png"
-                  controls
-                  playsInline
-                  autoPlay
-                  loop
-                  muted
-                  className="w-full"
+              <div className="motion-video-wrap motion-art-wrap">
+                <img
+                  src="./insignia-reveal.svg"
+                  alt="Original animated Arkansas Orchard diamond insignia"
+                  className="motion-art"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="motion-copy-col">
@@ -683,13 +680,13 @@ function App() {
                   Chrome Insignia & Dynamic Motion Reveal
                 </h3>
                 <p className="text-xs text-pine-100 opacity-90 m-0 leading-relaxed">
-                  Raytraced four-point diamond star reveal in chrome substrate, paired with ambient sonic design and tactile light refraction.
+                  Original animated diamond insignia with a restrained chrome-and-emerald finish.
                 </p>
                 {showAscii ? (
                   <pre className="motion-ascii-box">{logoAsciiArt}</pre>
                 ) : (
                   <div className="flex items-center gap-3 mt-2">
-                    <img src="./rwy.png" alt="R.W. Yett Mark" className="h-10 rounded border border-white/20" />
+                    <img src="./rwy-mark.svg" alt="R.W. Yett Mark" className="rwy-mark" width={56} height={28} loading="lazy" decoding="async" />
                     <div className="text-xs font-mono text-pine-200">
                       <span>R.W. YETT (RY)</span>
                       <span className="block text-[10px] text-pine-400">SOVEREIGN BRAND ASSET</span>
@@ -825,16 +822,13 @@ function App() {
 
             {/* 3D Motion Graphics & Insignia Reveal */}
             <QuartzPanel className="motion-reveal-panel" tone="pine" sheen>
-              <div className="motion-video-wrap">
-                <video
-                  src="./chrome_logo_reveal.mp4"
-                  poster="./logo_reveal_lastframe.png"
-                  controls
-                  playsInline
-                  autoPlay
-                  loop
-                  muted
-                  className="w-full"
+              <div className="motion-video-wrap motion-art-wrap">
+                <img
+                  src="./insignia-reveal.svg"
+                  alt="Original animated Arkansas Orchard diamond insignia"
+                  className="motion-art"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="motion-copy-col">
@@ -855,13 +849,13 @@ function App() {
                   Chrome Insignia & Dynamic Motion Reveal
                 </h3>
                 <p className="text-xs text-pine-100 opacity-90 m-0 leading-relaxed">
-                  Raytraced four-point diamond star reveal in chrome substrate, paired with ambient sonic design and tactile light refraction.
+                  Original animated diamond insignia with a restrained chrome-and-emerald finish.
                 </p>
                 {showAscii ? (
                   <pre className="motion-ascii-box">{logoAsciiArt}</pre>
                 ) : (
                   <div className="flex items-center gap-3 mt-2">
-                    <img src="./rwy.png" alt="R.W. Yett Mark" className="h-10 rounded border border-white/20" />
+                    <img src="./rwy-mark.svg" alt="R.W. Yett Mark" className="rwy-mark" width={56} height={28} loading="lazy" decoding="async" />
                     <div className="text-xs font-mono text-pine-200">
                       <span>R.W. YETT (RY)</span>
                       <span className="block text-[10px] text-pine-400">SOVEREIGN BRAND ASSET</span>
