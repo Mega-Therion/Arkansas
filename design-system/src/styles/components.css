@@ -780,12 +780,47 @@
 
 /* Defense & Energy Sections */
 .sovereign-banner {
-  padding: 28px 32px;
+  padding: 20px 24px;
   border-radius: var(--radius-panel);
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  margin-top: 18px;
+  gap: 12px;
+  margin-top: 14px;
+  max-width: 100%;
+}
+
+.sovereign-banner__quote {
+  font-size: 12px;
+  line-height: 1.6;
+  padding-left: 14px;
+}
+
+.rwy-mark {
+  display: block;
+  width: 56px;
+  height: 28px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.motion-art-wrap {
+  width: 100%;
+  max-width: 420px;
+  margin-inline: auto;
+  aspect-ratio: 16 / 9;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(ellipse at center, rgba(56, 225, 211, 0.1), transparent 68%), #0f1318;
+}
+
+.motion-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .sovereign-banner__quote {
