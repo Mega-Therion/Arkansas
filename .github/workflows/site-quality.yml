@@ -6,12 +6,14 @@ on:
       - "design-system/**"
       - "vercel.json"
       - ".github/workflows/site-quality.yml"
+      - ".github/dependabot.yml"
   push:
     branches: [main]
     paths:
       - "design-system/**"
       - "vercel.json"
       - ".github/workflows/site-quality.yml"
+      - ".github/dependabot.yml"
   workflow_dispatch:
 
 permissions:
@@ -40,8 +42,22 @@ jobs:
         run: npm ci
       - name: Build and type-check
         run: npm run build
-      - name: Verify deployable entry point
-        run: test -s dist/index.html
-      - name: Dependency audit (report-only while existing findings are remediated)
-        run: npm audit --audit-level=high
-        continue-on-error: true
+      - name: Check generated site assets and metadata
+        run: npm run check:dist
+      - name: Block vulnerable production dependencies
+        run: npm audit --omit=dev --audit-level=high
+      - name: Report full dependency audit (development tooling included; some upstream advisories are unpatched or lag the backport)
+        if: always()
+        run: |
+          set +e
+          npm audit --json > audit-report.json
+          node -e "const fs=require('fs');const r=JSON.parse(fs.readFileSync('audit-report.json','utf8'));const v=r.metadata?.vulnerabilities||{};console.log('Full dependency audit: '+JSON.stringify(v));for(const [name,item] of Object.entries(r.vulnerabilities||{})){console.log(name+': '+item.severity+'; direct='+item.isDirect+'; fix='+JSON.stringify(item.fixAvailable));}"
+          exit 0
+      - name: Preserve dependency audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: npm-audit-report
+          path: design-system/audit-report.json
+          if-no-files-found: ignore
+          retention-days: 14
