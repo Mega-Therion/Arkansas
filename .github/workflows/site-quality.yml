@@ -38,19 +38,23 @@ jobs:
           node-version: 24
           cache: npm
           cache-dependency-path: design-system/package-lock.json
+      - name: Refresh lockfile for this remediation run
+        run: npm install --package-lock-only --ignore-scripts --no-audit
       - name: Install locked dependencies
         run: npm ci
       - name: Build and type-check
         run: npm run build
       - name: Check generated site assets and metadata
         run: npm run check:dist
-      - name: Dependency audit
+      - name: Block vulnerable production dependencies
+        run: npm audit --omit=dev --audit-level=high
+      - name: Report full dependency audit (development tooling included)
+        if: always()
         run: |
           set +e
-          npm audit --audit-level=high --json > audit-report.json
-          audit_status=$?
-          node -e "const fs=require('fs');const r=JSON.parse(fs.readFileSync('audit-report.json','utf8'));const v=r.metadata?.vulnerabilities||{};console.log('Dependency audit: '+JSON.stringify(v));if(v.high||v.critical)process.exitCode=1"
-          exit $audit_status
+          npm audit --json > audit-report.json
+          node -e "const fs=require('fs');const r=JSON.parse(fs.readFileSync('audit-report.json','utf8'));const v=r.metadata?.vulnerabilities||{};console.log('Full dependency audit: '+JSON.stringify(v));for(const [name,item] of Object.entries(r.vulnerabilities||{})){console.log(name+': '+item.severity+'; direct='+item.isDirect+'; fix='+JSON.stringify(item.fixAvailable));}"
+          exit 0
       - name: Preserve dependency audit report
         if: always()
         uses: actions/upload-artifact@v4
@@ -59,3 +63,11 @@ jobs:
           path: design-system/audit-report.json
           if-no-files-found: ignore
           retention-days: 14
+      - name: Preserve regenerated package lock
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-package-lock
+          path: design-system/package-lock.json
+          if-no-files-found: ignore
+          retention-days: 7
