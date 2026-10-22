@@ -35,4 +35,4 @@
 
 **SECTION 8. Not a subsidy of utility returns.** Nothing in this act changes the Commission's duty to set just and reasonable rates under § 23-4-101 et seq. The fund pays costs the Commission has already found reasonable. It never raises an allowed return.
 
-**SECTION 9. Review.** The Commission shall report after three years on whether the fund reduced bill volatility or only delayed increases. If the report finds that the fund mainly delayed increases rather than reducing volatility, the fund stops making payments ninety days after the report is filed, and its balance returns to general revenue unless the General Assembly acts to continue it.
+**SECTION 9. Review.** The Commission shall report after three years on whether the fund reduced bill volatility or only delayed increases, and shall file the report with the General Assembly. Payments under Section 5 continue in the same order unless and until the General Assembly acts to change or end them.

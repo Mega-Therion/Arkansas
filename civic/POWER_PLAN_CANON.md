@@ -12,5 +12,5 @@ Source: [`power-manifesto-in-his-words.md`](power-manifesto-in-his-words.md) and
 4. **Rollover:** good months carry the rough ones. Unspent money stays in the fund.
 5. **Hard cap** on how much a bill can rise from a surprise.
 6. **Transparent**, so any citizen can follow it without being a lawyer or a lobbyist.
-7. **The fund is spent when needed.** It is not an endowment and it is not a subsidy for building plants. New plant for new large load is paid by that load (Sen. Rice's shared ground: residential customers don't foot the data-center bill).
+7. **The fund is spent when needed.** It is not an endowment and it is not a subsidy for building plants. New plant for new large load is paid by that load.
 8. **The company still runs and the lights stay on.**
