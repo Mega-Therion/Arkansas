@@ -8,6 +8,18 @@ updates:
     labels:
       - dependencies
       - security
+    # Packages that must move together arrive in one PR. Bumped alone, each PR failed
+    # `npm ci` with ERESOLVE (vite 8 vs @vitejs/plugin-react 4; react-dom 19 vs react 18).
+    groups:
+      react:
+        patterns: ["react", "react-dom", "@types/react", "@types/react-dom"]
+      vite:
+        patterns: ["vite", "@vitejs/*"]
+    ignore:
+      # Tailwind 4 is a migration (new PostCSS plugin and config), not a bump. It gets
+      # its own tested PR; see design-system/SECURITY_NOTES.md for the dev-only advisories it clears.
+      - dependency-name: "tailwindcss"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
