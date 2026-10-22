@@ -6,12 +6,14 @@ on:
       - "design-system/**"
       - "vercel.json"
       - ".github/workflows/site-quality.yml"
+      - ".github/dependabot.yml"
   push:
     branches: [main]
     paths:
       - "design-system/**"
       - "vercel.json"
       - ".github/workflows/site-quality.yml"
+      - ".github/dependabot.yml"
   workflow_dispatch:
 
 permissions:
@@ -40,8 +42,12 @@ jobs:
         run: npm ci
       - name: Build and type-check
         run: npm run build
-      - name: Verify deployable entry point
-        run: test -s dist/index.html
-      - name: Dependency audit (report-only while existing findings are remediated)
-        run: npm audit --audit-level=high
-        continue-on-error: true
+      - name: Check generated site assets and metadata
+        run: npm run check:dist
+      - name: Dependency audit
+        run: |
+          set +e
+          npm audit --audit-level=high --json > audit-report.json
+          audit_status=$?
+          node -e "const fs=require('fs');const r=JSON.parse(fs.readFileSync('audit-report.json','utf8'));const v=r.metadata?.vulnerabilities||{};console.log('Dependency audit: '+JSON.stringify(v));if(v.high||v.critical)process.exitCode=1"
+          exit $audit_status
