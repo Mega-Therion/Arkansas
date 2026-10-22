@@ -51,3 +51,11 @@ jobs:
           audit_status=$?
           node -e "const fs=require('fs');const r=JSON.parse(fs.readFileSync('audit-report.json','utf8'));const v=r.metadata?.vulnerabilities||{};console.log('Dependency audit: '+JSON.stringify(v));if(v.high||v.critical)process.exitCode=1"
           exit $audit_status
+      - name: Preserve dependency audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: npm-audit-report
+          path: design-system/audit-report.json
+          if-no-files-found: ignore
+          retention-days: 14
