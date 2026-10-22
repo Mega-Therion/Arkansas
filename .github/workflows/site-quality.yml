@@ -1,0 +1,47 @@
+name: Site quality gates
+
+on:
+  pull_request:
+    paths:
+      - "design-system/**"
+      - "vercel.json"
+      - ".github/workflows/site-quality.yml"
+  push:
+    branches: [main]
+    paths:
+      - "design-system/**"
+      - "vercel.json"
+      - ".github/workflows/site-quality.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: design-system
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: design-system/package-lock.json
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Build and type-check
+        run: npm run build
+      - name: Verify deployable entry point
+        run: test -s dist/index.html
+      - name: Dependency audit (report-only while existing findings are remediated)
+        run: npm audit --audit-level=high
+        continue-on-error: true
