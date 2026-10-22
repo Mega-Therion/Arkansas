@@ -62,7 +62,7 @@ const civicInitiatives = [
     code: 'DL-ACCESS',
     statute: 'Ark. Code Ann. § 27-16-704 & § 27-16-705',
     title: 'Driver’s License Public Access Guarantee Act',
-    badge: 'STATUTORY AUDIT VERIFIED',
+    badge: 'PRIMARY-SOURCE AUDIT · COUNSEL REVIEW PENDING',
     badgeTone: 'verified' as BadgeTone,
     desc: 'Uncovers the vital legal finding: Arkansas statute mandates driver testing but is silent on requiring applicant-supplied vehicles. Administrative habit gatekept working citizens.',
     quote: '“A barrier everyone assumed was law was only administrative practice. We supply the test vehicle at regional depots so lack of a car never blocks legal work.”',
@@ -222,7 +222,7 @@ function App() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [toast, setToast] = useState('');
   const [showAscii, setShowAscii] = useState(false);
-  const syncLabel = 'Blueprint Status Verified';
+  const syncLabel = 'Evidence Status: Draft / In Review';
 
   const now = new Date();
   const dateLabel = new Intl.DateTimeFormat('en-US', {
@@ -304,7 +304,7 @@ function App() {
           <strong>Not fragile. Clear.</strong>
           <p>Named after Crater of Diamonds, Murfreesboro. Inspectable from any facet.</p>
         </div>
-        <div className="sidebar-meta"><span className="sidebar-meta-dot" /> LEVEL 3 MACHINE GATED <span>·</span> 2026</div>
+        <div className="sidebar-meta"><span className="sidebar-meta-dot" /> RESEARCH DRAFTS · EVIDENCE-TIERED <span>·</span> 2026</div>
       </aside>
 
       {/* Content Stage */}
@@ -344,12 +344,12 @@ function App() {
               className="icon-button icon-button--notify"
               type="button"
               aria-label="View system notifications"
-              onClick={() => notify('Statutory audit reconciled: 2027 Legislative Session pre-filings active.')}
+              onClick={() => notify('This dashboard summarizes working drafts; confirm current law, docket status, and counsel review before relying on any claim.')}
             >
               <Bell size={16} strokeWidth={1.8} />
               <span />
             </button>
-            <span className="topbar-status"><i className="status-dot" /> 0 Regressions · Certified</span>
+            <span className="topbar-status"><i className="status-dot" /> DRAFTS · VERIFY BEFORE RELIANCE</span>
             <div className="topbar-user" aria-label="Principal Architect">
               <span className="avatar-seal">RY</span>
               <span className="topbar-user-copy"><strong>R.W. Yett</strong><span>PRINCIPAL ARCHITECT</span></span>
@@ -882,8 +882,8 @@ function App() {
               </span>
             </div>
             <div className="closing-band__right">
-              <VerificationSeal compact label="Level 3 Certified" />
-              <button className="sync-button" type="button" onClick={() => notify('Audit reconciled across all 11 repository blueprints.')}>
+              <VerificationSeal compact label="Draft · Not Certified" />
+              <button className="sync-button" type="button" onClick={() => notify('Evidence status is mixed: this interface is not a live audit or legal certification. See the repository audit and source index.')}>
                 <span className="sync-dot" /> {syncLabel} <ArrowUpRight size={13} />
               </button>
             </div>
