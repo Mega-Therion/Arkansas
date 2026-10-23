@@ -829,7 +829,7 @@
   font-size: 14px;
   font-style: italic;
   line-height: 1.7;
-  color: #10231B;
+  color: rgba(238, 246, 240, 0.94);
   border-left: 4px solid var(--honey-500);
   padding-left: 18px;
   margin: 8px 0;
@@ -961,3 +961,9 @@
   overflow-x: auto;
   white-space: pre;
 }
+
+/* Intro copy under a section title, on the light page (the hero's own copy is pale, for the dark hero). */
+.section-copy { max-width: 640px; margin: 10px 0 0; color: #43554B; font-size: 13px; line-height: 1.7; }
+
+/* Bill cards: the badge drops below the title on narrow cards instead of being clipped. */
+.trilogy-card__header { flex-wrap: wrap; row-gap: 10px; }
