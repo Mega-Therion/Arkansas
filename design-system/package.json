@@ -21,7 +21,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "postcss": "^8.4.49",
     "tailwindcss": "^4.3.3",
-    "typescript": "~5.7.2",
+    "typescript": "~5.9.3",
     "vite": "^6.0.5"
   },
   "overrides": {
