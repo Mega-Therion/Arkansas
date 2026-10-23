@@ -1,17 +1,16 @@
 # Security notes: dependency audit
 
-Checked 2026-10-22 on main (363b3ab).
+## 2026-10-22: Tailwind 4 migration (clears the dev-tool findings)
 
-- `npm audit --omit=dev --audit-level=high`: 0 vulnerabilities. Nothing that ships to the site is affected.
-- `npm audit` (including build tools): 5 high, 2 moderate. All of them come in through Tailwind CSS 3.4:
-  - `braces` <=3.0.3 (GHSA-vfj7-8cjw-p6xm), reached through `chokidar`, `micromatch` and `fast-glob`: a crafted brace pattern can exhaust the stack. No fixed 3.x release exists, so an `overrides` pin cannot clear it.
-  - `postcss-selector-parser` <7.1.6 (GHSA-rj75-hqrm-r3gf): quadratic parsing of hostile selectors. Tailwind 3 needs the 6.x line.
+- `npm audit` (including build tools): **0 vulnerabilities**, down from 5 high and 2 moderate. All of the old findings came in through Tailwind CSS 3.4 (`braces` via `chokidar`/`micromatch`/`fast-glob`, and `postcss-selector-parser` 6.x).
+- `npm audit --omit=dev --audit-level=high`: 0, as before.
+- What changed: `tailwindcss` 3.4 → 4.3 with `@tailwindcss/postcss`; the theme moved from `tailwind.config.cjs` into `@theme` in `src/styles/design-tokens.css`. `autoprefixer` was dropped, because Tailwind 4 handles vendor prefixes itself.
+- One behaviour difference, fixed: Tailwind 4 makes `text-*` line heights ratios of the font size. `.stat-pill` pairs `text-xs` with its own 8.5px font, so it shrank about 5px and shifted everything below it. `@theme` restores Tailwind 3's fixed line heights.
+- Visual parity: full-page screenshots at 1280 px, at 390 px, and at 390 px with reduced motion, before and after, are pixel-identical (0% of pixels differ by more than 40/255; identical page heights). 0 console errors and no horizontal scroll.
+- Checks: `npm ci`, `npm run build`, `npm run check:dist` pass.
 
-Why this is accepted for now: both are slowdowns triggered by hostile input to the build. The build only reads this repository's own `tailwind.config.cjs` globs and CSS, so the input is ours. The built site in `dist/` contains none of these packages.
+Dependabot groups `tailwindcss` with `@tailwindcss/*`.
 
-The fix is Tailwind 4, which drops `chokidar` and the 6.x parser. It is a migration, not a version bump: it needs `@tailwindcss/postcss` in place of the `tailwindcss` PostCSS plugin, the config moved to CSS (`@theme`), and a check of every utility the site uses. Do it in its own PR. Before merging that PR:
-1. `npm ci && npm run build && npm run check:dist` pass.
-2. `npm audit` shows 0 high.
-3. The built pages are compared side by side with production at phone and desktop widths, including reduced motion.
+## Earlier record (2026-10-22, main 363b3ab)
 
-Dependabot ignores Tailwind major versions until then (`.github/dependabot.yml`).
+The full audit showed 5 high and 2 moderate, all through Tailwind 3.4 and none in shipped code. They were accepted until this migration.
