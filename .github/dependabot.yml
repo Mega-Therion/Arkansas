@@ -15,11 +15,9 @@ updates:
         patterns: ["react", "react-dom", "@types/react", "@types/react-dom"]
       vite:
         patterns: ["vite", "@vitejs/*"]
+      tailwind:
+        patterns: ["tailwindcss", "@tailwindcss/*"]
     ignore:
-      # Tailwind 4 is a migration (new PostCSS plugin and config), not a bump. It gets
-      # its own tested PR; see design-system/SECURITY_NOTES.md for the dev-only advisories it clears.
-      - dependency-name: "tailwindcss"
-        update-types: ["version-update:semver-major"]
       # TypeScript major upgrades change compiler behavior; TS 7.0.2 currently breaks CSS side-effect imports.
       # Keep majors on a dedicated compatibility branch until the full build and preview pass.
       - dependency-name: "typescript"
