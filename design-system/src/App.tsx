@@ -4,7 +4,6 @@ import {
   BookOpen,
   ArrowRight,
   ArrowUpRight,
-  Bell,
   Compass,
   Database,
   Droplets,
@@ -19,7 +18,6 @@ import {
   MapPin,
   Recycle,
   Scale,
-  Search,
   ShieldCheck,
   Sparkles,
   Trees,
@@ -52,7 +50,7 @@ const civicInitiatives = [
     statute: 'Funding: Ark. Code Ann. § 8-9-401 et seq.',
     title: 'Arkansas Rural Mobility Air Standard',
     badge: 'PRE-FILING 2027',
-    badgeTone: 'verified' as BadgeTone,
+    badgeTone: 'info' as BadgeTone,
     desc: 'Would require free compressed air for tire inflation at retail fuel stations statewide, with no purchase required. Modeled on Connecticut’s free-air law, in force since 1979 (Conn. Gen. Stat. § 14-325a).',
     quote: '“Two bald tires and a plug in the third, while the fourth has a slow leak they wait until payday to patch... a few dollars of air stands between a job and a blowout.”',
     proof: 'Small independent retailers would have equipment costs covered from existing state tire-fee revenue.',
@@ -62,8 +60,8 @@ const civicInitiatives = [
     code: 'DL-ACCESS',
     statute: 'Ark. Code Ann. § 27-16-704 & § 27-16-705',
     title: 'Driver’s License Public Access Guarantee Act',
-    badge: 'PRIMARY-SOURCE AUDIT · COUNSEL REVIEW PENDING',
-    badgeTone: 'verified' as BadgeTone,
+    badge: 'COUNSEL REVIEW PENDING',
+    badgeTone: 'info' as BadgeTone,
     desc: 'Arkansas statute requires a driving skills test but does not require applicants to supply their own vehicle. That requirement is agency practice, and it keeps people without a car from getting licensed.',
     quote: '“A barrier everyone assumed was law was only administrative practice. We supply the test vehicle at regional depots so lack of a car never blocks legal work.”',
     proof: 'Precedent: Washington, D.C. offers a DMV road-test vehicle at no extra fee. Opens a direct path toward a commercial license.',
@@ -73,8 +71,8 @@ const civicInitiatives = [
     code: 'AINSA',
     statute: '7 CFR § 246.10 & AAP Standards',
     title: 'Arkansas Infant Nutrition Security Act',
-    badge: 'MODEL BILL DRAFTED · COUNSEL REVIEW PENDING',
-    badgeTone: 'normal' as BadgeTone,
+    badge: 'MODEL BILL · COUNSEL REVIEW',
+    badgeTone: 'info' as BadgeTone,
     desc: 'Closes the documented WIC formula gap where infants over 4 months on concentrate run short by 4 to 7 days each month, preventing infant ER admissions and dangerous formula dilution.',
     quote: '“The arithmetic is honest: heavier infants on powder or concentrate run short before the month ends. The state formula bridge ensures no bottle goes diluted.”',
     proof: 'Sizes funding strictly to infant weight curves; automatically phases down if federal WIC caps expand.',
@@ -84,8 +82,8 @@ const civicInitiatives = [
     code: 'RSF-POWER',
     statute: 'APSC Docket No. 26-001-U',
     title: 'Rate Stabilization Fund & Fuel Clause Shield',
-    badge: 'MODEL BILL DRAFTED · COUNSEL REVIEW PENDING',
-    badgeTone: 'alert' as BadgeTone,
+    badge: 'MODEL BILL · COUNSEL REVIEW',
+    badgeTone: 'info' as BadgeTone,
     desc: 'Would shield households from fuel-clause spikes and storm costs. Payment order: the state surplus fund first, the utility’s own slack second, fund interest third, and only then a small statewide share. Households never pay first.',
     quote: '“The citizen is never the emergency fund. The state surplus fund pays first; utility operational slack second; fund interest third; statewide tiny spread last.”',
     proof: 'The fund is spent when needed, not held as an endowment. New plants for new large loads, such as data centers, are paid for by that load.',
@@ -195,7 +193,6 @@ function WatershedIllustration() {
 
 function App() {
   const [activeNav, setActiveNav] = useState('Overview');
-  const [searchOpen, setSearchOpen] = useState(false);
   const [toast, setToast] = useState('');
   const syncLabel = 'Evidence Status: Draft / In Review';
 
@@ -294,36 +291,6 @@ function App() {
             <strong>{activeNav}</strong>
           </div>
           <div className="topbar-actions">
-            {searchOpen ? (
-              <label className="quick-search">
-                <Search size={14} aria-hidden="true" />
-                <input
-                  autoFocus
-                  aria-label="Search Arkansas blueprints"
-                  placeholder="Search ARMAWS, AINSA, ONE, Quartz…"
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') notify(`Searching repository for "${e.currentTarget.value}".`);
-                  }}
-                />
-              </label>
-            ) : null}
-            <button
-              className="icon-button"
-              type="button"
-              aria-label={searchOpen ? 'Close search' : 'Open search'}
-              onClick={() => setSearchOpen((open) => !open)}
-            >
-              <Search size={16} strokeWidth={1.8} />
-            </button>
-            <button
-              className="icon-button icon-button--notify"
-              type="button"
-              aria-label="View system notifications"
-              onClick={() => notify('This dashboard summarizes working drafts; confirm current law, docket status, and counsel review before relying on any claim.')}
-            >
-              <Bell size={16} strokeWidth={1.8} />
-              <span />
-            </button>
             <span className="topbar-status"><i className="status-dot" /> DRAFTS · VERIFY BEFORE RELIANCE</span>
           </div>
         </header>
@@ -444,7 +411,7 @@ function App() {
                 <Lock size={13} /> 2027 General Assembly Pre-Filing
               </span>
             </div>
-            <p className="hero-copy mb-4">
+            <p className="section-copy mb-4">
               Four answers to the same month-end squeeze in the same working household. Funded from surplus funds the state already holds and existing appropriations, requiring zero new taxes.
             </p>
 
@@ -557,7 +524,7 @@ function App() {
                 <Activity size={13} /> Arkansas Already Pays For Friction
               </span>
             </div>
-            <p className="hero-copy mb-4">
+            <p className="section-copy mb-4">
               Arkansas pays for friction every day in blown tires, missed road tests, short formula months, surprise electric bills, and idle mineral waste. Every initiative here turns one of those frictions into an input for the next.
             </p>
 
