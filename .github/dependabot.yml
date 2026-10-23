@@ -20,6 +20,10 @@ updates:
       # its own tested PR; see design-system/SECURITY_NOTES.md for the dev-only advisories it clears.
       - dependency-name: "tailwindcss"
         update-types: ["version-update:semver-major"]
+      # TypeScript major upgrades change compiler behavior; TS 7.0.2 currently breaks CSS side-effect imports.
+      # Keep majors on a dedicated compatibility branch until the full build and preview pass.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
