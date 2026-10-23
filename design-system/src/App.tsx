@@ -49,13 +49,13 @@ const navItems = [
 const civicInitiatives = [
   {
     code: 'ARMAWS',
-    statute: 'Ark. Code Ann. § 8-9-401 et seq.',
-    title: 'Arkansas Mandatory Accessible Water & Sanitation',
+    statute: 'Funding: Ark. Code Ann. § 8-9-401 et seq.',
+    title: 'Arkansas Rural Mobility Air Standard',
     badge: 'PRE-FILING 2027',
     badgeTone: 'verified' as BadgeTone,
-    desc: 'Guarantees 100% free, working tire air calibration at every retail motor fuel station statewide. Grounded in Connecticut’s battle-tested 47-year statutory model.',
+    desc: 'Would require free compressed air for tire inflation at retail fuel stations statewide, with no purchase required. Modeled on Connecticut’s free-air law, in force since 1979 (Conn. Gen. Stat. § 14-325a).',
     quote: '“Two bald tires and a plug in the third, while the fourth has a slow leak they wait until payday to patch... a few dollars of air stands between a job and a blowout.”',
-    proof: 'Removes takings objections by funding small retailers directly from state tire fees.',
+    proof: 'Small independent retailers would have equipment costs covered from existing state tire-fee revenue.',
     link: 'https://github.com/Mega-Therion/Arkansas/blob/main/civic/armaws.md'
   },
   {
@@ -64,16 +64,16 @@ const civicInitiatives = [
     title: 'Driver’s License Public Access Guarantee Act',
     badge: 'PRIMARY-SOURCE AUDIT · COUNSEL REVIEW PENDING',
     badgeTone: 'verified' as BadgeTone,
-    desc: 'Uncovers the vital legal finding: Arkansas statute mandates driver testing but is silent on requiring applicant-supplied vehicles. Administrative habit gatekept working citizens.',
+    desc: 'Arkansas statute requires a driving skills test but does not require applicants to supply their own vehicle. That requirement is agency practice, and it keeps people without a car from getting licensed.',
     quote: '“A barrier everyone assumed was law was only administrative practice. We supply the test vehicle at regional depots so lack of a car never blocks legal work.”',
-    proof: 'Proven by D.C. test-fleet precedent; establishes a direct credential path to commercial CDL.',
+    proof: 'Precedent: Washington, D.C. offers a DMV road-test vehicle at no extra fee. Opens a direct path toward a commercial license.',
     link: 'https://github.com/Mega-Therion/Arkansas/blob/main/civic/drivers-license-reform.md'
   },
   {
     code: 'AINSA',
     statute: '7 CFR § 246.10 & AAP Standards',
     title: 'Arkansas Infant Nutrition Security Act',
-    badge: 'MODEL BILL COMPLETE',
+    badge: 'MODEL BILL DRAFTED · COUNSEL REVIEW PENDING',
     badgeTone: 'normal' as BadgeTone,
     desc: 'Closes the documented WIC formula gap where infants over 4 months on concentrate run short by 4 to 7 days each month, preventing infant ER admissions and dangerous formula dilution.',
     quote: '“The arithmetic is honest: heavier infants on powder or concentrate run short before the month ends. The state formula bridge ensures no bottle goes diluted.”',
@@ -84,11 +84,11 @@ const civicInitiatives = [
     code: 'RSF-POWER',
     statute: 'APSC Docket No. 26-001-U',
     title: 'Rate Stabilization Fund & Fuel Clause Shield',
-    badge: 'RY CANON COMPLIANT',
+    badge: 'MODEL BILL DRAFTED · COUNSEL REVIEW PENDING',
     badgeTone: 'alert' as BadgeTone,
-    desc: 'Insulates residential ratepayers from fuel-clause volatility, severe storms, and data-center grid expansion. Enforces the strict non-negotiable payment order.',
+    desc: 'Would shield households from fuel-clause spikes and storm costs. Payment order: the state surplus fund first, the utility’s own slack second, fund interest third, and only then a small statewide share. Households never pay first.',
     quote: '“The citizen is never the emergency fund. The state surplus fund pays first; utility operational slack second; fund interest third; statewide tiny spread last.”',
-    proof: 'Fund spent when needed, never locked as an endowment; zero residential subsidies for corporate data-center power plants.',
+    proof: 'The fund is spent when needed, not held as an endowment. New plants for new large loads, such as data centers, are paid for by that load.',
     link: 'https://github.com/Mega-Therion/Arkansas/blob/main/civic/POWER_PLAN_CANON.md'
   }
 ];
@@ -107,7 +107,7 @@ const sixMoves = [
     num: '01',
     title: 'The State Pays First',
     principle: 'State reserves buffer citizens from state-regulated burdens.',
-    example: 'ARMAWS air vouchers, license testing fleet, AINSA formula bridge, and the $655M state surplus backing the Rate Stabilization Fund.'
+    example: 'ARMAWS air vouchers, license testing fleet, AINSA formula bridge, with the state’s general-revenue surplus ($655M at the FY2026 close) proposed as the Rate Stabilization Fund’s first payer.'
   },
   {
     num: '02',
@@ -146,7 +146,7 @@ const invariants = [
   { id: 'ii', name: 'Beneficial to Everyone', desc: 'Not just corporate shareholders: benefits the driver with a slow leak, the reentry apprentice, and the host county.' },
   { id: 'iii', name: 'Closed Value Loop', desc: 'Dividends recycle through foundRY’s capital structure rather than siphoning out-of-state to Wall Street.' },
   { id: 'iv', name: 'Arkansas-First', desc: 'The sovereign soil the tree is rooted in is the state that reaps the harvest first: jobs, power, and civic security.' },
-  { id: 'v', name: 'Redundancy by Design', desc: 'Six autonomous branches and local cooperative generation: zero single points of failure across infrastructure.' },
+  { id: 'v', name: 'Redundancy by Design', desc: 'Six autonomous branches and local cooperative generation, designed so no single failure takes the system down.' },
   { id: 'vi', name: 'Waste into Wealth', desc: 'recoveRY and refineRY turn hazardous abandoned liabilities into the high-value feedstock for tomorrow’s industry.' }
 ];
 
@@ -350,10 +350,6 @@ function App() {
               <span />
             </button>
             <span className="topbar-status"><i className="status-dot" /> DRAFTS · VERIFY BEFORE RELIANCE</span>
-            <div className="topbar-user" aria-label="Principal Architect">
-              <span className="avatar-seal">RY</span>
-              <span className="topbar-user-copy"><strong>R.W. Yett</strong><span>PRINCIPAL ARCHITECT</span></span>
-            </div>
           </div>
         </header>
 
@@ -418,16 +414,16 @@ function App() {
                 <p className="eyebrow">System Baseline / 01</p>
                 <h2 className="section-title">The Four Sovereign Signals.</h2>
               </div>
-              <button className="text-link" type="button" onClick={() => notify('Audit verified against 2026 primary statutory filings.')}>
+              <button className="text-link" type="button" onClick={() => notify('Citations point to the Arkansas Code. Confirm current law and docket status before relying on them.')}>
                 Statutory Citations <ArrowUpRight size={14} />
               </button>
             </div>
             <div className="metrics-grid">
               <MetricCard
                 label="Statewide Air Network"
-                value="100%"
-                unit="Coverage"
-                trend="75 Counties"
+                value="75"
+                unit="Counties"
+                trend="Proposed"
                 detail="Zero-fee compressed air for working drivers"
                 icon={<Droplets size={16} />}
                 tone="spring"
@@ -436,7 +432,7 @@ function App() {
                 label="Licensing Test Access"
                 value="75"
                 unit="Counties"
-                trend="§ 27-16-704"
+                trend="Proposed · § 27-16-704"
                 detail="State testing fleet removes car ownership barrier"
                 icon={<ShieldCheck size={16} />}
                 tone="pine"
@@ -445,14 +441,14 @@ function App() {
                 label="State Surplus Shield"
                 value="$655M"
                 unit="Surplus Base"
-                trend="FY2026 Audit"
-                detail="State pays first; citizen never the emergency fund"
+                trend="DFA · FY2026 close"
+                detail="Proposed first payer: the state pays before households do"
                 icon={<Waves size={16} />}
                 tone="sky"
               />
               <MetricCard
                 label="Sovereign Baseload"
-                value="100%"
+                value="Goal"
                 unit="Arkansas Owned"
                 trend="Smackover + Quartz"
                 detail="Behind-the-meter industrial & defense power"
@@ -634,9 +630,9 @@ function App() {
                   <strong>Smackover Lithium Brine</strong>
                 </div>
                 <p>
-                  South Arkansas holds one of the premier lithium reserves on Earth. Vertically integrate direct chemical refinement on Arkansas soil rather than shipping raw slurry out-of-state to third-party processors.
+                  South Arkansas’s Smackover brine is one of the largest lithium resources in North America. Vertically integrate direct chemical refinement on Arkansas soil rather than shipping raw slurry out-of-state to third-party processors.
                 </p>
-                <div className="stat-pill mt-auto">Retains 100% Domestic Value-Add</div>
+                <div className="stat-pill mt-auto">Keeps Refining Value in Arkansas</div>
               </QuartzPanel>
 
               <QuartzPanel className="pillar-card" tone="light" sheen>
@@ -645,7 +641,7 @@ function App() {
                   <strong>Mount Ida Quartz & 5D Optical</strong>
                 </div>
                 <p>
-                  Laser-inscribed 5D optical data preservation in fused silica melted from Ouachita quartz. Permanent, unalterable institutional storage designed for thousands of years without data degradation.
+                  Laser-inscribed 5D optical data storage in fused silica melted from Ouachita quartz. Write-once archival media; published lab aging tests project very long lifetimes. Feedstock purity assay pending.
                 </p>
                 <div className="stat-pill mt-auto">Laser Optical Archival Storage</div>
               </QuartzPanel>
@@ -685,13 +681,7 @@ function App() {
                 {showAscii ? (
                   <pre className="motion-ascii-box">{logoAsciiArt}</pre>
                 ) : (
-                  <div className="flex items-center gap-3 mt-2">
-                    <img src="./rwy-mark.svg" alt="R.W. Yett Mark" className="rwy-mark" width={56} height={28} loading="lazy" decoding="async" />
-                    <div className="text-xs font-mono text-pine-200">
-                      <span>R.W. YETT (RY)</span>
-                      <span className="block text-[10px] text-pine-400">SOVEREIGN BRAND ASSET</span>
-                    </div>
-                  </div>
+                  null
                 )}
               </div>
             </QuartzPanel>
@@ -716,7 +706,7 @@ function App() {
               <blockquote className="sovereign-banner__quote">
                 “All of these things can be done by Arkansas, within Arkansas, for Arkansas, and fully from sovereign ground self sustaining ecosystem inside Arkansas. Without bringing in outside companies and their relocated factory workers. What needs to happen is Arkansas-based defense contractors bid for the contracts subcontracted to our State from our federal government.”
               </blockquote>
-              <p className="text-xs text-pine-300 font-mono">— R.W. Yett, Principal Directive (2026-10-21)</p>
+              <p className="text-xs text-pine-300 font-mono">— Principal directive, 2026-10-21</p>
 
             </QuartzPanel>
           </section>
@@ -812,58 +802,13 @@ function App() {
                   <span className="specimen-card__icon"><ShieldCheck size={15} /></span>
                 </div>
                 <p className="specimen-label">SOVEREIGN SEAL</p>
-                <VerificationSeal label="State verified" sublabel="Diamond Foundation Seal" />
+                <VerificationSeal label="Design specimen" sublabel="Diamond Foundation Seal" />
                 <div className="specimen-card__caption">
                   <strong>Platinum thread</strong>
-                  <span>Emerald certified pip</span>
+                  <span>Emerald status pip</span>
                 </div>
               </QuartzPanel>
             </div>
-
-            {/* 3D Motion Graphics & Insignia Reveal */}
-            <QuartzPanel className="motion-reveal-panel" tone="pine" sheen>
-              <div className="motion-video-wrap motion-art-wrap">
-                <img
-                  src="./insignia-reveal.svg"
-                  alt="Original animated Arkansas Orchard diamond insignia"
-                  className="motion-art"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              <div className="motion-copy-col">
-                <div className="flex items-center justify-between">
-                  <span className="highway-badge highway-badge--live">
-                    <span className="highway-badge__paint" />
-                    <span className="highway-badge__mark">●</span> 3D MOTION STING
-                  </span>
-                  <button
-                    className="text-xs font-mono text-honey-400 hover:underline cursor-pointer bg-transparent border-0 p-0"
-                    type="button"
-                    onClick={() => setShowAscii(!showAscii)}
-                  >
-                    {showAscii ? 'Hide ASCII Banner' : 'View Terminal ASCII'}
-                  </button>
-                </div>
-                <h3 className="text-lg font-bold text-white m-0">
-                  Chrome Insignia & Dynamic Motion Reveal
-                </h3>
-                <p className="text-xs text-pine-100 opacity-90 m-0 leading-relaxed">
-                  Original animated diamond insignia with a restrained chrome-and-emerald finish.
-                </p>
-                {showAscii ? (
-                  <pre className="motion-ascii-box">{logoAsciiArt}</pre>
-                ) : (
-                  <div className="flex items-center gap-3 mt-2">
-                    <img src="./rwy-mark.svg" alt="R.W. Yett Mark" className="rwy-mark" width={56} height={28} loading="lazy" decoding="async" />
-                    <div className="text-xs font-mono text-pine-200">
-                      <span>R.W. YETT (RY)</span>
-                      <span className="block text-[10px] text-pine-400">SOVEREIGN BRAND ASSET</span>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </QuartzPanel>
           </section>
 
           {/* 10. CLOSING BAND */}
@@ -896,7 +841,10 @@ function App() {
 
           {/* Footer */}
           <footer className="app-footer mt-10">
-            <span>© 2026 THE ARKANSAS ORCHARD · R.W. YETT (MEGA-THERION)</span>
+            <span className="app-footer__mark">
+              <img src="./rwy-mark.svg" alt="" className="rwy-mark" width={36} height={18} loading="lazy" decoding="async" />
+              © 2026 THE ARKANSAS ORCHARD · R.W. YETT
+            </span>
             <span>CHYREN · Ψ/Φ CONSTELLATION <i /> PSIMODULO–PHIMODUS INVARIANT</span>
             <a
               href="https://github.com/Mega-Therion/Arkansas"

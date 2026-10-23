@@ -420,7 +420,9 @@
 .concept-strip__copy p { margin: 0; color: #7D8982; font-size: 8px; }
 .concept-strip__index { color: #9AA59E; font-family: 'DM Mono', monospace; font-size: 7px; letter-spacing: .1em; }
 
-.app-footer { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-top: 24px; color: #929C95; font-family: 'DM Mono', monospace; font-size: 7px; letter-spacing: .08em; }
+.app-footer { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-top: 24px; color: #929C95; font-family: 'DM Mono', monospace; font-size: 10px; flex-wrap: wrap; letter-spacing: .08em; }
+.app-footer__mark { display: inline-flex; align-items: center; gap: 8px; }
+.app-footer__mark .rwy-mark { opacity: .7; height: 18px; width: auto; }
 .app-footer span:nth-child(2) { display: inline-flex; align-items: center; gap: 7px; }
 .app-footer span:nth-child(2) i { display: inline-block; width: 3px; height: 3px; border-radius: 50%; background: #91AA9A; }
 .app-footer button { border: 0; background: transparent; color: #687A6E; cursor: pointer; font-family: inherit; font-size: inherit; letter-spacing: inherit; padding: 4px 0; }
