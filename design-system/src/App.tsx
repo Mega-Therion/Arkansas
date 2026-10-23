@@ -192,36 +192,11 @@ function WatershedIllustration() {
   );
 }
 
-const logoAsciiArt = `   =:
- .*%*:.....::::...                     .:-.        .:..       ... ..... ....        ....    ..
- +#*########%%%%%%#*=.             :=**+-:          .:---:.  .:-+********=::        .:-=++++-:
- +****#############%%%-         .+#%%=                  :++=-    .+****#:              .++=
-  :---=========+*#####%-       =%%%#.         ..          ++**-    +#***=              =+=
-                  =****+      *%##%.        :+=--.         ***#+    +****-            :+=
-                   -*+*+     =#*#%-         +=----         -#**#=    +++++:          .+=.
-                   .+=++    .*+***         .*+=--=          *++++.    =====.         =-:
-                   .====    -+==+=          **=-=+          =====:     -----        --:
-                   .====    -====-          -*+=+-          -----.     .-:::-      :-:
-                    ====    :+==+=           +==+           -::::      -::::::    :-:
-                    ===+.    ++++*           :---          .=----     .-:--::::   -:
-                   .++++=    .***#-          :--.          -*+=+.     --- .--:-: --.
-                   .++++*-    .*#**.        .-::-         .****.    :+==.  .=-----:
-                    +****#+.    -+*+.      :-:  :-.      :***-    .=*+=     :=----
-                    **#=.+##*=:. .-++-::::--.    .-::::-=++-.  :=*#*+:       -===
-                    **+    :=****+++====-:.        .:-==++++**##*+-          .++.
-                    -.         ..::::..                .:::-::.              ++:
-                                                                            =*-
-                                                                           =*=
-                                                                 ::.     :+*-
-                                                                ========+*+.
-                                                                :---==++=:
-                                                                  ....`;
 
 function App() {
   const [activeNav, setActiveNav] = useState('Overview');
   const [searchOpen, setSearchOpen] = useState(false);
   const [toast, setToast] = useState('');
-  const [showAscii, setShowAscii] = useState(false);
   const syncLabel = 'Evidence Status: Draft / In Review';
 
   const now = new Date();
@@ -646,45 +621,6 @@ function App() {
                 <div className="stat-pill mt-auto">Laser Optical Archival Storage</div>
               </QuartzPanel>
             </div>
-
-            {/* 3D Motion Graphics & Insignia Reveal */}
-            <QuartzPanel className="motion-reveal-panel" tone="pine" sheen>
-              <div className="motion-video-wrap motion-art-wrap">
-                <img
-                  src="./insignia-reveal.svg"
-                  alt="Original animated Arkansas Orchard diamond insignia"
-                  className="motion-art"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              <div className="motion-copy-col">
-                <div className="flex items-center justify-between">
-                  <span className="highway-badge highway-badge--live">
-                    <span className="highway-badge__paint" />
-                    <span className="highway-badge__mark">●</span> 3D MOTION STING
-                  </span>
-                  <button
-                    className="text-xs font-mono text-honey-400 hover:underline cursor-pointer bg-transparent border-0 p-0"
-                    type="button"
-                    onClick={() => setShowAscii(!showAscii)}
-                  >
-                    {showAscii ? 'Hide ASCII Banner' : 'View Terminal ASCII'}
-                  </button>
-                </div>
-                <h3 className="text-lg font-bold text-white m-0">
-                  Chrome Insignia & Dynamic Motion Reveal
-                </h3>
-                <p className="text-xs text-pine-100 opacity-90 m-0 leading-relaxed">
-                  Original animated diamond insignia with a restrained chrome-and-emerald finish.
-                </p>
-                {showAscii ? (
-                  <pre className="motion-ascii-box">{logoAsciiArt}</pre>
-                ) : (
-                  null
-                )}
-              </div>
-            </QuartzPanel>
           </section>
 
           {/* 7. SOVEREIGN DEFENSE POSTURE */}
@@ -842,8 +778,11 @@ function App() {
           {/* Footer */}
           <footer className="app-footer mt-10">
             <span className="app-footer__mark">
-              <img src="./rwy-mark.svg" alt="" className="rwy-mark" width={36} height={18} loading="lazy" decoding="async" />
-              © 2026 THE ARKANSAS ORCHARD · R.W. YETT
+              <picture>
+                <source type="image/webp" srcSet="./resh-omega-y-28.webp 1x, ./resh-omega-y-56.webp 2x" />
+                <img src="./resh-omega-y-28.png" srcSet="./resh-omega-y-28.png 1x, ./resh-omega-y-56.png 2x" alt="Resh–Omega–Y mark" className="rwy-mark" width={55} height={28} loading="lazy" decoding="async" />
+              </picture>
+              © 2026 RWY
             </span>
             <span>CHYREN · Ψ/Φ CONSTELLATION <i /> PSIMODULO–PHIMODUS INVARIANT</span>
             <a
