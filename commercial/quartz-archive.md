@@ -1,8 +1,9 @@
 # The Quartz Archive — Mount Ida quartz, laser-written glass, and the Hall of Crystals
 
-**Status:** concept plus engineering design study. Nothing built, no glass written, no Mount Ida
-sample assayed. The full engineering spec is
+**Status:** path locked 2026-10-25. Nothing built, no plate written, no feedstock assayed. The full engineering spec is
 [`quartz-5d-archival-spec.md`](quartz-5d-archival-spec.md); this page is the Arkansas-facing summary.
+
+**Locked process.** Take quartz from this deposit. Crush it, clean it, vacuum-fuse it, and polish a plate. Write that plate with the 5D laser. The lattice in the ground does not matter. The plate does. Writing voxels into an unmelted crystal is closed. The next physical step is one trace-element assay against the spec grade table, then one fused coupon and one write test. Do not reopen the materials argument in place of those two tests.
 **Origin:** RY's 2026-09-18 notes and his 2026-09-20 working session; spec written 2026-09-20;
 folded into this repo 2026-10-03.
 
