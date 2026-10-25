@@ -293,8 +293,10 @@ export function App() {
         <article className="panel">
           <h2>{civic.title}</h2>
           <p>
-            Text copied from the repository file. It is a draft for counsel, not
-            enacted law.
+            Text copied from the repository file. It is a draft, not enacted
+            law. The infant act is AINSA. The license act is DL-ACCESS.
+            recoveRY, refineRY, deliveRY, memoRY, libraRY, and factoRY open the
+            same six-branch note, because that is the file they share.
           </p>
           <pre className="prose">{civic.body}</pre>
         </article>
