@@ -270,6 +270,9 @@ export function App() {
           <button type="button" onClick={() => setPage(null)}>
             Console
           </button>
+          <button type="button" onClick={() => setPage("survey")}>
+            USGS notes
+          </button>
           {civicPages.map((item) => (
             <button
               type="button"
@@ -289,6 +292,44 @@ export function App() {
           </button>
         </div>
       </header>
+      {page === "survey" && (
+        <article className="panel">
+          <h2>What the repository records from USGS</h2>
+          <p>
+            This is not a new survey and not a mine plan. The live console is
+            stream discharge, parameter 00060. The notes below are the USGS
+            findings already written in the repo, with the correction the longer
+            notes apply to the short ONE draft.
+          </p>
+          <h3>Water</h3>
+          <p>
+            Continuous discharge from USGS Water Services for Arkansas
+            monitoring locations. Values stay provisional when the source says
+            so. No flood, health, or statewide-total claim.
+          </p>
+          <h3>Bauxite district, critical elements</h3>
+          <p>
+            The central Arkansas bauxite district is real and documented by
+            USGS. The notes record about 76 ppm gallium in raw ore, about 662
+            ppm niobium in ore, and about 1,075 ppm niobium in processed
+            residues. Rare-earth concentrations are present. The same USGS work,
+            as recorded here, says additional rare-earth processing looked
+            uneconomic in the foreseeable future. That is not a commercial
+            rare-earth deposit.
+          </p>
+          <h3>Quartz</h3>
+          <p>
+            Arkansas quartz is a feedstock and assay question. No trace-element
+            assay of this deposit has been run against the archive grade table.
+            Clarity of a specimen is not that assay.
+          </p>
+          <p>
+            The ONE draft in this repo says USGS confirmed rare earths in
+            residues in a stronger way than the longer notes allow. This page
+            follows the longer notes.
+          </p>
+        </article>
+      )}
       {civic && (
         <article className="panel">
           <h2>{civic.title}</h2>
