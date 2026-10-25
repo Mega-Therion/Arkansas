@@ -1,0 +1,7 @@
+day,coupon_id,unit_id,block,arm,recipe,response
+1,D1-C1,1,0,natural_fused,single_beam_baseline,fraction_of_sites_with_retardance_above_background
+1,D1-C2,2,0,synthetic_fused,single_beam_baseline,fraction_of_sites_with_retardance_above_background
+2,D2-C1,3,1,natural_fused,single_beam_baseline,fraction_of_sites_with_retardance_above_background
+2,D2-C2,4,1,synthetic_fused,single_beam_baseline,fraction_of_sites_with_retardance_above_background
+3,D3-C1,5,2,natural_fused,single_beam_baseline,fraction_of_sites_with_retardance_above_background
+3,D3-C2,6,2,synthetic_fused,single_beam_baseline,fraction_of_sites_with_retardance_above_background
