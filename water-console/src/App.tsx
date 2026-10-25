@@ -294,9 +294,13 @@ export function App() {
           <h2>{civic.title}</h2>
           <p>
             Text copied from the repository file. It is a draft, not enacted
-            law. The infant act is AINSA. The license act is DL-ACCESS.
-            recoveRY, refineRY, deliveRY, memoRY, libraRY, and factoRY open the
-            same six-branch note, because that is the file they share.
+            law. The infant act is AINSA. The license act is DL-ACCESS. RSF is
+            the Rate Stabilization Fund. QARC is the Quartz Archive. Those two
+            short labels were assigned on 2026-10-25. The files still use the
+            long names. recoveRY, refineRY, deliveRY, memoRY, libraRY, and
+            factoRY open the same six-branch note. ForestRY and TreasuRY open
+            the ConservatoRY note. ArboRY is not a button. That spelling was
+            withdrawn.
           </p>
           <pre className="prose">{civic.body}</pre>
         </article>
