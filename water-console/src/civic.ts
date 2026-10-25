@@ -19,7 +19,7 @@ export const civicPages = [
   { id: "foundry", title: "foundRY", body: foundry },
   { id: "one", title: "ONE", body: one },
   { id: "magna", title: "MAGNA", body: magna },
-  { id: "qarc", title: "QARC", body: quartz },
+  { id: "5d-efs", title: "5D-EFS", body: quartz },
   { id: "conservatory", title: "ConservatoRY", body: conservatory },
   { id: "forestry", title: "ForestRY", body: conservatory },
   { id: "treasury", title: "TreasuRY", body: conservatory },
