@@ -6,12 +6,14 @@ import {
   type KeyboardEvent,
 } from "react";
 import { StationMap } from "./StationMap";
+import { civicPages } from "./civic";
 import {
   filterStations,
   hasCoordinates,
   parseHistory,
   parseInventory,
   siteFromHash,
+  storyFromHistory,
   type HistoryPoint,
   type Station,
 } from "./parse";
@@ -87,6 +89,19 @@ export function App() {
     "idle" | "loading" | "ready" | "error" | "stale"
   >("idle");
   const [compare, setCompare] = useState<string[]>([]);
+  const [page, setPage] = useState<string | null>(null);
+  const [scrub, setScrub] = useState(0);
+  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [watch, setWatch] = useState<string[]>(() => {
+    try {
+      const saved = JSON.parse(localStorage.getItem("ns-watch") || "[]");
+      return Array.isArray(saved)
+        ? saved.filter((id) => typeof id === "string")
+        : [];
+    } catch {
+      return [];
+    }
+  });
 
   const load = useCallback(async () => {
     setStatus("loading");
@@ -208,27 +223,82 @@ export function App() {
     a.click();
   }
 
+  useEffect(() => {
+    localStorage.setItem("ns-watch", JSON.stringify(watch));
+  }, [watch]);
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+  }, [theme]);
+
   const compared = compare
     .map((id) => stations.find((row) => row.siteId === id))
     .filter(Boolean) as Station[];
+  const story = storyFromHistory(history);
+  const freshest = [...stations]
+    .filter((row) => row.observedAt && row.valueCfs != null)
+    .sort((a, b) => (b.observedAt ?? "").localeCompare(a.observedAt ?? ""))[0];
+  const civic = civicPages.find((item) => item.id === page);
+  const numericHistory = history.filter((point) => point.valueCfs != null);
+  const scrubPoint =
+    numericHistory[Math.min(scrub, Math.max(0, numericHistory.length - 1))];
 
   return (
     <div className="wrap">
       <header className="hero">
         <p className="mono">Natural State</p>
         <h1>Arkansas, measured where water moves.</h1>
+        <svg className="flow" viewBox="0 0 400 28" aria-hidden="true">
+          <path d="M0 18 C 40 6, 80 26, 120 14 S 200 4, 240 16 320 26, 400 12" />
+        </svg>
         <p>
           This page shows USGS stream-discharge observations for Arkansas
           stations. It serves anyone checking a single station. It does not
           claim a statewide total, a health score, a flood warning, or a trend.
         </p>
         <p>
-          <a href="https://github.com/Mega-Therion/Arkansas">
-            Orchard narrative and civic drafts live in the repository.
-          </a>{" "}
-          They are not this console.
+          The water console is the front door. The civic drafts already in the
+          repository are the second door. They are drafts, not statutes.
         </p>
+        {freshest && (
+          <p className="mono">
+            Freshest numeric reading in this response: {freshest.siteId} at{" "}
+            {freshest.observedAt}. Inventory count {stations.length}. This is
+            not a statewide discharge total.
+          </p>
+        )}
+        <div className="row">
+          <button type="button" onClick={() => setPage(null)}>
+            Console
+          </button>
+          {civicPages.map((item) => (
+            <button
+              type="button"
+              key={item.id}
+              onClick={() => setPage(item.id)}
+            >
+              {item.title}
+            </button>
+          ))}
+          <button
+            type="button"
+            onClick={() =>
+              setTheme((mode) => (mode === "light" ? "dark" : "light"))
+            }
+          >
+            {theme === "light" ? "Dark" : "Light"}
+          </button>
+        </div>
       </header>
+      {civic && (
+        <article className="panel">
+          <h2>{civic.title}</h2>
+          <p>
+            Text copied from the repository file. It is a draft for counsel, not
+            enacted law.
+          </p>
+          <pre className="prose">{civic.body}</pre>
+        </article>
+      )}
       <div className="row" style={{ marginTop: 12 }}>
         <button type="button" onClick={() => void load()}>
           Refresh inventory
@@ -415,6 +485,62 @@ export function App() {
                   {historyState === "loading" && "Loading history."}
                 </p>
                 {historyState !== "error" && <Chart points={history} />}
+                {numericHistory.length > 1 && (
+                  <label>
+                    Move through this window
+                    <input
+                      type="range"
+                      min={0}
+                      max={numericHistory.length - 1}
+                      value={Math.min(scrub, numericHistory.length - 1)}
+                      onChange={(event) => setScrub(Number(event.target.value))}
+                    />
+                  </label>
+                )}
+                {scrubPoint && (
+                  <p className="mono">
+                    At {scrubPoint.t}: {scrubPoint.valueCfs} {selected.unit}.
+                    This is one point in the fetched window, not a forecast.
+                  </p>
+                )}
+                {story && (
+                  <div>
+                    <h3>Three days from this station's fetched window</h3>
+                    <p>
+                      Highest daily mean {story.high.day}:{" "}
+                      {story.high.meanCfs.toFixed(1)} {selected.unit} (
+                      {story.high.n} points).
+                    </p>
+                    <p>
+                      Lowest daily mean {story.low.day}:{" "}
+                      {story.low.meanCfs.toFixed(1)} {selected.unit} (
+                      {story.low.n} points).
+                    </p>
+                    <p>
+                      Day nearest the median daily mean {story.mid.day}:{" "}
+                      {story.mid.meanCfs.toFixed(1)} {selected.unit} (
+                      {story.mid.n} points).
+                    </p>
+                    <p>
+                      These are ranks inside the fetched window. They are not a
+                      flood warning, a drought declaration, or a trend.
+                    </p>
+                  </div>
+                )}
+                <button
+                  type="button"
+                  onClick={() =>
+                    setWatch((ids) =>
+                      ids.includes(selected.siteId)
+                        ? ids.filter((id) => id !== selected.siteId)
+                        : [...ids, selected.siteId],
+                    )
+                  }
+                >
+                  {watch.includes(selected.siteId)
+                    ? "Remove from this browser's list"
+                    : "Save on this browser"}
+                </button>
               </>
             )}
             {compared.length > 0 && (
@@ -439,7 +565,36 @@ export function App() {
           </article>
         </section>
       </div>
+      {watch.length > 0 && (
+        <section className="panel">
+          <h2>Saved on this browser</h2>
+          <p>
+            No email and no push are sent. The list stays in this browser only.
+          </p>
+          <ul>
+            {watch.map((id) => {
+              const row = stations.find((station) => station.siteId === id);
+              return (
+                <li key={id}>
+                  <button type="button" onClick={() => choose(id)}>
+                    {id}
+                  </button>{" "}
+                  {row
+                    ? row.valueCfs == null
+                      ? "no reading"
+                      : `${row.valueCfs} ${row.unit} at ${row.observedAt}`
+                    : "not in the current inventory"}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
       <footer>
+        <p role="status">
+          Feed status {status}. Last inventory retrieval{" "}
+          {retrievedAt || "not yet"}.
+        </p>
         <p>
           Map tiles &copy; OpenStreetMap contributors. Discharge from USGS Water
           Services, parameter 00060. Qualifier P means provisional.

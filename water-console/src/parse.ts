@@ -115,3 +115,31 @@ export function parseHistory(payload: IvPayload): HistoryPoint[] {
     valueCfs: numericOrMissing(point.value),
   }));
 }
+
+export type DayMean = { day: string; meanCfs: number; n: number };
+
+export function dailyMeans(points: HistoryPoint[]): DayMean[] {
+  const buckets = new Map<string, number[]>();
+  for (const point of points) {
+    if (point.valueCfs == null || point.t.length < 10) continue;
+    const day = point.t.slice(0, 10);
+    const list = buckets.get(day) ?? [];
+    list.push(point.valueCfs);
+    buckets.set(day, list);
+  }
+  return [...buckets.entries()].map(([day, values]) => ({
+    day,
+    meanCfs: values.reduce((sum, n) => sum + n, 0) / values.length,
+    n: values.length,
+  }));
+}
+
+export function storyFromHistory(
+  points: HistoryPoint[],
+): { high: DayMean; low: DayMean; mid: DayMean } | null {
+  const days = dailyMeans(points);
+  if (days.length < 3) return null;
+  const sorted = [...days].sort((a, b) => a.meanCfs - b.meanCfs);
+  const mid = sorted[Math.floor(sorted.length / 2)];
+  return { low: sorted[0], high: sorted[sorted.length - 1], mid };
+}

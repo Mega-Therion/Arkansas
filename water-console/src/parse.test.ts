@@ -6,6 +6,7 @@ import {
   parseHistory,
   parseInventory,
   siteFromHash,
+  storyFromHistory,
   type Station,
 } from "./parse.ts";
 
@@ -84,6 +85,17 @@ test("hash and filters", () => {
   assert.equal(filterStations(rows, "2222", "", "").length, 1);
   assert.equal(filterStations(rows, "", "05002", "").length, 1);
   assert.equal(filterStations(rows, "", "", "1111").length, 1);
+});
+
+test("story days are the high, low, and median daily means", () => {
+  const story = storyFromHistory([
+    { t: "2026-10-01T00:00:00-05:00", valueCfs: 1 },
+    { t: "2026-10-02T00:00:00-05:00", valueCfs: 5 },
+    { t: "2026-10-03T00:00:00-05:00", valueCfs: 9 },
+  ]);
+  assert.equal(story?.low.day, "2026-10-01");
+  assert.equal(story?.high.day, "2026-10-03");
+  assert.equal(story?.mid.day, "2026-10-02");
 });
 
 test("history drops the sentinel", () => {
