@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "echo skip",
-  "buildCommand": "echo skip",
-  "outputDirectory": "manus-published",
+  "installCommand": "cd water-console && npm ci",
+  "buildCommand": "cd water-console && npm run build",
+  "outputDirectory": "water-console/dist",
   "framework": null,
   "headers": [
     {
