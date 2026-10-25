@@ -1,5 +1,8 @@
 # Arkansas
 
+> **Drafts, not filings.** The bills and dockets in this repository are pre-filing drafts. They are not enacted law and they are not a filed legislative docket. The commercial plan remains in this same tree. This change does not move it.
+
+
 *The Arkansas Project — **The Arkansas Orchard: A Civic & Energy Infrastructure Blueprint***
 
 **Principal architect:** R.W. Yett (Arkansas)
