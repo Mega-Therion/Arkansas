@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+
+  /* Core Pine scale: generated from Ouachita Pine Needle; supplied brand values remain literal below. */
+  --pine-50: #F5FAF8;
+  --pine-100: #EBF4F0;
+  --pine-200: #D3E9E0;
+  --pine-300: #A9D6C3;
+  --pine-400: #7AC2A4;
+  --pine-500: #4BAA82;
+  --pine-600: #3E8E6D;
+  --pine-700: #33755A;
+  --pine-800: #2A6049;
+  --pine-900: #1F4736;
+  --pine-950: #10231B;
+
+  /* Clover Honey scale, for tactile actions and energy markers. */
+  --honey-50: #FCF8F2;
+  --honey-100: #F9F2E6;
+  --honey-200: #F4E3C7;
+  --honey-300: #EDCA91;
+  --honey-400: #E8AF54;
+  --honey-500: #DC9118;
+  --honey-600: #B87914;
+  --honey-700: #976411;
+  --honey-800: #7C520E;
+  --honey-900: #5C3D0A;
+  --honey-950: #2E1E05;
+
+  /* Karst spring scale, used for active water layers and live telemetry. */
+  --spring-50: #F1FDFC;
+  --spring-100: #E3FCF9;
+  --spring-200: #C2FAF4;
+  --spring-300: #86F9ED;
+  --spring-400: #42FAE8;
+  --spring-500: #00F5DC;
+  --spring-600: #00CCB8;
+  --spring-700: #00A897;
+  --spring-800: #008A7C;
+  --spring-900: #00665C;
+  --spring-950: #00332E;
+
+  /* Bluejay scale, for informational data and high-sky surfaces. */
+  --sky-50: #F3F8FC;
+  --sky-100: #E7F0F9;
+  --sky-200: #C9DFF2;
+  --sky-300: #95C2E9;
+  --sky-400: #5BA3E1;
+  --sky-500: #2180D4;
+  --sky-600: #1C6BB0;
+  --sky-700: #175892;
+  --sky-800: #134877;
+  --sky-900: #0E3558;
+  --sky-950: #071B2C;
+
+  /* Delta clay scale, reserved for high-importance alerts. */
+  --clay-50: #FBF5F4;
+  --clay-100: #F6ECE9;
+  --clay-200: #ECD5CF;
+  --clay-300: #DDADA1;
+  --clay-400: #CE826F;
+  --clay-500: #BA543B;
+  --clay-600: #9B4631;
+  --clay-700: #803A28;
+  --clay-800: #692F21;
+  --clay-900: #4E2318;
+  --clay-950: #27120C;
+
+  /* Named Arkansas material primitives from the product brief. */
+  --ozark-mint: #E2F3E9;
+  --ozark-mint-deep: #C5E7D4;
+  --ouachita-pine-needle: #11291F;
+  --ouachita-pine-needle-soft: #1B3D2F;
+  --pine-bark-brown: #3B2920;
+  --pine-bark-brown-light: #5A3E31;
+  --ozark-lichen: #9FB3A5;
+  --delta-alluvial-clay: #9E4732;
+  --bluejay-blue: #1D70B8;
+  --high-sky-azure: #85C1E9;
+  --high-sky-azure-pale: #EBF5FB;
+  --spring-liquid-aqua: #00A896;
+  --spring-caustic: #38E1D3;
+  --spring-water-glaze: #E0F7F6;
+  --mammoth-karst-cyan: #0A3641;
+  --sheeps-wool: #FAF9F6;
+  --cotton-white: #FFFFFF;
+  --wild-cherry-blossom: #FCE4EC;
+  --wild-cherry-blossom-rich: #F8BBD0;
+  --raw-clover-honey: #D48B18;
+  --clover-honey-glow: #F5B041;
+  --highway-pavement: #2B2D2F;
+  --highway-pavement-mid: #4A4D50;
+  --highway-pavement-light: #8E9297;
+  --retroreflective-yellow: #FEE12B;
+  --line-paint-yellow: #FFF275;
+  --novaculite-whetstone: #EFECE6;
+  --emerald-fire: #00C853;
+  --emerald-seal: #097969;
+  --platinum-shadow: #E5E4E2;
+  --platinum-thread: #B0C4DE;
+  --molten-gold-light: #FFDF73;
+  --molten-gold-deep: #D4AF37;
+
+  /* Semantic surfaces: every surface has a deliberate readable foreground. */
+  --surface-canvas: var(--sheeps-wool);
+  --text-primary: var(--ouachita-pine-needle);
+  --surface-card: var(--cotton-white);
+  --text-card: var(--ouachita-pine-needle-soft);
+  --surface-overlay: rgba(255, 255, 255, 0.78);
+  --text-overlay: var(--ouachita-pine-needle);
+  --surface-secondary: var(--ozark-mint);
+  --text-secondary: var(--ouachita-pine-needle);
+  --surface-muted: #F2F3EF;
+  --text-muted: #506158;
+  --surface-accent: var(--spring-water-glaze);
+  --text-accent: var(--mammoth-karst-cyan);
+  --action-primary: var(--raw-clover-honey);
+  --action-primary-foreground: var(--ouachita-pine-needle);
+  --action-link: #175892;
+  --state-success: var(--emerald-seal);
+  --state-success-foreground: #FFFFFF;
+  --state-alert: #803A28;
+  --state-alert-foreground: #FFFFFF;
+  --state-warning: #61420C;
+  --state-warning-surface: #FFF2C7;
+  --state-info: #175892;
+  --state-info-surface: var(--high-sky-azure-pale);
+  --line-subtle: #D9E1DC;
+  --line-strong: #B9C7BE;
+  --line-dark: rgba(17, 41, 31, 0.18);
+  --ring-focus: #175892;
+
+  /* Material physics: crystal, platinum thread, and soft pine shadow. */
+  --glass-frost: rgba(255, 255, 255, 0.72);
+  --glass-veil: rgba(248, 251, 248, 0.78);
+  --glass-border: rgba(255, 255, 255, 0.72);
+  --prism-border: linear-gradient(135deg, rgba(255,255,255,.96), rgba(176,196,222,.48) 42%, rgba(226,243,233,.8) 68%, rgba(255,255,255,.96));
+  --platinum-thread-gradient: linear-gradient(135deg, #E5E4E2 0%, #FFFFFF 50%, #B0C4DE 100%);
+  --gold-thread-gradient: linear-gradient(135deg, #FFDF73 0%, #D4AF37 52%, #F5B041 100%);
+  --crystal-caustic: radial-gradient(ellipse at 12% 4%, rgba(255,255,255,.88), transparent 28%), radial-gradient(ellipse at 90% 88%, rgba(56,225,211,.16), transparent 36%);
+  --shadow-pine-ambient: 0 24px 64px rgba(17, 41, 31, 0.12), 0 5px 18px rgba(17, 41, 31, 0.06);
+  --shadow-quartz: 0 14px 34px rgba(17, 41, 31, 0.12), 0 2px 8px rgba(17, 41, 31, 0.07), inset 0 1px 0 rgba(255,255,255,.84);
+  --shadow-honey: 0 8px 18px rgba(156, 101, 17, 0.22), 0 2px 0 rgba(103, 68, 17, 0.22);
+  --shadow-inset-thread: inset 0 0 0 1px rgba(255,255,255,.72), inset 0 0 0 2px rgba(176,196,222,.34);
+  --shadow-card: 0 1px 2px rgba(17, 41, 31, 0.03), 0 8px 24px rgba(17, 41, 31, 0.035);
+  --elevation-0: none;
+  --elevation-1: var(--shadow-card);
+  --elevation-2: 0 14px 34px rgba(17, 41, 31, 0.09), 0 4px 10px rgba(17, 41, 31, 0.04);
+  --elevation-3: var(--shadow-pine-ambient);
+  --blur-quartz: 16px;
+  --blur-heavy: 28px;
+
+  /* 4px base rhythm with a 48px major unit. */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  --radius-micro: 0.25rem;
+  --radius-tight: 0.5rem;
+  --radius-control: 0.75rem;
+  --radius-panel: 1.125rem;
+  --radius-hero: 1.5rem;
+  --radius-seal: 50%;
+  --radius-pill: 999px;
+  --touch-target: 2.75rem;
+  --motion-fluid: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-material: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --surface-canvas: #10231B;
+  --text-primary: #F5FAF8;
+  --surface-card: #1F352B;
+  --text-card: #F5FAF8;
+  --surface-overlay: rgba(31, 53, 43, 0.82);
+  --text-overlay: #F5FAF8;
+  --surface-secondary: #2A6049;
+  --text-secondary: #F5FAF8;
+  --surface-muted: #203A2E;
+  --text-muted: #C4D8CC;
+  --surface-accent: #0A3641;
+  --text-accent: #E0F7F6;
+  --line-subtle: rgba(226, 243, 233, 0.15);
+  --line-strong: rgba(226, 243, 233, 0.28);
+  --line-dark: rgba(0, 0, 0, 0.24);
+  --glass-frost: rgba(24, 49, 38, 0.76);
+  --glass-veil: rgba(22, 43, 34, 0.84);
+  --glass-border: rgba(226, 243, 233, 0.22);
+  --shadow-pine-ambient: 0 24px 64px rgba(0, 0, 0, 0.3), 0 5px 18px rgba(0, 0, 0, 0.18);
+  --shadow-card: 0 1px 2px rgba(0,0,0,.16), 0 8px 24px rgba(0,0,0,.12);
+}

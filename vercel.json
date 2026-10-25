@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "cd design-system && npm ci",
-  "buildCommand": "cd design-system && npm run build",
-  "outputDirectory": "design-system/dist",
+  "installCommand": "echo skip",
+  "buildCommand": "echo skip",
+  "outputDirectory": "manus-published",
   "framework": null,
   "headers": [
     {
