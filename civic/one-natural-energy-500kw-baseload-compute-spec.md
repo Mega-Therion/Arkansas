@@ -45,6 +45,13 @@ Furthermore,  100% of the rejected thermal energy  ($45\text{–}60^\circ\text{C
 * **Internal Networking:** Redundant 100GbE QSFP28 non-blocking leaf-spine fabric.
 * **Telemetry & Sensor Grid:** Local edge SQLite log repository + LoRaWAN encrypted telemetry beacon ($915\text{ MHz}$) emitting sub-noise DSSS diagnostic frames.
 
+### D. Fundamental Landauer Thermodynamic Dissipation Budget
+* **Landauer  Bit-Erasure Limit ($T = 293.15\text{ K}$):**  $\Delta  Q_{\text{min}} =  k_B  T \ln 2 \approx 2.8055 \times 10^{-21}\text{ J / bit}$.
+* **Dielectric Bath Junction Limit ($T = 338.15\text{ K} / 65^\circ\text{C}$):** $\Delta Q_{\text{bath}} = k_B T \ln 2 \approx 3.2361 \times 10^{-21}\text{ J / bit}$.
+* **Theoretical Erasure Ceiling ($500\text{ kW}$ IT load):** $\dot{N}_{\text{max}} = \frac{5 \times 10^5\text{ W}}{\Delta Q_{\text{min}}} \approx 1.782 \times 10^{26}\text{ bit erasures / second}$.
+* **CMOS Dissipation Gap:** Contemporary FinFET accelerator silicon dissipates $E_{\text{gate}} \sim 1\text{ to } 10\text{ fJ / operation} = 10^{-15}\text{ to } 10^{-14}\text{ J}$. Real computational work operates at an overhead factor of $\eta \approx \frac{E_{\text{gate}}}{\Delta Q_{\text{min}}} \approx 3.5 \times 10^5 \text{ to } 3.5 \times 10^6$ above the physical Landauer floor.
+* **Thermal Recovery Grounding:** Because $>99.999\%$ of electric input manifests as classical resistive heat rather than irreversible bit-erasure entropy, capturing $475\text{ kW}$ of fluid enthalpy at $60^\circ\text{C}$ converts circuit inefficiencies directly into agricultural soil warming, recovering the thermodynamic penalty for food production.
+
 ---
 
 ## 3. Hydrologic & Environmental Protection Invariant
