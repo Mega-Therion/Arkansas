@@ -10,8 +10,9 @@
 
 This  technical specification details the modular, containerized  500  kW behind-the-meter  (BTM)  high-density compute architecture developed for **ONE Natural Energy** in Arkansas. 
 
-In strict adherence to **Rule 7 of the Arkansas Power Plan Canon**:
-> *"New plant for new large load is paid by that load. It is not an endowment and it is not a subsidy for building plants. The citizen is never the first wallet."*
+In strict adherence to **Rules 2 and 7 of the Arkansas Power Plan Canon** (`civic/POWER_PLAN_CANON.md`):
+> *Rule 2: "The citizen is never the first wallet."*
+> *Rule 7: "The fund is spent when needed. It is not an endowment and it is not a subsidy for building plants. New plant for new large load is paid by that load."*
 
 The  500 kW modular compute block generates  its  own power  directly  from dedicated baseload generation (subsurface geothermal / run-of-river hydro / stranded natural gas baseload) with **zero grid interconnection burden** and **zero cost socialization to retail ratepayers**. 
 
