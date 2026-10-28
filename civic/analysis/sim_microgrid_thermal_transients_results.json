@@ -1,0 +1,53 @@
+{
+  "jurisdiction": "Arkansas",
+  "standard": "POWER_PLAN_CANON.md",
+  "power_rating_kw": 500,
+  "winter_run": {
+    "season": "winter",
+    "max_tank_temp_c": 42.18574390475017,
+    "steady_tank_temp_c": 42.18574390475017,
+    "steady_sec_temp_c": 33.87579626048951,
+    "steady_gh_temp_c": 13.98262674025909,
+    "max_tank_delta_trip_c": 0.0,
+    "total_elec_kwh": 5749.999999994934,
+    "total_gh_recovered_kwh": 5599.052803435764,
+    "recovery_efficiency_pct": 97.37483136418604
+  },
+  "summer_run": {
+    "season": "summer",
+    "max_tank_temp_c": 53.529676295199664,
+    "steady_tank_temp_c": 53.529676295199664,
+    "steady_sec_temp_c": 45.20216362997965,
+    "steady_gh_temp_c": 29.31667480572745,
+    "max_tank_delta_trip_c": 0.0,
+    "total_elec_kwh": 5749.999999994934,
+    "total_gh_recovered_kwh": 5052.4206171566,
+    "recovery_efficiency_pct": 87.86818464627916
+  },
+  "sample_trajectories": {
+    "winter_last_step": {
+      "time_h": 11.983,
+      "q_elec_kw": 500.0,
+      "t_amb_c": 9.0,
+      "t_tank_c": 42.18,
+      "t_sec_c": 33.87,
+      "t_gh_c": 13.98,
+      "fan_pct": 0.0,
+      "q_gh_kw": 497.3,
+      "q_drycooler_kw": 0.0,
+      "flow_prim_kg_s": 12.42
+    },
+    "summer_last_step": {
+      "time_h": 11.983,
+      "q_elec_kw": 500.0,
+      "t_amb_c": 35.0,
+      "t_tank_c": 53.53,
+      "t_sec_c": 45.2,
+      "t_gh_c": 29.31,
+      "fan_pct": 20.0,
+      "q_gh_kw": 397.3,
+      "q_drycooler_kw": 102.0,
+      "flow_prim_kg_s": 12.42
+    }
+  }
+}
