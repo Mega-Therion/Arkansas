@@ -30,10 +30,10 @@ Furthermore,  100% of the rejected thermal energy  ($45\text{–}60^\circ\text{C
 * **Parasitic Pumping & Control Load:** $\le 22\text{ kW}$ total ($4.4\%$ parasitic overhead).
 
 ### B. Thermal & Cooling Subsystem
-* **Immersion  Tank Topology:** 4x 125 kW single-phase  synthetic  hydrocarbon dielectric  fluid  immersion tanks.
-* **Fluid Flow Rate:** $120\text{ GPM}$ total dielectric loop circulation.
+* **Immersion  Tank Topology:** 4x 125 kW single-phase  synthetic  hydrocarbon dielectric  fluid  immersion tanks (configured in two parallel two-tank trains).
+* **Fluid Flow Rate & Enthalpy Transport:** Dielectric circulation achieves full $475\text{ kW}$ fluid enthalpy transport with $240\text{ GPM}$ total loop circulation (or $120\text{ GPM}$ per two-tank train, $\approx 60\text{ GPM}$ per tank) across $\Delta T = 20\text{ K}$ ($38^\circ\text{C}$ supply to $58^\circ\text{C}$ return; $\dot{m} C_p \Delta T \approx 12.1\text{ kg/s} \times 1.96\text{ kJ/(kg}\cdot\text{K)} \times 20\text{ K} \approx 475\text{ kW}$).
 * **Supply Fluid Temperature:** $38^\circ\text{C}$ to IT equipment.
-* **Return Fluid Temperature:** $54\text{–}58^\circ\text{C}$ exiting server tanks.
+* **Return Fluid Temperature:** $58^\circ\text{C}$ exiting server tanks ($\Delta T = 20\text{ K}$ across the immersion volume).
 * **Primary Heat Exchanger:** Plate-and-frame 316L stainless steel liquid-to-liquid heat exchanger.
 * **Civic Heat Export:** Secondary closed water loop delivering $48\text{–}52^\circ\text{C}$ warm water to agricultural greenhouses or municipal district heating partners.
 * **Tertiary Emergency Rejection:** Closed-loop adiabatic dry-cooler with variable-speed EC fans (zero surface-water thermal pollution; zero aquifer consumption).
