@@ -13,18 +13,20 @@
 (4) The state carries general revenue surpluses in many years, including $655 million at the close of fiscal year 2026.
 
 **SECTION 3. Definitions.**
-(1) "Extraordinary cost" means a residential cost that the Arkansas Public Service Commission approves for recovery through a fuel or energy cost adjustment, a purchased-power adjustment, a storm or disaster restoration rider, or any other one-time cost of a single identifiable event **[VERIFY the rider names in each utility's tariff]**, to the extent it raises the average residential bill above its level in the same month of the prior year. It does not include:
+(1) "Extraordinary cost" means a residential cost that the Arkansas Public Service Commission approves for recovery through a fuel or energy cost adjustment, a purchased-power adjustment, a storm or disaster restoration rider, or any other one-time cost of a single identifiable event **[VERIFY the rider names in each utility's tariff]**, to the extent it raises the average residential bill above its level in the same month of the prior year by more than [2] percent of that year's average residential price. It does not include:
    (A) any cost of new or under-construction generating plant, including recovery under Act 373 of 2025;
    (B) any change to base rates or to the customer charge set in a general rate case; or
    (C) any rider amount the Commission moves into base rates;
 (2) "Fund" means the Residential Rate Stabilization Fund;
 (3) "Utility operating reserve" means funds of the utility that the Commission identifies as available to absorb an extraordinary cost before it is billed to customers, including any storm reserve and the utility's earnings above its allowed return **[VERIFY the mechanism with Commission staff and counsel]**.
 
-> *Drafting note (2026-10-28).* Section 3(1) was keyed to any [__]% twelve-month rise. The 2010–2026 analysis showed that version mostly postpones increases: 86–92% of its dollars go to rises still present two years later ([`../analysis/rate_stabilization_volatility.py`](../analysis/rate_stabilization_volatility.py)). It now keys to the event costs Rule 2 of the canon names (fuel, storm, any isolated event), matching the 26-001-U public comment, and leaves permanent base-rate changes to the rate case (Rule 1). The fuel-keyed rerun used a weak gas-price proxy (R² 0.789 against 0.764 for trend alone) and missed the two worst spikes ([`../analysis/fuel_keyed_stabilization.py`](../analysis/fuel_keyed_stabilization.py)), so the Commission's actual fuel adjustment history is needed before the cap and fund size are set.
+> *Drafting note (2026-10-28).* Section 3(1) was keyed to any [__]% twelve-month rise. The 2010–2026 analysis showed that version mostly postpones increases: 86–92% of its dollars go to rises still present two years later ([`../analysis/rate_stabilization_volatility.py`](../analysis/rate_stabilization_volatility.py)). It now keys to the event costs Rule 2 of the canon names (fuel, storm, any isolated event), matching the 26-001-U public comment, and leaves permanent base-rate changes to the rate case (Rule 1).
+>
+> Sizing comes from Entergy Arkansas's filed fuel rider (Rider ECR) for every period 2009–2026, read from APSC filings ([`../analysis/data/entergy_ecr_history.csv`](../analysis/data/entergy_ecr_history.csv)), run through the fund rule in [`../analysis/ecr_keyed_stabilization.py`](../analysis/ecr_keyed_stabilization.py). Keyed to the real rider, **70–82% of fund dollars went to rises that later reversed** (against 4–13% for a fund keyed to every bill increase), so it smooths instead of postponing. A **$250 million fund with a 2% threshold** would have paid $165 million over 2011–2026, at most $59 million in any twelve months, and still held $85 million at the end. Full coverage with no threshold would have cost $325 million over sixteen years (about $20 million a year). Entergy's residential kWh are approximated as 49% of statewide residential sales (738,000 of about 1.51 million customers); the other utilities' fuel riders are not yet in the model.
 
 **SECTION 4. Fund created.**
 (a) There is created in the State Treasury the Residential Rate Stabilization Fund.
-(b) The fund consists of amounts transferred from general revenue surplus as provided by the Revenue Stabilization Law. The fund balance may not exceed [__].
+(b) The fund consists of amounts transferred from general revenue surplus as provided by the Revenue Stabilization Law. The fund balance may not exceed [$250 million].
 (c) The State Treasurer shall invest the fund. Investment earnings are held in a separate earnings account within the fund.
 (d) Unspent balances roll over from month to month and from year to year.
 

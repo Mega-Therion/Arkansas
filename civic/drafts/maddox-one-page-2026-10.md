@@ -30,7 +30,7 @@ A storm, a tornado in another county, or a fuel-price spike is a shared, tempora
   4. only then a small statewide remainder.
 - A hard cap limits how much any monthly bill can rise from a surprise.
 
-**Why it is keyed to temporary costs:** a 2010–2026 analysis of Arkansas residential prices found that a fund triggered by *any* bill increase mostly delays it. 86–92% of its dollars went to increases still present two years later. Keyed to costs that go away, it works as a real shock absorber. Sizing it needs the Commission's own fuel-adjustment history.
+**Why it is keyed to temporary costs:** a fund triggered by *any* bill increase mostly delays it: 86–92% of its dollars went to increases still present two years later. Keyed to Entergy's actual fuel rider from 2010 to 2026, read from Public Service Commission filings, 70–82% of its dollars went to increases that later reversed. A $250 million fund with a 2% threshold would have absorbed every fuel-rider rise above that threshold since 2011, spent at most $59 million in any twelve months, and still held $85 million.
 
 **The estimated cost is small.** Covering Entergy's average $1.16 a month across about 738,000 residential customers would cost roughly **$10 million a year**, about 1.6% of the FY2026 surplus. The ask is not mainly about the money. It is that the state, which created the captive pool, stands in front of a temporary shock before the household does.
 
