@@ -13,9 +13,14 @@
 (4) The state carries general revenue surpluses in many years, including $655 million at the close of fiscal year 2026.
 
 **SECTION 3. Definitions.**
-(1) "Extraordinary cost" means a residential cost that the Arkansas Public Service Commission approves for recovery and that raises the average residential bill by more than [__] percent in a twelve-month period, including fuel and purchased-power spikes and storm or disaster restoration. It does not include any cost of new or under-construction generating plant, including recovery under Act 373 of 2025;
+(1) "Extraordinary cost" means a residential cost that the Arkansas Public Service Commission approves for recovery through a fuel or energy cost adjustment, a purchased-power adjustment, a storm or disaster restoration rider, or any other one-time cost of a single identifiable event **[VERIFY the rider names in each utility's tariff]**, to the extent it raises the average residential bill above its level in the same month of the prior year. It does not include:
+   (A) any cost of new or under-construction generating plant, including recovery under Act 373 of 2025;
+   (B) any change to base rates or to the customer charge set in a general rate case; or
+   (C) any rider amount the Commission moves into base rates;
 (2) "Fund" means the Residential Rate Stabilization Fund;
 (3) "Utility operating reserve" means funds of the utility that the Commission identifies as available to absorb an extraordinary cost before it is billed to customers, including any storm reserve and the utility's earnings above its allowed return **[VERIFY the mechanism with Commission staff and counsel]**.
+
+> *Drafting note (2026-10-28).* Section 3(1) was keyed to any [__]% twelve-month rise. The 2010–2026 analysis showed that version mostly postpones increases: 86–92% of its dollars go to rises still present two years later ([`../analysis/rate_stabilization_volatility.py`](../analysis/rate_stabilization_volatility.py)). It now keys to the event costs Rule 2 of the canon names (fuel, storm, any isolated event), matching the 26-001-U public comment, and leaves permanent base-rate changes to the rate case (Rule 1). The fuel-keyed rerun used a weak gas-price proxy (R² 0.789 against 0.764 for trend alone) and missed the two worst spikes ([`../analysis/fuel_keyed_stabilization.py`](../analysis/fuel_keyed_stabilization.py)), so the Commission's actual fuel adjustment history is needed before the cap and fund size are set.
 
 **SECTION 4. Fund created.**
 (a) There is created in the State Treasury the Residential Rate Stabilization Fund.
