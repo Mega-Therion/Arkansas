@@ -32,6 +32,11 @@ button, input, select { font: inherit; }
 .hero { background: var(--pine); color: #f4f1ea; border-radius: 18px; padding: 20px; }
 .hero p { max-width: 62ch; }
 .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.drafts { margin-top: 12px; }
+.texty { background: transparent; border: 0; color: inherit; text-decoration: underline; padding: 0; cursor: pointer; }
+.filters { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.filters label { display: flex; flex-direction: column; gap: 4px; align-items: stretch; }
+.filters input, .filters select { width: 100%; }
 .grid { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 12px; }
 @media (min-width: 900px) { .grid { grid-template-columns: 280px 1fr; } }
 .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px; }

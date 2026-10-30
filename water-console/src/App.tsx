@@ -29,6 +29,21 @@ function sourceUrl(siteId: string) {
   return `https://waterdata.usgs.gov/monitoring-location/${siteId}/`;
 }
 
+function clockTime(iso: string | null | undefined) {
+  if (!iso) return "time not provided";
+  const parsed = new Date(iso);
+  if (Number.isNaN(parsed.getTime())) return iso;
+  return parsed.toLocaleString("en-US", {
+    timeZone: "America/Chicago",
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    timeZoneName: "short",
+  });
+}
+
 async function getJson(url: string) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`USGS ${response.status}`);
@@ -262,36 +277,30 @@ export function App() {
         {freshest && (
           <p className="mono">
             Freshest numeric reading in this response: {freshest.siteId} at{" "}
-            {freshest.observedAt}. Inventory count {stations.length}. This is
-            not a statewide discharge total.
+            {clockTime(freshest.observedAt)}. Inventory count {stations.length}.
+            This is not a statewide discharge total.
           </p>
         )}
-        <div className="row">
-          <button type="button" onClick={() => setPage(null)}>
-            Console
-          </button>
-          <button type="button" onClick={() => setPage("survey")}>
-            USGS notes
-          </button>
-          {civicPages.map((item) => (
-            <button
-              type="button"
-              key={item.id}
-              onClick={() => setPage(item.id)}
-            >
-              {item.title}
-            </button>
-          ))}
-          <button
-            type="button"
-            onClick={() =>
-              setTheme((mode) => (mode === "light" ? "dark" : "light"))
-            }
-          >
-            {theme === "light" ? "Dark" : "Light"}
-          </button>
-        </div>
       </header>
+      <div className="row drafts">
+        <button type="button" onClick={() => setPage(null)}>
+          Console
+        </button>
+        {civicPages.map((item) => (
+          <button type="button" key={item.id} onClick={() => setPage(item.id)}>
+            {item.title}
+          </button>
+        ))}
+      </div>
+      <p>
+        <button
+          type="button"
+          className="texty"
+          onClick={() => setPage("survey")}
+        >
+          USGS notes
+        </button>
+      </p>
       {page === "survey" && (
         <article className="panel">
           <h2>What the repository records from USGS</h2>
@@ -347,6 +356,14 @@ export function App() {
         </article>
       )}
       <div className="row" style={{ marginTop: 12 }}>
+        <button
+          type="button"
+          onClick={() =>
+            setTheme((mode) => (mode === "light" ? "dark" : "light"))
+          }
+        >
+          {theme === "light" ? "Dark" : "Light"}
+        </button>
         <button type="button" onClick={() => void load()}>
           Refresh inventory
         </button>
@@ -368,28 +385,33 @@ export function App() {
       {status === "loading" && <p role="status">Loading the USGS inventory.</p>}
       <div className="grid">
         <section className="panel">
-          <label>
-            Search name or USGS id{" "}
-            <input value={query} onChange={(e) => setQuery(e.target.value)} />
-          </label>
-          <label>
-            County code{" "}
-            <select value={county} onChange={(e) => setCounty(e.target.value)}>
-              <option value="">All</option>
-              {counties.map((code) => (
-                <option key={code}>{code}</option>
-              ))}
-            </select>
-          </label>
-          <label>
-            HUC prefix{" "}
-            <select value={huc} onChange={(e) => setHuc(e.target.value)}>
-              <option value="">All</option>
-              {hucs.map((code) => (
-                <option key={code}>{code}</option>
-              ))}
-            </select>
-          </label>
+          <div className="filters">
+            <label>
+              Search name or USGS id
+              <input value={query} onChange={(e) => setQuery(e.target.value)} />
+            </label>
+            <label>
+              County code
+              <select
+                value={county}
+                onChange={(e) => setCounty(e.target.value)}
+              >
+                <option value="">All</option>
+                {counties.map((code) => (
+                  <option key={code}>{code}</option>
+                ))}
+              </select>
+            </label>
+            <label>
+              HUC prefix{" "}
+              <select value={huc} onChange={(e) => setHuc(e.target.value)}>
+                <option value="">All</option>
+                {hucs.map((code) => (
+                  <option key={code}>{code}</option>
+                ))}
+              </select>
+            </label>
+          </div>
           <button
             type="button"
             onClick={() => {
@@ -473,8 +495,7 @@ export function App() {
                     : `${selected.valueCfs} ${selected.unit}`}
                 </p>
                 <p>
-                  Observed {selected.observedAt ?? "time not provided"}{" "}
-                  {selected.tz}. Qualifiers{" "}
+                  Observed {clockTime(selected.observedAt)}. Qualifiers{" "}
                   {selected.qualifiers.join(", ") || "none"}.
                 </p>
                 <p>
