@@ -11,6 +11,7 @@
 — the statutory audit of every civic bill and docket. Its citations were checked against primary
 sources on 2026-10-03; its §6 says what is confirmed, what was corrected, and what is still unverified.
 **Repository:** renamed from `arkansas-orchard` to `Arkansas` on 2026-10-03; old URLs redirect.
+**Web:**  one  Vercel project,  `natural-state-arkansas`  (https://natural-state-arkansas.vercel.app).  It  builds  `water-console` from  the root `vercel.json`. `arkansas-orchard` was a second project on this same commit and the same page. It is not a second site.
 **Status:** working repo — legislative pre-filing drafts for Arkansas's 2027 session; several pieces are marked draft below.
 **None of the org/branch structures in this repo are canonical — RY confirmed 2026-09-11 they're
 all old and likely due for a redo.** Where this repo picks one structure to organize files under
