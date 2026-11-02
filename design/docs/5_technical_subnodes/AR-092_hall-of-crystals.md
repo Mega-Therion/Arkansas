@@ -4,7 +4,7 @@
 **Canonical Slug:** `hall-of-crystals`  
 **Architectural Layer:** `5_technical_subnodes`  
 **Functional Category:** `infrastructure`  
-**Parent System:** `Quartz Archive (5D optical storage in fused Montgomery County quartz)`  
+**Parent System:** `Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)`  
 **Document Scope:** Dedicated Standalone Specification (`own design doc`)  
 **Recorded Aliases:** None recorded  
 **Historical Provenance / First Recorded:** Archival Corpus (2025-2026)  
@@ -14,7 +14,7 @@
 
 ## 1. Purpose & Problem Solved
 
-**Primary Objective:** Public site tied to the mine: dig a crystal in the morning, see the plates in the afternoon; Montgomery County deep-time master vault.
+**Primary Objective:** Public site tied to the mine: dig a crystal in the morning, see the plates in the afternoon; West-Central Arkansas Quartz Corridor deep-time master vault.
 
 ### Engineering Defect & Industrial Bottleneck
 Standard centralized industrial and compute systems suffer from extreme transmission loss, uninsulated dielectric stress, high parasitic cooling energy (PUE > 1.4), and vulnerable single-point utility dependencies. Rural industrial operations typically cannot support multi-megawatt high-density loads without destabilizing regional grid frequency.
@@ -24,7 +24,7 @@ Standard centralized industrial and compute systems suffer from extreme transmis
 
 ## 2. System Architecture & Component Hierarchy
 
-### Structural Position within `Quartz Archive (5D optical storage in fused Montgomery County quartz)`
+### Structural Position within `Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)`
 `Hall of Crystals` operates as an integrated module within `5_technical_subnodes`. Its internal hierarchy decomposes into three functional operational tiers:
 
 1. **Core Control & Invariant Tier (Sub-layer A):** Establishes boundary enforcement, legal compliance covenants, and cryptographic authentication. Guarantees that all operations conform to the Six Wholonomy Invariants.
@@ -34,8 +34,8 @@ Standard centralized industrial and compute systems suffer from extreme transmis
 ### Contextual Engineering Extracts from Canon
 > - [[00_Home]] — Chyren Second Brain Master Spine
 - [[30_Maps/CHYREN MASTER MOC]] — Canonical System Topology
-- [[70_Memory/ONE_ECOSYSTEM_ARCHITECTURAL_SYNTHESIS|ONE Ecosystem Architectural Synthesis]] — Canonical integration of ONE, Montgomery County AR Orchard, and Project RENEW
-- [[10_Notes/mount_ida_arkansas_quartz_corridor_and_hall_of_crystals|The Arkansas Quartz Optical Corridor: Montgomery County, ONE Natural Energy & The Hall of Crystals]]
+- [[70_Memory/ONE_ECOSYSTEM_ARCHITECTURAL_SYNTHESIS|ONE Ecosystem Architectural Synthesis]] — Canonical integration of ONE, West-Central Arkansas Quartz Corridor AR Orchard, and Project RENEW
+- [[10_Notes/mount_ida_arkansas_quartz_corridor_and_hall_of_crystals|The Arkansas Quartz Optical Corridor: West-Central Arkansas Quartz Corridor, ONE Natural Energy & The Hall of Crystals]]
 - [[10_Notes/data_center_vs_compute_center_and_quartz_holography|Data Center vs Compute Center & Quartz Holography]]
 - [[30_Maps/Map_of_Photoncrystal_Holography|Map of Photoncrystal Holography]]
 
@@ -80,7 +80,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

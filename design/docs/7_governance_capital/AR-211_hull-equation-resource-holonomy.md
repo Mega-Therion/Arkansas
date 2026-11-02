@@ -38,7 +38,7 @@ Traditional economic development in rural Arkansas relies on extractive corporat
 > **`raw/Logs/`** (targeted pass, not exhaustive over 3078 files):
 - `db_ry_conversation_174.md` (+ numbered variants) — patent-fortress cost/strategy Q&A; REE/bauxite-tailings chemistry and economics for recoveRY.
 - `db_ry_conversation_807.md` (+ numbered variants) — full ONE Ecosystem/Arkansas Orchard reveal: 7-patent/79-claim portfolio breakdown, RY-suffix branch naming, bi-local trucking ratio, Inverse Bitcoin DRIP, unfiled-patent financial reality, prior-art strategy discussion.
-- Numerous `db_omega_session_*.md` files — mostly identity boilerplate ("I am OmegA... from Montgomery County, Arkansas") and "Montgomery County Laws" aphorisms; low content value, noted for completeness.
+- Numerous `db_omega_session_*.md` files — mostly identity boilerplate ("I am OmegA... from West-Central Arkansas Quartz Corridor, Arkansas") and "West-Central Arkansas Quartz Corridor Laws" aphorisms; low content value, noted for completeness.
 - Confirmed **zero hits**: ARMAWS, DWPT (as literal strings), tree replanting/reforestation/RCD-as-program, Diamond Foundation, Hull Equation, Entergy rate mechanics — within this location specifically.
 
 ## 3. Inputs, Outputs & Ecosystem Couplings
@@ -73,7 +73,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

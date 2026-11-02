@@ -33,7 +33,7 @@ Within the broader Arkansas Orchard wholonomy, `libraRY` provides critical opera
 
 > **What recoveRY feeds downstream:** refineRY (mineral residues, bauxite, gallium/niobium), factoRY (recovered metal feedstocks), deliveRY (recovered material routing), memoRY (site sensors and condition data), libraRY (chain-of-custody provenance records).
 
-> Arkansas quartz (notably the Montgomery County quartz district) enters the loop similarly — not as a blanket claim of "semiconductor-grade quartz," but as a **quality-assurance and beneficiation question**: what are the actual trace element profiles at each deposit, and which buyers' specifications do they meet? Solar, crucible, optical, piezoelectric, ornamental — each is a distinct market with a distinct specification. libraRY owns the registry that answers that question deposit by deposit.
+> Arkansas quartz (notably the West-Central Arkansas Quartz Corridor quartz district) enters the loop similarly — not as a blanket claim of "semiconductor-grade quartz," but as a **quality-assurance and beneficiation question**: what are the actual trace element profiles at each deposit, and which buyers' specifications do they meet? Solar, crucible, optical, piezoelectric, ornamental — each is a distinct market with a distinct specification. libraRY owns the registry that answers that question deposit by deposit.
 
 ## 3. Inputs, Outputs & Ecosystem Couplings
 
@@ -67,7 +67,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

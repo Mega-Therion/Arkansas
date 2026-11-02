@@ -41,7 +41,7 @@ Traditional economic development in rural Arkansas relies on extractive corporat
   - *MYELIN*: Associative memory executing active, intelligent forgetting.
 - **Secret Holonomy Cryptography**: Encodes data payloads in the non-Abelian Uhlmann phase of a purification bundle, immunizing payloads against quantum decryption without relying on prime factorization.
 
-> **Method note**: Given volume (3078 raw log files, 169 Antigravity transcripts, 583 legacy KB files, plus the full `Research_and_Data` tree), this excavation was run as three parallel targeted passes rather than a linear read of every file: (1) `raw/Logs/`, (2) `80_Archive/Antigravity_Transcripts/` + `80_Archive/obsidian_vault_legacy/knowledge_base/`, (3) `Research_and_Data/` + the canonical manifesto. Each pass deduplicated identity-boilerplate noise (a repeated OmegA self-introduction paragraph, "Montgomery County Laws" aphorisms, and generic ADCCL/MAGNA hits inside unrelated Chyren-AI-architecture files) before reporting. One file was flagged but **not read in full**: `80_Archive/Antigravity_Transcripts/antigravity-cli__9bf4e4ac-e506-4b23-b7ef-be8e79ef97b5.md` (73,935 lines), repeatedly cited by other transcripts as the "Origin Conversation" for the whole Arkancentric Civics / ONE Natural Energy thread. This is the single highest-value follow-up target if more depth is wanted later.
+> **Method note**: Given volume (3078 raw log files, 169 Antigravity transcripts, 583 legacy KB files, plus the full `Research_and_Data` tree), this excavation was run as three parallel targeted passes rather than a linear read of every file: (1) `raw/Logs/`, (2) `80_Archive/Antigravity_Transcripts/` + `80_Archive/obsidian_vault_legacy/knowledge_base/`, (3) `Research_and_Data/` + the canonical manifesto. Each pass deduplicated identity-boilerplate noise (a repeated OmegA self-introduction paragraph, "West-Central Arkansas Quartz Corridor Laws" aphorisms, and generic ADCCL/MAGNA hits inside unrelated Chyren-AI-architecture files) before reporting. One file was flagged but **not read in full**: `80_Archive/Antigravity_Transcripts/antigravity-cli__9bf4e4ac-e506-4b23-b7ef-be8e79ef97b5.md` (73,935 lines), repeatedly cited by other transcripts as the "Origin Conversation" for the whole Arkancentric Civics / ONE Natural Energy thread. This is the single highest-value follow-up target if more depth is wanted later.
 
 > **ADCCL** — **two distinct usages confirmed present in the corpus** (consistent with the standing memory note that one ADCCL expansion elsewhere in the corpus is wrong):
 - Arkansas-orchard usage, `ONE_ECOSYSTEM_MAGNA_DOSSIER.md`: "**ADCCL**: Anti-Drift Cognitive Control Loop: Anti-hallucination monitoring loop enforcing the Articulated Binary Chirallic (ABC) system and sorceRY v0 runtime. Commands execute only if they satisfy the Chiral Invariant χ ≥ 1/√2 ≈ 0.7071." This matches the canonical ADCCL definition in the reference memory note (Anti-Drift Cognitive Control Loop) and governs OmegA/Chyren AI conduct within the ecosystem.
@@ -80,7 +80,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

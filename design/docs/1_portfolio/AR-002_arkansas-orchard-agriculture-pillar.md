@@ -34,7 +34,7 @@ Within the broader Arkansas Orchard wholonomy, `Arkansas Orchard agriculture pil
 | **Orchard / ONE Holdings Inc.** | Platform Parent | Intellectual property, brand, master covenants, executive leadership | Holds no environmental, hazardous, or high-voltage assets |
 | **ONE Energy Services SPV** | Commercial Utility Interface | Substation lease, MISO interconnection queue rights, demand-response contracts | Isolates utility interface penalties from agriculture |
 | **Flexible Campus SPV** | Tenant Infrastructure | High-density equipment, power distribution, thermal loops | Tenant defaults cannot impair land or orchard assets |
-| **Orchard Agriculture LLC** | Food & Farming Operator | Montgomery County AR land, greenhouses, cold-storage warehouse, brand contracts | Insulates agricultural commodity risks from power operations |
+| **Orchard Agriculture LLC** | Food & Farming Operator | West-Central Arkansas Quartz Corridor AR land, greenhouses, cold-storage warehouse, brand contracts | Insulates agricultural commodity risks from power operations |
 | **Hillwisdom Foundation (501c3)**| Civic & Workforce Arm | Training grants, educational endowments, Project RENEW contracts | Completely independent balance sheet; charitable asset lock |
 
 ## 3. Inputs, Outputs & Ecosystem Couplings
@@ -69,7 +69,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

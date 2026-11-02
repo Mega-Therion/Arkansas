@@ -14,7 +14,7 @@
 
 ## 1. Purpose & Problem Solved
 
-**Primary Objective:** Compute center = kinetic forge (Russellville); data center = memory monument (quartz archive); dual framing for the Arkansas compute/crystal corridor
+**Primary Objective:** Compute center = kinetic forge (River Valley Basin); data center = memory monument (quartz archive); dual framing for the Arkansas compute/crystal corridor
 
 ### Systemic Challenge & Integration Role
 Within the broader Arkansas Orchard wholonomy, `Data Center vs Compute Center ontology` provides critical operational cohesion. It bridges upstream industrial capacity (foundRY capital and ONE Natural Energy baseload compute) with downstream rural community enrichment, ensuring that no material, thermal energy, or capital leaves the ecosystem as uncaptured waste.
@@ -60,7 +60,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

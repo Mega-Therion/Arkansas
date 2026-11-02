@@ -1,7 +1,7 @@
-# `AR-037`: Quartz Archive (5D optical storage in fused Montgomery County quartz)
+# `AR-037`: Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)
 
 **Document Identifier:** `AR-037`  
-**Canonical Slug:** `quartz-archive-5d-optical-storage-in-fused-mount-ida-quartz`  
+**Canonical Slug:** `quartz-archive-5d-optical-storage-in-fused-ouachita-quartz`  
 **Architectural Layer:** `5_technical_subnodes`  
 **Functional Category:** `commercial entity`  
 **Parent System:** `The Arkansas Orchard Master Portfolio`  
@@ -14,18 +14,18 @@
 
 ## 1. Purpose & Problem Solved
 
-**Primary Objective:** Montgomery County quartz melted to fused glass, femtosecond-laser written for records preserved, not stored; process locked 2026-10-25.
+**Primary Objective:** West-Central Arkansas Quartz Corridor quartz melted to fused glass, femtosecond-laser written for records preserved, not stored; process locked 2026-10-25.
 
 ### Engineering Defect & Industrial Bottleneck
 Standard centralized industrial and compute systems suffer from extreme transmission loss, uninsulated dielectric stress, high parasitic cooling energy (PUE > 1.4), and vulnerable single-point utility dependencies. Rural industrial operations typically cannot support multi-megawatt high-density loads without destabilizing regional grid frequency.
 
 ### The Engineered Solution
-`Quartz Archive (5D optical storage in fused Montgomery County quartz)` implements deterministic physical engineering principles: robust closed-loop fluid and thermal coupling, triple-redundant electromagnetic shielding, modular containerized packaging, and sub-second hardware interlocks that isolate high-density workloads from public distribution grids.
+`Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)` implements deterministic physical engineering principles: robust closed-loop fluid and thermal coupling, triple-redundant electromagnetic shielding, modular containerized packaging, and sub-second hardware interlocks that isolate high-density workloads from public distribution grids.
 
 ## 2. System Architecture & Component Hierarchy
 
 ### Structural Position within `The Arkansas Orchard Master Portfolio`
-`Quartz Archive (5D optical storage in fused Montgomery County quartz)` operates as an integrated module within `5_technical_subnodes`. Its internal hierarchy decomposes into three functional operational tiers:
+`Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)` operates as an integrated module within `5_technical_subnodes`. Its internal hierarchy decomposes into three functional operational tiers:
 
 1. **Core Control & Invariant Tier (Sub-layer A):** Establishes boundary enforcement, legal compliance covenants, and cryptographic authentication. Guarantees that all operations conform to the Six Wholonomy Invariants.
 2. **Execution & Mechanical Sub-Tier (Sub-layer B):** Executes real-time physical, logistical, and computational workflows—including sensor polling, load modulation, fluid recirculation, or statutory voucher issuance.
@@ -65,7 +65,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

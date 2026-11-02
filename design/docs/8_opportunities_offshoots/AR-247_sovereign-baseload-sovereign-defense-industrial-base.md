@@ -6,7 +6,7 @@
 **Functional Category:** `opportunity`  
 **Parent System:** `The Arkansas Orchard Master Portfolio`  
 **Document Scope:** Dedicated Standalone Specification (`own design doc`)  
-**Recorded Aliases:** Arkansas-Owned Prime Contracts, Camden Corridor  
+**Recorded Aliases:** Arkansas-Owned Prime Contracts, Highland Industrial Defense Complex Corridor  
 **Historical Provenance / First Recorded:** 2026-10-21  
 **Epistemic Tier:** Certified Architecture `[D]` / Formal Reference `[C]` / Empirical Parameter `[P]` / Research Invariant `[O]`  
 
@@ -14,7 +14,7 @@
 
 ## 1. Purpose & Problem Solved
 
-**Primary Objective:** Off-grid geothermal/turbine/gas power for defense and compute; Arkansas-based defense contractors bid federal subcontracts (Camden, Highland Park, Pine Bluff).
+**Primary Objective:** Off-grid geothermal/turbine/gas power for defense and compute; Arkansas-based defense contractors bid federal subcontracts (Highland Industrial Defense Complex, Highland Park, Lower Arkansas River Industrial District).
 
 ### Systemic Challenge & Integration Role
 Within the broader Arkansas Orchard wholonomy, `Sovereign Baseload / Sovereign Defense Industrial Base` provides critical operational cohesion. It bridges upstream industrial capacity (foundRY capital and ONE Natural Energy baseload compute) with downstream rural community enrichment, ensuring that no material, thermal energy, or capital leaves the ecosystem as uncaptured waste.
@@ -60,7 +60,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

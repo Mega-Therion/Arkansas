@@ -1,41 +1,35 @@
-# `AR-067`: Russellville Compute Forge
+# `AR-123`: High-purity quartz (crucible-grade) feasibility + West-Central Arkansas Quartz Corridor assay
 
-**Document Identifier:** `AR-067`  
-**Canonical Slug:** `russellville-compute-forge`  
+**Document Identifier:** `AR-123`  
+**Canonical Slug:** `high-purity-quartz-crucible-grade-feasibility-ouachita-assay`  
 **Architectural Layer:** `5_technical_subnodes`  
-**Functional Category:** `infrastructure`  
-**Parent System:** `ONE Natural Energy`  
+**Functional Category:** `opportunity`  
+**Parent System:** `refineRY / ACRN`  
 **Document Scope:** Dedicated Standalone Specification (`own design doc`)  
 **Recorded Aliases:** None recorded  
-**Historical Provenance / First Recorded:** Archival Corpus (2025-2026)  
+**Historical Provenance / First Recorded:** 2026-09-11  
 **Epistemic Tier:** Certified Architecture `[D]` / Formal Reference `[C]` / Empirical Parameter `[P]` / Research Invariant `[O]`  
 
 ---
 
 ## 1. Purpose & Problem Solved
 
-**Primary Objective:** Compute cluster near Arkansas Nuclear One + Arkansas River hydro (the 'forge' of the quartz corridor)
+**Primary Objective:** Spruce Pine chokepoint; one quartz-specific ICP-MS assay ($350–600) decides; none run.
 
 ### Engineering Defect & Industrial Bottleneck
 Standard centralized industrial and compute systems suffer from extreme transmission loss, uninsulated dielectric stress, high parasitic cooling energy (PUE > 1.4), and vulnerable single-point utility dependencies. Rural industrial operations typically cannot support multi-megawatt high-density loads without destabilizing regional grid frequency.
 
 ### The Engineered Solution
-`Russellville Compute Forge` implements deterministic physical engineering principles: robust closed-loop fluid and thermal coupling, triple-redundant electromagnetic shielding, modular containerized packaging, and sub-second hardware interlocks that isolate high-density workloads from public distribution grids.
+`High-purity quartz (crucible-grade) feasibility + West-Central Arkansas Quartz Corridor assay` implements deterministic physical engineering principles: robust closed-loop fluid and thermal coupling, triple-redundant electromagnetic shielding, modular containerized packaging, and sub-second hardware interlocks that isolate high-density workloads from public distribution grids.
 
 ## 2. System Architecture & Component Hierarchy
 
-### Structural Position within `ONE Natural Energy`
-`Russellville Compute Forge` operates as an integrated module within `5_technical_subnodes`. Its internal hierarchy decomposes into three functional operational tiers:
+### Structural Position within `refineRY / ACRN`
+`High-purity quartz (crucible-grade) feasibility + West-Central Arkansas Quartz Corridor assay` operates as an integrated module within `5_technical_subnodes`. Its internal hierarchy decomposes into three functional operational tiers:
 
 1. **Core Control & Invariant Tier (Sub-layer A):** Establishes boundary enforcement, legal compliance covenants, and cryptographic authentication. Guarantees that all operations conform to the Six Wholonomy Invariants.
 2. **Execution & Mechanical Sub-Tier (Sub-layer B):** Executes real-time physical, logistical, and computational workflows—including sensor polling, load modulation, fluid recirculation, or statutory voucher issuance.
 3. **Interface & Settlement Gateway (Sub-layer C):** Bridges outward to public utility telemetry, county quorum courts, state administrative agencies, and sister Orchard operating spokes.
-
-### Contextual Engineering Extracts from Canon
-> - [[70_Memory/ONE_ECOSYSTEM_ARCHITECTURAL_SYNTHESIS]] — ONE Natural Energy operational model
-- **Russellville Compute Forge**: Powered by Arkansas Nuclear One (ANO) baseload + regional hydroelectric facilities on the Arkansas River
-- **Active Phase-Space Inference**: GPU/TPU non-equilibrium thermodynamic compute clusters
-- **Thermal Recycling**: Waste heat capture for local agriculture, drying kilns, and greenhouses
 
 ## 3. Inputs, Outputs & Ecosystem Couplings
 
@@ -71,7 +65,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 
@@ -101,5 +95,4 @@ flowchart LR
 
 The architectural specifications in this design document are grounded in the following canonical files, research excavations, and archival records:
 
-- `vault/30_Maps/Map_of_Arkansas_Wholonomy_and_Regional_Infrastructure.md` — *§2*
-- `vault/10_Notes/data_center_vs_compute_center_and_quartz_holography.md`
+- `Arkansas/commercial/the-six-branches.md 'high-purity quartz feasibility'`

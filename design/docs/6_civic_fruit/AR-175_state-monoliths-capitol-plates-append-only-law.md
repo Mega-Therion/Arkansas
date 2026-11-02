@@ -4,7 +4,7 @@
 **Canonical Slug:** `state-monoliths-capitol-plates-append-only-law`  
 **Architectural Layer:** `6_civic_fruit`  
 **Functional Category:** `civic program`  
-**Parent System:** `Quartz Archive (5D optical storage in fused Montgomery County quartz)`  
+**Parent System:** `Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)`  
 **Document Scope:** Dedicated Standalone Specification (`own design doc`)  
 **Recorded Aliases:** None recorded  
 **Historical Provenance / First Recorded:** 2026-10-07  
@@ -24,7 +24,7 @@ In legacy municipal and state infrastructure across rural Arkansas, public capit
 
 ## 2. System Architecture & Component Hierarchy
 
-### Structural Position within `Quartz Archive (5D optical storage in fused Montgomery County quartz)`
+### Structural Position within `Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)`
 `State monoliths / Capitol plates (append-only law)` operates as an integrated module within `6_civic_fruit`. Its internal hierarchy decomposes into three functional operational tiers:
 
 1. **Core Control & Invariant Tier (Sub-layer A):** Establishes boundary enforcement, legal compliance covenants, and cryptographic authentication. Guarantees that all operations conform to the Six Wholonomy Invariants.
@@ -65,7 +65,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

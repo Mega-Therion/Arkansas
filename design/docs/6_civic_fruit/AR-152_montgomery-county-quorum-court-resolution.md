@@ -1,4 +1,4 @@
-# `AR-152`: Montgomery County Quorum Court resolution
+# `AR-152`: West-Central Arkansas Quartz Corridor Quorum Court resolution
 
 **Document Identifier:** `AR-152`  
 **Canonical Slug:** `montgomery-county-quorum-court-resolution`  
@@ -20,12 +20,12 @@
 In legacy municipal and state infrastructure across rural Arkansas, public capital burdens and regulatory costs are systematically shifted onto working households and small rural ratepayers. Municipal services frequently degrade due to unfunded mandates, point-of-sale tax leakage to commercial retail centers, and centralized institutional monopolies that capture revenue while externalizing capital replacement and storm recovery burdens.
 
 ### The Solution Mechanism
-`Montgomery County Quorum Court resolution` introduces a closed-loop public utility and policy mechanism under the **State-Pays-First** doctrine. By leveraging state surplus capacity, dedicated infrastructure funds, and public fleet rotations, it eliminates out-of-pocket costs at the point of citizen access while creating permanent statutory guarantees for Arkansas residents.
+`West-Central Arkansas Quartz Corridor Quorum Court resolution` introduces a closed-loop public utility and policy mechanism under the **State-Pays-First** doctrine. By leveraging state surplus capacity, dedicated infrastructure funds, and public fleet rotations, it eliminates out-of-pocket costs at the point of citizen access while creating permanent statutory guarantees for Arkansas residents.
 
 ## 2. System Architecture & Component Hierarchy
 
 ### Structural Position within `Driver's License Public Access Guarantee Act`
-`Montgomery County Quorum Court resolution` operates as an integrated module within `6_civic_fruit`. Its internal hierarchy decomposes into three functional operational tiers:
+`West-Central Arkansas Quartz Corridor Quorum Court resolution` operates as an integrated module within `6_civic_fruit`. Its internal hierarchy decomposes into three functional operational tiers:
 
 1. **Core Control & Invariant Tier (Sub-layer A):** Establishes boundary enforcement, legal compliance covenants, and cryptographic authentication. Guarantees that all operations conform to the Six Wholonomy Invariants.
 2. **Execution & Mechanical Sub-Tier (Sub-layer B):** Executes real-time physical, logistical, and computational workflows—including sensor polling, load modulation, fluid recirculation, or statutory voucher issuance.
@@ -65,7 +65,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

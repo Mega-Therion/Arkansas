@@ -4,7 +4,7 @@
 **Canonical Slug:** `data-center-vs-compute-center-distinction`  
 **Architectural Layer:** `8_opportunities_offshoots`  
 **Functional Category:** `philosophy`  
-**Parent System:** `Quartz Archive (5D optical storage in fused Montgomery County quartz)`  
+**Parent System:** `Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)`  
 **Document Scope:** Dedicated Standalone Specification (`own design doc`)  
 **Recorded Aliases:** None recorded  
 **Historical Provenance / First Recorded:** Archival Corpus (2025-2026)  
@@ -21,7 +21,7 @@ Within the broader Arkansas Orchard wholonomy, `Data center vs compute center di
 
 ## 2. System Architecture & Component Hierarchy
 
-### Structural Position within `Quartz Archive (5D optical storage in fused Montgomery County quartz)`
+### Structural Position within `Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)`
 `Data center vs compute center distinction` operates as an integrated module within `8_opportunities_offshoots`. Its internal hierarchy decomposes into three functional operational tiers:
 
 1. **Core Control & Invariant Tier (Sub-layer A):** Establishes boundary enforcement, legal compliance covenants, and cryptographic authentication. Guarantees that all operations conform to the Six Wholonomy Invariants.
@@ -60,7 +60,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

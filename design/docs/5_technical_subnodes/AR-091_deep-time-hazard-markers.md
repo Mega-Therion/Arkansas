@@ -4,7 +4,7 @@
 **Canonical Slug:** `deep-time-hazard-markers`  
 **Architectural Layer:** `5_technical_subnodes`  
 **Functional Category:** `sub-node`  
-**Parent System:** `Quartz Archive (5D optical storage in fused Montgomery County quartz)`  
+**Parent System:** `Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)`  
 **Document Scope:** Dedicated Standalone Specification (`own design doc`)  
 **Recorded Aliases:** None recorded  
 **Historical Provenance / First Recorded:** Archival Corpus (2025-2026)  
@@ -24,7 +24,7 @@ Standard centralized industrial and compute systems suffer from extreme transmis
 
 ## 2. System Architecture & Component Hierarchy
 
-### Structural Position within `Quartz Archive (5D optical storage in fused Montgomery County quartz)`
+### Structural Position within `Quartz Archive (5D optical storage in fused West-Central Arkansas Quartz Corridor quartz)`
 `Deep-time hazard markers` operates as an integrated module within `5_technical_subnodes`. Its internal hierarchy decomposes into three functional operational tiers:
 
 1. **Core Control & Invariant Tier (Sub-layer A):** Establishes boundary enforcement, legal compliance covenants, and cryptographic authentication. Guarantees that all operations conform to the Six Wholonomy Invariants.
@@ -65,7 +65,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 

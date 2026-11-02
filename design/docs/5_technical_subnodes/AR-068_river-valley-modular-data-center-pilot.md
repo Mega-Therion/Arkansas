@@ -1,7 +1,7 @@
-# `AR-068`: Russellville modular data-center pilot
+# `AR-068`: River Valley modular data-center pilot
 
 **Document Identifier:** `AR-068`  
-**Canonical Slug:** `russellville-modular-data-center-pilot`  
+**Canonical Slug:** `river-valley-modular-data-center-pilot`  
 **Architectural Layer:** `5_technical_subnodes`  
 **Functional Category:** `infrastructure`  
 **Parent System:** `ONE Natural Energy`  
@@ -20,12 +20,12 @@
 Standard centralized industrial and compute systems suffer from extreme transmission loss, uninsulated dielectric stress, high parasitic cooling energy (PUE > 1.4), and vulnerable single-point utility dependencies. Rural industrial operations typically cannot support multi-megawatt high-density loads without destabilizing regional grid frequency.
 
 ### The Engineered Solution
-`Russellville modular data-center pilot` implements deterministic physical engineering principles: robust closed-loop fluid and thermal coupling, triple-redundant electromagnetic shielding, modular containerized packaging, and sub-second hardware interlocks that isolate high-density workloads from public distribution grids.
+`River Valley modular data-center pilot` implements deterministic physical engineering principles: robust closed-loop fluid and thermal coupling, triple-redundant electromagnetic shielding, modular containerized packaging, and sub-second hardware interlocks that isolate high-density workloads from public distribution grids.
 
 ## 2. System Architecture & Component Hierarchy
 
 ### Structural Position within `ONE Natural Energy`
-`Russellville modular data-center pilot` operates as an integrated module within `5_technical_subnodes`. Its internal hierarchy decomposes into three functional operational tiers:
+`River Valley modular data-center pilot` operates as an integrated module within `5_technical_subnodes`. Its internal hierarchy decomposes into three functional operational tiers:
 
 1. **Core Control & Invariant Tier (Sub-layer A):** Establishes boundary enforcement, legal compliance covenants, and cryptographic authentication. Guarantees that all operations conform to the Six Wholonomy Invariants.
 2. **Execution & Mechanical Sub-Tier (Sub-layer B):** Executes real-time physical, logistical, and computational workflows—including sensor polling, load modulation, fluid recirculation, or statutory voucher issuance.
@@ -65,7 +65,7 @@ flowchart LR
 ```
 
 ### Phase 1: Proof-of-Concept & County Pilot (Months 1–6)
-- Deploy localized pilot demonstrator in Montgomery County and adjacent Western Arkansas counties.
+- Deploy localized pilot demonstrator in West-Central Arkansas Quartz Corridor and adjacent Western Arkansas counties.
 - Validate unit economics, statutory compliance, and physical interlock telemetry under live conditions.
 - Secure advisory resolutions from participating County Quorum Courts.
 
