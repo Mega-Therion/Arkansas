@@ -1,3 +1,6 @@
+> **Track:** `TRACK_VII` | **Author:** Ryan W. Yett (`Mega-Therion`) | **ORCID:** `0009-0001-1303-7190`
+> **Epistemic Fencing:** `[P]` Proved · `[D]` Derived · `[E]` Empirical · `[O]` Open · `[X]` Falsified
+
 # Arkansas
 
 > **Drafts, not filings.** The bills and dockets in this repository are pre-filing drafts. They are not enacted law and they are not a filed legislative docket. The commercial plan remains in this same tree. This change does not move it.
